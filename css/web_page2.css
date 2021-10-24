@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+header>div {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-image: url("../images/pic_old/dog_pic/dog_1.JPG");
+    background-size: cover;
+}
+
+header>div>div {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header>div>div>a {
+    width: 208px;
+    height: 204px;
+    border-radius: 45%;
+    background-image: url("../images/pic_old/logo.png");
+    background-size: cover;
+    display: block;
+    margin: 27px 60px 0 60px;
+}
+
+header>div>div>p {
+    font-size: 40px;
+    color: #fff;
+    line-height: 231px;
+    letter-spacing: 8px;
+}
+
+header>div>div>nav {
+    width: 1160px;
+    height: 97px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-left: 223px;
+}
+
+header>div>div>nav>a {
+    float: left;
+    width: 20%;
+    height: auto;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    line-height: 97px;
+}
+
+header>div>div>nav>a:hover {
+    background-color: coral;
+}
+
+header>div>h1 {
+    font-size: 90px;
+    color: #fff;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-top: 45%;
+    padding-bottom: 5%;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #30DFF4;
+}
+
+main>div {
+    width: 1440px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 169, 84);
+}
+
+.top_box {
+    align-items: flex-start;
+    margin: 87px 0px 0px 234px;
+}
+
+.bot_box {
+    align-items: flex-end;
+    margin: 0px 0px 134px 234px;
+}
+
+main>div>a {
+    width: 25%;
+    height: 360px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+main>div>a:hover {
+    background-color: brown;
+    animation: touch 0.3s;
+    width: 28%;
+    height: 384px;
+}
+
+@keyframes touch {
+    0% {
+        width: 25%;
+        height: 360px;
+    }
+    100% {
+        width: 28%;
+        height: 384px;
+    }
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #14213D;
+}
+
+#arrow3 {
+    width: 103px;
+    height: 59px;
+    overflow: hidden;
+    background-image: url("../images/pic/Path.png");
+    margin: 363px auto 0 auto;
+}
+
+#left_bar {
+    width: 204px;
+    height: 363px;
+    overflow: hidden;
+    background-image: url("../images/pic/Rectangle\ 29.png");
+    margin-top: -186px;
+    float: left;
+}
+
+#left_bar>a {
+    font-size: 20px;
+    color: #fff;
+    padding: 0 46px 0 43px;
+    line-height: 52px;
+    float: left;
+}
+
+#left_bar>a.left_1 {
+    padding-top: 58px;
+}
+
+#left_bar>a:hover {
+    color: #FF521C;
+}
+
+#down_bar {
+    width: 651px;
+    height: 155px;
+    overflow: hidden;
+    background-image: url("../images/pic/Group\ 74.png");
+    float: right;
+    margin: 52px 622px 0 0;
+}
+
+#down_bar>a {
+    font-size: 22px;
+    color: #fff;
+    line-height: 210px;
+    margin: 0 52px;
+}
+
+#down_bar>a.down_1 {
+    margin-left: 101px;
+}
