@@ -476,10 +476,6 @@
         text-align: center;
     }
     
-    .bye {
-        animation: pic_show 1s forwards;
-    }
-    
     #black>p {
         color: #fff;
         font-size: 28px;
@@ -575,13 +571,4 @@
     
     #down_bar>a.down_1 {
         margin-left: 101px;
-    }
-    
-    @keyframes pic_show {
-        0% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
     }

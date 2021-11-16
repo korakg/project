@@ -87,6 +87,57 @@ header>div>h1 {
     padding-bottom: 5%;
 }
 
+main {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #30DFF4;
+}
+
+main>div {
+    width: 1440px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 169, 84);
+}
+
+.top_box {
+    align-items: flex-start;
+    margin: 87px 0px 0px 234px;
+}
+
+.bot_box {
+    align-items: flex-end;
+    margin: 0px 0px 134px 234px;
+}
+
+main>div>a {
+    width: 25%;
+    height: 360px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+main>div>a:hover {
+    background-color: brown;
+    animation: touch 0.3s;
+    width: 28%;
+    height: 384px;
+}
+
+@keyframes touch {
+    0% {
+        width: 25%;
+        height: 360px;
+    }
+    100% {
+        width: 28%;
+        height: 384px;
+    }
+}
+
 footer {
     width: 100%;
     height: auto;
@@ -99,7 +150,7 @@ footer {
     height: 59px;
     overflow: hidden;
     background-image: url("../images/pic/Path.png");
-    margin: 200px auto 0 auto;
+    margin: 363px auto 0 auto;
 }
 
 #left_bar {
