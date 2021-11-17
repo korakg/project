@@ -23,4 +23,17 @@ $(function() {
         $("#storyline_1").addClass("hide")
         $("#storyline_3").removeClass("hide")
     })
+    var position1 = $("#story_1").attr("left")
+    var position2 = $("#story_2").attr("left")
+    var position3 = $("#story_3").attr("left")
+    $("#pick1").click(function() {
+
+    })
+    $("#pick2").click(function() {
+
+
+    })
+    $("#pick3").click(function() {
+
+    })
 })
