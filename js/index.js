@@ -85,7 +85,7 @@ $(function() {
     })
     $(window).scroll(function() {
         var scrollVal = $(this).scrollTop();
-        if (scrollVal >= 1700 && scrollVal <= 2500) {
+        if (scrollVal >= 2400 && scrollVal <= 3200) {
             $("#aside2>p").addClass("in")
             $("#aside2>p").removeClass("out")
         } else {

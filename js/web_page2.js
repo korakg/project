@@ -1,0 +1,26 @@
+$(function() {
+    $(".btn1").click(function() {
+        $("#dogPic").removeClass("dog_pic2")
+        $("#dogPic").removeClass("dog_pic3")
+        $("#dogPic").addClass("dog_pic1")
+        $("#storyline_2").addClass("hide")
+        $("#storyline_3").addClass("hide")
+        $("#storyline_1").removeClass("hide")
+    })
+    $(".btn2").click(function() {
+        $("#dogPic").removeClass("dog_pic1")
+        $("#dogPic").removeClass("dog_pic3")
+        $("#dogPic").addClass("dog_pic2")
+        $("#storyline_1").addClass("hide")
+        $("#storyline_3").addClass("hide")
+        $("#storyline_2").removeClass("hide")
+    })
+    $(".btn3").click(function() {
+        $("#dogPic").removeClass("dog_pic1")
+        $("#dogPic").removeClass("dog_pic2")
+        $("#dogPic").addClass("dog_pic3")
+        $("#storyline_2").addClass("hide")
+        $("#storyline_1").addClass("hide")
+        $("#storyline_3").removeClass("hide")
+    })
+})
