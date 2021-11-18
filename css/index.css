@@ -75,7 +75,7 @@ header>div>h1 {
     width: 1344px;
     height: 756px;
     overflow: hidden;
-    background-image: url("/images/pic/1.jpg");
+    background-image: url("../images/pic/1.jpg");
     background-size: cover;
     margin: 0 auto;
     top: 12%;
@@ -87,7 +87,7 @@ header>div>h1 {
     position: absolute;
     width: 240px;
     height: 360px;
-    background-image: url("/images/pic/street1.png");
+    background-image: url("../images/pic/street1.png");
     background-position: -15% 125%;
     background-size: 210%;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ header>div>h1 {
     position: absolute;
     width: 240px;
     height: 360px;
-    background-image: url("/images/pic/street2.png");
+    background-image: url("../images/pic/street2.png");
     background-position: 34% 125%;
     background-repeat: no-repeat;
     background-size: 250%;
@@ -113,7 +113,7 @@ header>div>h1 {
     position: absolute;
     width: 240px;
     height: 360px;
-    background-image: url("/images/pic/street3.png");
+    background-image: url("../images/pic/street3.png");
     background-position: 96% 133%;
     background-size: 240%;
     background-repeat: no-repeat;
@@ -325,35 +325,35 @@ article>div {
 }
 
 .dog_pic1 {
-    background-image: url("/images/pic/2.jpg");
+    background-image: url("../images/pic/2.jpg");
 }
 
 .dog_pic2 {
-    background-image: url("/images/pic/3.jpg");
+    background-image: url("../images/pic/3.jpg");
 }
 
 .dog_pic3 {
-    background-image: url("/images/pic/5.jpg");
+    background-image: url("../images/pic/5.jpg");
 }
 
 .dog_pic4 {
-    background-image: url("/images/pic/6.jpg");
+    background-image: url("../images/pic/6.jpg");
 }
 
 .dog_pic5 {
-    background-image: url("/images/pic/7.jpg");
+    background-image: url("../images/pic/7.jpg");
 }
 
 .dog_pic6 {
-    background-image: url("/images/pic/8.jpg");
+    background-image: url("../images/pic/8.jpg");
 }
 
 .dog_pic7 {
-    background-image: url("/images/pic/9.jpg");
+    background-image: url("../images/pic/9.jpg");
 }
 
 .dog_pic8 {
-    background-image: url("/images/pic/9.jpg");
+    background-image: url("../images/pic/9.jpg");
 }
 
 #story {
@@ -518,7 +518,7 @@ article>div {
     width: 112px;
     height: 112px;
     display: block;
-    background-image: url("/images/pic_old/up_button.png");
+    background-image: url("../images/pic_old/up_button.png");
     border-radius: 50%;
     float: right;
     margin: 150px 70px 0 0;
@@ -567,7 +567,7 @@ article>div {
 #black>#back_btn {
     width: 112px;
     height: 112px;
-    background-image: url("/images/pic_old/blue_arrow.png");
+    background-image: url("../images/pic_old/blue_arrow.png");
     margin: 1% 0 0 90%;
     border-radius: 50%;
 }
