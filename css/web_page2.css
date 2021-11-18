@@ -113,17 +113,6 @@ article {
     left: 100%;
 }
 
-.flip {
-    animation: switch 1s forwards;
-}
-
-@keyframes switch {
-    0% {}
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
 article>div {
     position: absolute;
 }
@@ -177,6 +166,14 @@ article>div {
 }
 
 .dog_pic8 {
+    background-image: url("/images/pic/9.jpg");
+}
+
+.dog_pic9 {
+    background-image: url("/images/pic/9.jpg");
+}
+
+.dog_pic10 {
     background-image: url("/images/pic/9.jpg");
 }
 
@@ -241,7 +238,7 @@ article>div {
 
 #abandon {
     width: 100%;
-    height: auto;
+    height: 0;
     overflow: hidden;
     background-color: #dfbfa0;
     position: relative;
