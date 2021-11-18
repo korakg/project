@@ -98,8 +98,52 @@ main>div>a {
     background-color: #fff;
 }
 
+#wall-1 {
+    background-image: url("/images/pic/wall_1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wall-2 {
+    background-image: url("/images/pic/wall_2.JPG");
+    background-size: cover;
+    background-position: 50% 12%;
+    background-repeat: no-repeat;
+}
+
+#wall-3 {
+    background-image: url("/images/pic/wall_3.JPG");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+#wall-4 {
+    background-image: url("/images/pic/wall_4.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 84%;
+}
+
+#wall-5 {
+    background-image: url("/images/pic/wall_5.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 42%;
+}
+
+#wall-6 {
+    background-image: url("/images/pic/wall_6.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40%;
+}
+
+#wall-7 {}
+
+#wall-8 {}
+
 main>div>a:hover {
-    background-color: brown;
     animation: touch 0.3s;
     width: 28%;
     height: 384px;
