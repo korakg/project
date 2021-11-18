@@ -255,8 +255,68 @@ article>div {
     color: rgb(255, 110, 110);
 }
 
-#story>div>a.btn1 {
+.btn1,
+.btn5,
+.btn8 {
     margin-left: 61px;
+}
+
+#abandon {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #dfbfa0;
+    position: relative;
+}
+
+#abandon>h1 {
+    color: #fff;
+    font-size: 60px;
+    padding: 10% 7%;
+}
+
+#abandon>h1>span {}
+
+#abandon>p {
+    text-align: center;
+    padding: 0 15% 10% 15%;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+[class*="rain"] {
+    width: 5px;
+    height: 30px;
+    background-color: rgb(68, 154, 211);
+    border-radius: 15px;
+    position: absolute;
+    animation: falling 2s ease-in infinite;
+    left: 10%;
+    top: 10%;
+}
+
+@keyframes falling {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 200%);
+        opacity: 0;
+    }
+}
+
+@for $i from 1 through 15 {
+    .rain#{$i} {
+        $posX: random()*100%;
+        $posY: random()*-100%+90%;
+        left: $posX;
+        top: $posY;
+        animation-delay: $i*-0.1s;
+    }
 }
 
 footer {
