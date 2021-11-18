@@ -62,6 +62,7 @@ $(function() {
         $("#storyline_5").addClass("hide")
         $("#storyline_6").addClass("hide")
         $("#storyline_7").removeClass("hide")
+        $("#arrow2").removeClass("hide")
         $("#abandon").animate({ height: '1135px' }, )
     })
     $(".btn8").click(function() {
