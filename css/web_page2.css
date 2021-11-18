@@ -38,7 +38,7 @@ header>div>div {
     justify-content: flex-start;
 }
 
-header>div>div>a {
+#logo {
     width: 208px;
     height: 204px;
     border-radius: 45%;
@@ -53,28 +53,6 @@ header>div>div>p {
     color: #fff;
     line-height: 231px;
     letter-spacing: 8px;
-}
-
-header>div>div>nav {
-    width: 1160px;
-    height: 97px;
-    overflow: hidden;
-    background-color: #fff;
-    margin-left: 223px;
-}
-
-header>div>div>nav>a {
-    float: left;
-    width: 20%;
-    height: auto;
-    font-size: 15px;
-    color: black;
-    text-align: center;
-    line-height: 97px;
-}
-
-header>div>div>nav>a:hover {
-    background-color: coral;
 }
 
 #pick {
