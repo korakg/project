@@ -107,77 +107,95 @@
         
         #infopic_1 {
             position: absolute;
-            width: 200px;
-            height: 230px;
-            top: 50%;
+            width: 240px;
+            height: 360px;
+            background-image: url("/images/pic/street1.png");
+            background-position: -15% 125%;
+            background-size: 210%;
+            background-repeat: no-repeat;
+            top: 45%;
             left: 20%;
             z-index: 1;
         }
         
         #infopic_2 {
             position: absolute;
-            width: 200px;
-            height: 230px;
-            top: 50%;
-            left: 45%;
+            width: 240px;
+            height: 360px;
+            background-image: url("/images/pic/street2.png");
+            background-position: 34% 125%;
+            background-repeat: no-repeat;
+            background-size: 250%;
+            top: 45%;
+            left: 40%;
             z-index: 1;
         }
         
         #infopic_3 {
             position: absolute;
-            width: 200px;
-            height: 230px;
-            top: 50%;
-            left: 70%;
+            width: 240px;
+            height: 360px;
+            background-image: url("/images/pic/street3.png");
+            background-position: 96% 133%;
+            background-size: 240%;
+            background-repeat: no-repeat;
+            top: 45%;
+            left: 60%;
             z-index: 1;
         }
         
         #info_1 {
-            width: 150px;
-            height: 150px;
+            width: 50px;
+            height: 50px;
             overflow: hidden;
             background-color: #fff;
             border-radius: 50%;
-            line-height: 32px;
+            line-height: 30px;
             display: inline-block;
             position: absolute;
             color: #fff;
-            padding: 15px;
-            top: 50%;
-            left: 20%;
+            padding: 0 15px;
+            top: 58%;
+            left: 28%;
             z-index: 0;
         }
         
         #info_2 {
-            width: 150px;
-            height: 150px;
+            width: 50px;
+            height: 50px;
             overflow: hidden;
             background-color: #fff;
             border-radius: 50%;
-            line-height: 32px;
+            line-height: 30px;
             display: inline-block;
             position: absolute;
             color: #fff;
-            padding: 15px;
-            top: 50%;
-            left: 45%;
+            padding: 0 15px;
+            top: 58%;
+            left: 48%;
             z-index: 0;
         }
         
         #info_3 {
-            width: 150px;
-            height: 150px;
+            width: 50px;
+            height: 50px;
             overflow: hidden;
             background-color: #fff;
             border-radius: 50%;
-            line-height: 32px;
+            line-height: 30px;
             display: inline-block;
             position: absolute;
             color: #fff;
-            padding: 15px;
-            top: 50%;
-            left: 70%;
+            padding: 0 15px;
+            top: 58%;
+            left: 67%;
             z-index: 0;
+        }
+        
+        #info_1>h1,
+        #info_2>h1,
+        #info_3>h1 {
+            padding: 10px 0;
         }
         
         #infopic_1:hover~#info_1 {
@@ -193,15 +211,19 @@
         }
         
         @keyframes show {
-            0% {}
+            0% {
+                opacity: 0;
+            }
             99% {
                 color: #fff;
             }
             100% {
-                width: 350px;
-                height: 350px;
+                opacity: 1;
+                width: 400px;
+                height: 300px;
                 border-radius: 15px;
-                transform: translateX(-200px) translateY(-150px);
+                box-shadow: -6px 6px rgba(255, 132, 132, 0.7);
+                transform: translateX(-200px) translateY(-400px);
                 color: black;
             }
         }
@@ -588,26 +610,37 @@
         }
         
         #left_bar {
-            width: 200px;
-            height: 360px;
+            width: 86px;
+            height: 86px;
             overflow: hidden;
-            background-image: url("../images/pic/Rectangle\ 29.png");
-            background-size: cover;
+            background-color: #fff;
+            border-radius: 50px;
             position: fixed;
-            top: 55%;
-            left: 2%;
+            top: 5%;
+            left: 94%;
+        }
+        
+        #left_bar:hover {
+            animation: push 0.6s ease forwards;
+        }
+        
+        @keyframes push {
+            0% {}
+            100% {
+                height: 418px;
+            }
         }
         
         #left_bar>a {
+            width: 80px;
+            height: 80px;
+            background-color: aqua;
+            display: block;
+            border-radius: 50%;
             font-size: 20px;
-            color: #fff;
-            padding: 0 46px 0 43px;
-            line-height: 52px;
-            float: left;
-        }
-        
-        #left_bar>a.left_1 {
-            padding-top: 58px;
+            margin: 3px auto 0 auto;
+            text-align: center;
+            line-height: 80px;
         }
         
         #left_bar>a:hover {
