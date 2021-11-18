@@ -27,13 +27,19 @@ $(function() {
     var position2 = $("#story_2").attr("left")
     var position3 = $("#story_3").attr("left")
     $("#pick1").click(function() {
-
+        $("#story_1").animate({ left: '0%' }, 1000)
+        $("#story_2").animate({ left: '100%' }, 1000)
+        $("#story_3").animate({ left: '200%' }, 1000)
     })
     $("#pick2").click(function() {
-
+        $("#story_1").animate({ left: '-100%' }, 1000)
+        $("#story_2").animate({ left: '0%' }, 1000)
+        $("#story_3").animate({ left: '100%' }, 1000)
 
     })
     $("#pick3").click(function() {
-
+        $("#story_1").animate({ left: '-200%' }, 1000)
+        $("#story_2").animate({ left: '-100%' }, 1000)
+        $("#story_3").animate({ left: '0%' }, 1000)
     })
 })
