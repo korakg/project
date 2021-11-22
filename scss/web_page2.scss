@@ -21,21 +21,19 @@ header {
     width: 100%;
     height: auto;
     overflow: hidden;
-}
-
-header>div {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    background-color: #dfbfa0;
-}
-
-header>div>div {
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-start;
+    >div {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        background-color: #dfbfa0;
+        >div {
+            width: auto;
+            height: auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
 }
 
 #logo {
@@ -160,18 +158,9 @@ article>div {
     background-image: url("../images/pic/8.jpg");
 }
 
-.dog_pic7 {
-    background-image: url("../images/pic/9.jpg");
-}
-
-.dog_pic8 {
-    background-image: url("../images/pic/9.jpg");
-}
-
-.dog_pic9 {
-    background-image: url("../images/pic/9.jpg");
-}
-
+.dog_pic7,
+.dog_pic8,
+.dog_pic9,
 .dog_pic10 {
     background-image: url("../images/pic/9.jpg");
 }
@@ -185,13 +174,12 @@ article>div {
     z-index: 2;
     margin: 320px 0 0 1000px;
     border-radius: 12%;
-}
-
-#story>p {
-    font-size: 23px;
-    text-align: center;
-    padding-top: 30%;
-    animation: word_show 0.5s ease-in forwards;
+    >p {
+        font-size: 23px;
+        text-align: center;
+        padding-top: 30%;
+        animation: word_show 0.5s ease-in forwards;
+    }
 }
 
 @keyframes word_show {
@@ -216,17 +204,15 @@ article>div {
     left: 41%;
     top: 83%;
     border-radius: 40%;
-}
-
-#story>div>a {
-    font-size: 27px;
-    color: #fff;
-    line-height: 102px;
-    margin: 0 10px 0 10px;
-}
-
-#story>div>a:hover {
-    color: rgb(255, 110, 110);
+    >a {
+        font-size: 27px;
+        color: #fff;
+        line-height: 102px;
+        margin: 0 10px 0 10px;
+        &:hover {
+            color: rgb(255, 110, 110);
+        }
+    }
 }
 
 .btn1,
@@ -263,21 +249,20 @@ article>div {
     overflow: hidden;
     background-color: #dfbfa0;
     position: relative;
-}
-
-#abandon>h1 {
-    color: #fff;
-    font-size: 60px;
-    padding: 10% 7%;
-}
-
-#abandon>h1>span {}
-
-#abandon>p {
-    text-align: center;
-    padding: 0 15% 10% 15%;
-    font-size: 30px;
-    line-height: 45px;
+    > {
+        h1 {
+            color: #fff;
+            font-size: 60px;
+            padding: 10% 7%;
+            >span {}
+        }
+        p {
+            text-align: center;
+            padding: 0 15% 10% 15%;
+            font-size: 30px;
+            line-height: 45px;
+        }
+    }
 }
 
 footer {
@@ -304,10 +289,23 @@ footer {
     position: fixed;
     top: 5%;
     left: 94%;
-}
-
-#left_bar:hover {
-    animation: push 0.5s ease forwards;
+    &:hover {
+        animation: push 0.5s ease forwards;
+    }
+    >a {
+        width: 80px;
+        height: 80px;
+        background-color: aqua;
+        display: block;
+        border-radius: 50%;
+        font-size: 20px;
+        margin: 3px auto 0 auto;
+        text-align: center;
+        line-height: 80px;
+        &:hover {
+            color: #FF521C;
+        }
+    }
 }
 
 @keyframes push {
@@ -317,22 +315,6 @@ footer {
     }
 }
 
-#left_bar>a {
-    width: 80px;
-    height: 80px;
-    background-color: aqua;
-    display: block;
-    border-radius: 50%;
-    font-size: 20px;
-    margin: 3px auto 0 auto;
-    text-align: center;
-    line-height: 80px;
-}
-
-#left_bar>a:hover {
-    color: #FF521C;
-}
-
 #down_bar {
     width: 651px;
     height: 155px;
@@ -340,15 +322,13 @@ footer {
     background-image: url("../images/pic/Group\ 74.png");
     float: right;
     margin: 52px 622px 0 0;
-}
-
-#down_bar>a {
-    font-size: 22px;
-    color: #fff;
-    line-height: 210px;
-    margin: 0 52px;
-}
-
-#down_bar>a.down_1 {
-    margin-left: 101px;
+    >a {
+        font-size: 22px;
+        color: #fff;
+        line-height: 210px;
+        margin: 0 52px;
+        &.down_1 {
+            margin-left: 101px;
+        }
+    }
 }

@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  display: block;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+header > div {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url("../images/pic_old/dog_pic/dog_1.JPG");
+  background-size: cover;
+}
+
+header > div > div {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#logo {
+  width: 208px;
+  height: 204px;
+  border-radius: 45%;
+  background-image: url("../images/pic_old/logo.png");
+  background-size: cover;
+  display: block;
+  margin: 27px 60px 0 60px;
+}
+
+header > div > div > p {
+  font-size: 40px;
+  color: #fff;
+  line-height: 231px;
+  letter-spacing: 8px;
+}
+
+header > div > h1 {
+  font-size: 90px;
+  color: #fff;
+  letter-spacing: 6px;
+  text-align: center;
+  padding-top: 45%;
+  padding-bottom: 5%;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #30DFF4;
+}
+
+main > div {
+  width: 1440px;
+  height: 400px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f3a954;
+}
+
+.top_box {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 87px 0px 0px 234px;
+}
+
+.bot_box {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0px 0px 134px 234px;
+}
+
+main > div > a {
+  width: 25%;
+  height: 360px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#wall-1 {
+  background-image: url("../images/pic/wall_1.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#wall-2 {
+  background-image: url("../images/pic/wall_2.JPG");
+  background-size: cover;
+  background-position: 50% 12%;
+  background-repeat: no-repeat;
+}
+
+#wall-3 {
+  background-image: url("../images/pic/wall_3.JPG");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+#wall-4 {
+  background-image: url("../images/pic/wall_4.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 84%;
+}
+
+#wall-5 {
+  background-image: url("../images/pic/wall_5.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 42%;
+}
+
+#wall-6 {
+  background-image: url("../images/pic/wall_6.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40%;
+}
+
+main > div > a:hover {
+  -webkit-animation: touch 0.3s;
+          animation: touch 0.3s;
+  width: 28%;
+  height: 384px;
+}
+
+@-webkit-keyframes touch {
+  0% {
+    width: 25%;
+    height: 360px;
+  }
+  100% {
+    width: 28%;
+    height: 384px;
+  }
+}
+
+@keyframes touch {
+  0% {
+    width: 25%;
+    height: 360px;
+  }
+  100% {
+    width: 28%;
+    height: 384px;
+  }
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #14213D;
+}
+
+#arrow3 {
+  width: 103px;
+  height: 59px;
+  overflow: hidden;
+  background-image: url("../images/pic/Path.png");
+  margin: 363px auto 0 auto;
+}
+
+#left_bar {
+  width: 86px;
+  height: 86px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 50px;
+  position: fixed;
+  top: 5%;
+  left: 94%;
+}
+
+#left_bar:hover {
+  -webkit-animation: push 0.5s ease forwards;
+          animation: push 0.5s ease forwards;
+}
+
+#left_bar > a {
+  width: 80px;
+  height: 80px;
+  background-color: aqua;
+  display: block;
+  border-radius: 50%;
+  font-size: 20px;
+  margin: 3px auto 0 auto;
+  text-align: center;
+  line-height: 80px;
+}
+
+#left_bar > a:hover {
+  color: #FF521C;
+}
+
+@-webkit-keyframes push {
+  0% {
+  }
+  100% {
+    height: 418px;
+  }
+}
+
+@keyframes push {
+  0% {
+  }
+  100% {
+    height: 418px;
+  }
+}
+
+#down_bar {
+  width: 651px;
+  height: 155px;
+  overflow: hidden;
+  background-image: url("../images/pic/Group 74.png");
+  float: right;
+  margin: 52px 622px 0 0;
+}
+
+#down_bar > a {
+  font-size: 22px;
+  color: #fff;
+  line-height: 210px;
+  margin: 0 52px;
+}
+
+#down_bar > a.down_1 {
+  margin-left: 101px;
+}

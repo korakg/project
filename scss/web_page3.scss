@@ -21,22 +21,20 @@ header {
     width: 100%;
     height: auto;
     overflow: hidden;
-}
-
-header>div {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    background-image: url("../images/pic_old/dog_pic/dog_1.JPG");
-    background-size: cover;
-}
-
-header>div>div {
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-start;
+    >div {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        background-image: url("../images/pic_old/dog_pic/dog_1.JPG");
+        background-size: cover;
+        >div {
+            width: auto;
+            height: auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
 }
 
 #logo {
@@ -49,20 +47,21 @@ header>div>div {
     margin: 27px 60px 0 60px;
 }
 
-header>div>div>p {
-    font-size: 40px;
-    color: #fff;
-    line-height: 231px;
-    letter-spacing: 8px;
-}
-
-header>div>h1 {
-    font-size: 90px;
-    color: #fff;
-    letter-spacing: 6px;
-    text-align: center;
-    padding-top: 45%;
-    padding-bottom: 5%;
+header>div> {
+    div>p {
+        font-size: 40px;
+        color: #fff;
+        line-height: 231px;
+        letter-spacing: 8px;
+    }
+    h1 {
+        font-size: 90px;
+        color: #fff;
+        letter-spacing: 6px;
+        text-align: center;
+        padding-top: 45%;
+        padding-bottom: 5%;
+    }
 }
 
 main {
@@ -70,15 +69,14 @@ main {
     height: auto;
     overflow: hidden;
     background-color: #30DFF4;
-}
-
-main>div {
-    width: 1440px;
-    height: 400px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(243, 169, 84);
+    >div {
+        width: 1440px;
+        height: 400px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(243, 169, 84);
+    }
 }
 
 .top_box {
@@ -139,8 +137,7 @@ main>div>a {
     background-position: 40%;
 }
 
-#wall-7 {}
-
+#wall-7,
 #wall-8 {}
 
 main>div>a:hover {
@@ -184,10 +181,23 @@ footer {
     position: fixed;
     top: 5%;
     left: 94%;
-}
-
-#left_bar:hover {
-    animation: push 0.5s ease forwards;
+    &:hover {
+        animation: push 0.5s ease forwards;
+    }
+    >a {
+        width: 80px;
+        height: 80px;
+        background-color: aqua;
+        display: block;
+        border-radius: 50%;
+        font-size: 20px;
+        margin: 3px auto 0 auto;
+        text-align: center;
+        line-height: 80px;
+        &:hover {
+            color: #FF521C;
+        }
+    }
 }
 
 @keyframes push {
@@ -197,22 +207,6 @@ footer {
     }
 }
 
-#left_bar>a {
-    width: 80px;
-    height: 80px;
-    background-color: aqua;
-    display: block;
-    border-radius: 50%;
-    font-size: 20px;
-    margin: 3px auto 0 auto;
-    text-align: center;
-    line-height: 80px;
-}
-
-#left_bar>a:hover {
-    color: #FF521C;
-}
-
 #down_bar {
     width: 651px;
     height: 155px;
@@ -220,15 +214,13 @@ footer {
     background-image: url("../images/pic/Group\ 74.png");
     float: right;
     margin: 52px 622px 0 0;
-}
-
-#down_bar>a {
-    font-size: 22px;
-    color: #fff;
-    line-height: 210px;
-    margin: 0 52px;
-}
-
-#down_bar>a.down_1 {
-    margin-left: 101px;
+    >a {
+        font-size: 22px;
+        color: #fff;
+        line-height: 210px;
+        margin: 0 52px;
+        &.down_1 {
+            margin-left: 101px;
+        }
+    }
 }
