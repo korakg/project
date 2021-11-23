@@ -389,6 +389,9 @@ article {
         &:hover {
             color: rgb(255, 110, 110);
         }
+        &.active{
+            color: rgb(255, 110, 110);
+        }
         &.btn1 {
             margin-left: 61px;
         }
@@ -481,6 +484,9 @@ article {
                 }
                 &.btn1 {
                     margin-left: 61px;
+                }
+                &.active{
+                    color: rgb(255, 110, 110);
                 }
             }
         }

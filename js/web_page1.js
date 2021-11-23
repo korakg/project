@@ -83,6 +83,23 @@ $(function() {
         $("#storyline_7").addClass("hide")
         $("#storyline_8").removeClass("hide")
     })
+
+    let act_1=Array.from(document.querySelectorAll("#story>div>a"))
+    let act_2=Array.from(document.querySelectorAll("#story2>div>a"))
+
+    $.each(act_1,function(){
+        $(act_1).click(function(){
+            $("#story>div>a").removeClass("active")
+            $(this).addClass("active")
+        })
+    })
+    $.each(act_2,function(){
+        $(act_2).click(function(){
+            $("#story2>div>a").removeClass("active")
+            $(this).addClass("active")
+        })
+    })
+
     $(window).scroll(function() {
         var scrollVal = $(this).scrollTop();
         if (scrollVal >= 2400 && scrollVal <= 3200) {

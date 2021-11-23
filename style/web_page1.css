@@ -469,6 +469,10 @@ article > div {
   color: #ff6e6e;
 }
 
+#story > div > a.active {
+  color: #ff6e6e;
+}
+
 #story > div > a.btn1 {
   margin-left: 61px;
 }
@@ -569,6 +573,10 @@ article > div {
 
 #story2 > div > a.btn1 {
   margin-left: 61px;
+}
+
+#story2 > div > a.active {
+  color: #ff6e6e;
 }
 
 .btn4 {

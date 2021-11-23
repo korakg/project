@@ -63,7 +63,7 @@ $(function() {
         $("#storyline_6").addClass("hide")
         $("#storyline_7").removeClass("hide")
         $("#arrow2").removeClass("hide")
-        $("#abandon").animate({ height: '1135px' }, )
+        $("#abandon1").animate({ height: '1135px' }, )
     })
     $(".btn8").click(function() {
         $("#dogPic3").removeClass("dog_pic9")
@@ -105,5 +105,27 @@ $(function() {
         $("#story_1").animate({ left: '-200%' }, 1000)
         $("#story_2").animate({ left: '-100%' }, 1000)
         $("#story_3").animate({ left: '0%' }, 1000)
+    })
+    let act1=Array.from(document.querySelectorAll("#story_Fir>div>a"))
+    let act2=Array.from(document.querySelectorAll("#story_Sec>div>a"))
+    let act3=Array.from(document.querySelectorAll("#story_Thr>div>a"))
+
+    $.each(act1,function(){
+        $(act1).click(function(){
+            $("#story_Fir>div>a").removeClass("active")
+            $(this).addClass("active")
+        })
+    })
+    $.each(act2,function(){
+        $(act2).click(function(){
+            $("#story_Sec>div>a").removeClass("active")
+            $(this).addClass("active")
+        })
+    })
+    $.each(act3,function(){
+        $(act3).click(function(){
+            $("#story_Thr>div>a").removeClass("active")
+            $(this).addClass("active")
+        })
     })
 })

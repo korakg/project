@@ -165,7 +165,9 @@ article>div {
     background-image: url("../images/pic/9.jpg");
 }
 
-#story {
+#story_Fir, 
+#story_Sec, 
+#story_Thr {
     position: relative;
     width: 600px;
     height: 450px;
@@ -195,7 +197,9 @@ article>div {
     display: none;
 }
 
-#story>div {
+#story_Fir>div,
+#story_Sec>div,
+#story_Thr>div {
     position: absolute;
     width: 215px;
     height: 120px;
@@ -210,6 +214,9 @@ article>div {
         line-height: 102px;
         margin: 0 10px 0 10px;
         &:hover {
+            color: rgb(255, 110, 110);
+        }
+        &.active{
             color: rgb(255, 110, 110);
         }
     }
@@ -243,7 +250,9 @@ article>div {
     }
 }
 
-#abandon {
+#abandon1,
+#abandon2,
+#abandon3 {
     width: 100%;
     height: 0;
     overflow: hidden;
