@@ -71,38 +71,31 @@ main {
     background-color: #30DFF4;
     >div {
         width: 1440px;
-        height: 400px;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
+        height: 720px;
+        margin: 10% auto;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50% 50%;
         background-color: rgb(243, 169, 84);
     }
 }
 
-.top_box {
-    align-items: flex-start;
-    margin: 87px 0px 0px 234px;
-}
-
-.bot_box {
-    align-items: flex-end;
-    margin: 0px 0px 134px 234px;
-}
 
 main>div>a {
-    width: 25%;
-    height: 360px;
-    overflow: hidden;
-    background-color: #fff;
+    border-radius: 10px;
 }
 
 #wall-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
     background-image: url("../images/pic/wall_1.JPG");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #wall-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
     background-image: url("../images/pic/wall_2.JPG");
     background-size: cover;
     background-position: 50% 12%;
@@ -110,6 +103,8 @@ main>div>a {
 }
 
 #wall-3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
     background-image: url("../images/pic/wall_3.JPG");
     background-size: cover;
     background-position: 50%;
@@ -117,6 +112,8 @@ main>div>a {
 }
 
 #wall-4 {
+    grid-column: 4/5;
+    grid-row: 1/2;
     background-image: url("../images/pic/wall_4.JPG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,6 +121,8 @@ main>div>a {
 }
 
 #wall-5 {
+    grid-column: 1/2;
+    grid-row: 2/3;
     background-image: url("../images/pic/wall_5.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -131,29 +130,35 @@ main>div>a {
 }
 
 #wall-6 {
+    grid-column: 2/3;
+    grid-row: 2/3;
     background-image: url("../images/pic/wall_6.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40%;
 }
 
-#wall-7,
-#wall-8 {}
+#wall-7{
+    background-color: green;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#wall-8 {
+    background-color: gray;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
 
 main>div>a:hover {
-    animation: touch 0.3s;
-    width: 28%;
-    height: 384px;
+    animation: touch 0.3s forwards;
 }
 
 @keyframes touch {
     0% {
-        width: 25%;
-        height: 360px;
+        
     }
     100% {
-        width: 28%;
-        height: 384px;
+        transform: scale(1.1,1.1);
     }
 }
 

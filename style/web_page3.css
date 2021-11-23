@@ -77,45 +77,40 @@ main {
 
 main > div {
   width: 1440px;
-  height: 400px;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  height: 720px;
+  margin: 10% auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
   background-color: #f3a954;
 }
 
-.top_box {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  margin: 87px 0px 0px 234px;
-}
-
-.bot_box {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  margin: 0px 0px 134px 234px;
-}
-
 main > div > a {
-  width: 25%;
-  height: 360px;
-  overflow: hidden;
-  background-color: #fff;
+  border-radius: 10px;
 }
 
 #wall-1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
   background-image: url("../images/pic/wall_1.JPG");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #wall-2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
   background-image: url("../images/pic/wall_2.JPG");
   background-size: cover;
   background-position: 50% 12%;
@@ -123,6 +118,12 @@ main > div > a {
 }
 
 #wall-3 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
   background-image: url("../images/pic/wall_3.JPG");
   background-size: cover;
   background-position: 50%;
@@ -130,6 +131,12 @@ main > div > a {
 }
 
 #wall-4 {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
   background-image: url("../images/pic/wall_4.JPG");
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,6 +144,12 @@ main > div > a {
 }
 
 #wall-5 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
   background-image: url("../images/pic/wall_5.JPG");
   background-size: cover;
   background-repeat: no-repeat;
@@ -144,38 +157,58 @@ main > div > a {
 }
 
 #wall-6 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
   background-image: url("../images/pic/wall_6.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40%;
 }
 
+#wall-7 {
+  background-color: green;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+#wall-8 {
+  background-color: gray;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
 main > div > a:hover {
-  -webkit-animation: touch 0.3s;
-          animation: touch 0.3s;
-  width: 28%;
-  height: 384px;
+  -webkit-animation: touch 0.3s forwards;
+          animation: touch 0.3s forwards;
 }
 
 @-webkit-keyframes touch {
   0% {
-    width: 25%;
-    height: 360px;
   }
   100% {
-    width: 28%;
-    height: 384px;
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
   }
 }
 
 @keyframes touch {
   0% {
-    width: 25%;
-    height: 360px;
   }
   100% {
-    width: 28%;
-    height: 384px;
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
   }
 }
 
