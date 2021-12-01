@@ -1,3 +1,9 @@
 $(function(){
-    
+    $("#up").click(function(){
+        $("#v1").addClass("switch1")
+        $("#v2").addClass("switch1")
+    })
+    $("#down").click(function(){
+        $("#v1").addClass("switch1")
+    })
 })
