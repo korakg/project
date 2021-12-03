@@ -20,9 +20,8 @@ header {
   width: 100%;
   height: auto;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  background-image: url("../images/pic_old/dog_pic/dog_1.JPG");
+  background-size: cover;
 }
 
 #logo {
@@ -36,28 +35,60 @@ header {
   z-index: 3;
 }
 
-#top_video {
+#top {
   width: 100%;
   height: 900px;
-  background-image: url("../images/pic_old/dog_pic/dog_1.JPG");
-  background-size: cover;
 }
 
-#top_video > div {
-  width: 100%;
-  height: 100%;
-  background-color: #ff511c9d;
-}
-
-#top_video > div > h1 {
+#top > h1 {
   font-weight: bold;
-  font-size: 700px;
+  font-size: 70px;
   text-align: center;
-  line-height: 100vh;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
   padding-top: 35%;
+  color: #fff;
+}
+
+#section_1 {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+#section_1 > div {
+  width: 880px;
+  height: 470px;
+  background-color: #FFE81D;
+  margin-top: 100px;
+}
+
+#section_1 > div > div {
+  width: 470px;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #FFE81D;
+  margin-left: 73%;
+}
+
+#section_2 {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+#section_2 > div {
+  width: 880px;
+  height: 470px;
+  background-color: #FFE81D;
+  margin-top: 100px;
+  margin-left: 1040px;
+}
+
+#section_2 > div > div {
+  width: 470px;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #FFE81D;
+  margin-left: -26%;
 }
 
 footer {

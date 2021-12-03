@@ -21,7 +21,8 @@ header {
     width: 100%;
     height: auto;
     overflow: hidden;
-    display: flex;    
+    background-image: url("../images/pic_old/dog_pic/dog_1.JPG");
+    background-size: cover;   
 }
 
 #logo {
@@ -34,27 +35,58 @@ header {
     margin: 27px 0 0 40px;
     z-index: 3;
 }
-#top_video{
+#top{
     width: 100%;
-    height: 900px;
-    background-image: url("../images/pic_old/dog_pic/dog_1.JPG");
-    background-size: cover;
+    height: 900px;   
+    >h1{
+        font-weight: bold;
+        font-size: 70px;
+        text-align: center;
+        padding-top: 35%;
+        color: #fff;
+    }
+}
+
+#section_1{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
     >div{
-        width: 100%;
-        height: 100%;      
-        background-color: #ff511c9d;
-        >h1{
-            font-weight: bold;
-            font-size: 700px;
-            text-align: center;
-            line-height: 100vh;
-            color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-            padding-top: 35%;
+        width: 880px;
+        height: 470px;
+        background-color: #FFE81D;
+        margin-top: 100px;
+        >div{
+            width: 470px;
+            height: 100%;
+            border-radius: 50%;
+            background-color: #FFE81D;
+            margin-left: 73%;
         }
     }
 }
+
+#section_2{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    >div{
+        width: 880px;
+        height: 470px;
+        background-color: #FFE81D;
+        margin-top: 100px;
+        margin-left: 1040px;
+        >div{
+            width: 470px;
+            height: 100%;
+            border-radius: 50%;
+            background-color: #FFE81D;
+            margin-left: -26%;
+        }
+    }
+}
+
+
 footer {
     width: 100%;
     height: auto;
