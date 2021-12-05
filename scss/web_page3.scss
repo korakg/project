@@ -90,20 +90,25 @@ header>div> {
 }
 
 .switch1{
-    animation: back 1s forwards ease-in-out;
+    animation: up_back 0.8s forwards ease-in-out;
 }
 .switch2{
-    animation: back 1s forwards ease-in-out reverse;
+    animation: up_front 0.8s forwards ease-in-out;
 }
 .switch3{
-    animation: front 1s forwards ease-in-out;
+    animation: down_front 0.8s forwards ease-in-out;
 }
 .switch4{
-    animation: front 1s forwards ease-in-out reverse;
+    animation: down_back 0.8s forwards ease-in-out;
 }
 
-@keyframes back{
-    0%{}
+@keyframes up_back{
+    0%{
+        width: 1000px;
+        top: 28%;
+        left: 15%;
+        z-index: 2;
+    }
     50%{
         top: 4%;
         z-index: 1;
@@ -112,10 +117,35 @@ header>div> {
         width: 900px;
         top: 16%;
         left: 4%;
+        z-index: 1;
     }
 }
-@keyframes front{
-    0%{}
+
+@keyframes up_front{
+    0%{
+        width: 900px;
+        top: 16%;
+        left: 4%;
+        z-index: 1;
+    }
+    50%{
+        top: 4%;
+        z-index: 2;
+    }
+    100%{
+        width: 1000px;
+        top: 28%;
+        left: 15%;
+        z-index: 2;
+    }
+}
+@keyframes down_front{
+    0%{
+        width: 900px;
+        top: 16%;
+        left: 4%;
+        z-index: 1;
+    }
     50%{
         top: 40%;
         z-index: 2;
@@ -124,6 +154,26 @@ header>div> {
         width: 1000px;
         top: 28%;
         left: 15%;
+        z-index: 2;
+    }
+}
+@keyframes down_back{
+    0%{
+        width: 1000px;
+        top: 28%;
+        left: 15%;
+        z-index: 2;
+    }
+    50%{
+        top: 40%;
+        z-index: 1;
+    }
+    100%{
+        
+        width: 900px;
+        top: 16%;
+        left: 4%;
+        z-index: 1;
     }
 }
 

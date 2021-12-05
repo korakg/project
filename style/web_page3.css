@@ -95,25 +95,31 @@ header > div > h1 {
 }
 
 .switch1 {
-  -webkit-animation: back 1s forwards ease-in-out;
-          animation: back 1s forwards ease-in-out;
+  -webkit-animation: up_back 0.8s forwards ease-in-out;
+          animation: up_back 0.8s forwards ease-in-out;
 }
 
 .switch2 {
-  animation: back 1s forwards ease-in-out reverse;
+  -webkit-animation: up_front 0.8s forwards ease-in-out;
+          animation: up_front 0.8s forwards ease-in-out;
 }
 
 .switch3 {
-  -webkit-animation: front 1s forwards ease-in-out;
-          animation: front 1s forwards ease-in-out;
+  -webkit-animation: down_front 0.8s forwards ease-in-out;
+          animation: down_front 0.8s forwards ease-in-out;
 }
 
 .switch4 {
-  animation: front 1s forwards ease-in-out reverse;
+  -webkit-animation: down_back 0.8s forwards ease-in-out;
+          animation: down_back 0.8s forwards ease-in-out;
 }
 
-@-webkit-keyframes back {
+@-webkit-keyframes up_back {
   0% {
+    width: 1000px;
+    top: 28%;
+    left: 15%;
+    z-index: 2;
   }
   50% {
     top: 4%;
@@ -123,11 +129,16 @@ header > div > h1 {
     width: 900px;
     top: 16%;
     left: 4%;
+    z-index: 1;
   }
 }
 
-@keyframes back {
+@keyframes up_back {
   0% {
+    width: 1000px;
+    top: 28%;
+    left: 15%;
+    z-index: 2;
   }
   50% {
     top: 4%;
@@ -137,11 +148,54 @@ header > div > h1 {
     width: 900px;
     top: 16%;
     left: 4%;
+    z-index: 1;
   }
 }
 
-@-webkit-keyframes front {
+@-webkit-keyframes up_front {
   0% {
+    width: 900px;
+    top: 16%;
+    left: 4%;
+    z-index: 1;
+  }
+  50% {
+    top: 4%;
+    z-index: 2;
+  }
+  100% {
+    width: 1000px;
+    top: 28%;
+    left: 15%;
+    z-index: 2;
+  }
+}
+
+@keyframes up_front {
+  0% {
+    width: 900px;
+    top: 16%;
+    left: 4%;
+    z-index: 1;
+  }
+  50% {
+    top: 4%;
+    z-index: 2;
+  }
+  100% {
+    width: 1000px;
+    top: 28%;
+    left: 15%;
+    z-index: 2;
+  }
+}
+
+@-webkit-keyframes down_front {
+  0% {
+    width: 900px;
+    top: 16%;
+    left: 4%;
+    z-index: 1;
   }
   50% {
     top: 40%;
@@ -151,11 +205,16 @@ header > div > h1 {
     width: 1000px;
     top: 28%;
     left: 15%;
+    z-index: 2;
   }
 }
 
-@keyframes front {
+@keyframes down_front {
   0% {
+    width: 900px;
+    top: 16%;
+    left: 4%;
+    z-index: 1;
   }
   50% {
     top: 40%;
@@ -165,6 +224,45 @@ header > div > h1 {
     width: 1000px;
     top: 28%;
     left: 15%;
+    z-index: 2;
+  }
+}
+
+@-webkit-keyframes down_back {
+  0% {
+    width: 1000px;
+    top: 28%;
+    left: 15%;
+    z-index: 2;
+  }
+  50% {
+    top: 40%;
+    z-index: 1;
+  }
+  100% {
+    width: 900px;
+    top: 16%;
+    left: 4%;
+    z-index: 1;
+  }
+}
+
+@keyframes down_back {
+  0% {
+    width: 1000px;
+    top: 28%;
+    left: 15%;
+    z-index: 2;
+  }
+  50% {
+    top: 40%;
+    z-index: 1;
+  }
+  100% {
+    width: 900px;
+    top: 16%;
+    left: 4%;
+    z-index: 1;
   }
 }
 
