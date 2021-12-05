@@ -215,20 +215,39 @@ main {
     height: auto;
     overflow: hidden;
     background-color: #30DFF4;
-    >div {
-        width: 1440px;
-        height: 720px;
-        margin: 10% auto;
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 50% 50%;
-        background-color: rgb(243, 169, 84);
+    position: relative;
+}
+
+#left_side{
+    width: 15%;
+    height: 1080px;
+    >a{
+        width: 100%;
+        height: calc(100%/3);
+        display: block;
+        background-color: #FF521C;
+        &:hover{
+            background-color: #14213D;
+        }
     }
 }
 
-
-main>div>a {
-    border-radius: 10px;
+#wall {
+    width: 1440px;
+    height: 720px;
+    position: absolute;
+    top:20%;
+    left: 20%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    background-color: rgb(243, 169, 84);
+    >a {
+        border-radius: 10px;
+        &:hover{
+            animation: touch 0.3s forwards;
+        }
+    }
 }
 
 #wall-1 {
@@ -293,10 +312,6 @@ main>div>a {
     background-color: gray;
     grid-column: 4/5;
     grid-row: 2/3;
-}
-
-main>div>a:hover {
-    animation: touch 0.3s forwards;
 }
 
 @keyframes touch {

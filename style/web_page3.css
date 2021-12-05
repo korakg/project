@@ -303,12 +303,31 @@ main {
   height: auto;
   overflow: hidden;
   background-color: #30DFF4;
+  position: relative;
 }
 
-main > div {
+#left_side {
+  width: 15%;
+  height: 1080px;
+}
+
+#left_side > a {
+  width: 100%;
+  height: calc(100%/3);
+  display: block;
+  background-color: #FF521C;
+}
+
+#left_side > a:hover {
+  background-color: #14213D;
+}
+
+#wall {
   width: 1440px;
   height: 720px;
-  margin: 10% auto;
+  position: absolute;
+  top: 20%;
+  left: 20%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 25% 25% 25% 25%;
@@ -318,8 +337,13 @@ main > div {
   background-color: #f3a954;
 }
 
-main > div > a {
+#wall > a {
   border-radius: 10px;
+}
+
+#wall > a:hover {
+  -webkit-animation: touch 0.3s forwards;
+          animation: touch 0.3s forwards;
 }
 
 #wall-1 {
@@ -417,11 +441,6 @@ main > div > a {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-}
-
-main > div > a:hover {
-  -webkit-animation: touch 0.3s forwards;
-          animation: touch 0.3s forwards;
 }
 
 @-webkit-keyframes touch {
