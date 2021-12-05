@@ -18,54 +18,54 @@ img {
 
 header {
   width: 100%;
-  height: auto;
-  overflow: hidden;
-}
-
-header > div {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  background-image: url("../images/pic_old/dog_pic/dog_1.JPG");
-  background-size: cover;
-}
-
-header > div > div {
-  width: auto;
-  height: auto;
+  height: 900px;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
 }
 
 #logo {
   width: 208px;
   height: 204px;
-  border-radius: 45%;
-  background-image: url("../images/pic_old/logo.png");
+  position: absolute;
+  background-image: url("../images/pic/logo.png");
   background-size: cover;
-  display: block;
-  margin: 27px 60px 0 60px;
+  margin: 27px 0 0 40px;
+  z-index: 3;
 }
 
-header > div > div > p {
-  font-size: 40px;
-  color: #fff;
-  line-height: 231px;
-  letter-spacing: 8px;
+#top_video {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-header > div > h1 {
+#top_video > video {
+  width: 100%;
+  height: auto;
+}
+
+#top_video > div {
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 177, 153, 0.8);
+  mix-blend-mode: screen;
+}
+
+#top_video > h1 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 80%;
+  font-weight: bold;
   font-size: 90px;
-  color: #fff;
-  letter-spacing: 6px;
   text-align: center;
-  padding-top: 45%;
-  padding-bottom: 5%;
+  line-height: 100px;
+  color: black;
 }
 
 #interview {

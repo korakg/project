@@ -21,39 +21,22 @@ header {
     width: 100%;
     height: auto;
     overflow: hidden;
-    >div {
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-        background-color: #dfbfa0;
-        >div {
-            width: auto;
-            height: auto;
-            overflow: hidden;
-            display: flex;
-            justify-content: flex-start;
-        }
-    }
+    background-color: #dfbfa0;
 }
 
 #logo {
     width: 208px;
     height: 204px;
-    border-radius: 45%;
-    background-image: url("../images/pic_old/logo.png");
+    background-image: url("../images/pic/logo.png");
     background-size: cover;
-    display: block;
-    margin: 27px 60px 0 60px;
-}
-
-header>div>div>p {
-    font-size: 40px;
-    color: #fff;
-    line-height: 231px;
-    letter-spacing: 8px;
+    margin: 27px 0 0 40px;
 }
 
 #pick {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
     justify-content: center;
     margin: 100px auto;
 }
