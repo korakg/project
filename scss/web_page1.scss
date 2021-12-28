@@ -67,16 +67,21 @@ header {
 
 #street {
     width: 100%;
-    height: 1000px;
-    background-color: #F1EFED;
+    height: auto;
+    overflow: hidden;
+    background-image: url("../images/pic/網頁背景.png");
+    
+    >img{
+        margin:0 auto;
+        padding-top:5%; 
+    }
     >div {
         width: 1344px;
         height: 756px;
         overflow: hidden;
-        background-image: url("../images/pic/1.jpg");
+        background-image: url("../images/pic/街頭.jpg");
         background-size: cover;
-        margin: 0 auto;
-        top: 12%;
+        margin: 5% auto 5% auto;
         position: relative;
         border-radius: 13%;
     }
@@ -86,10 +91,6 @@ header {
     position: absolute;
     width: 240px;
     height: 360px;
-    background-image: url("../images/pic/street1.png");
-    background-position: -15% 125%;
-    background-size: 210%;
-    background-repeat: no-repeat;
     top: 45%;
     left: 20%;
     z-index: 1;
@@ -99,10 +100,6 @@ header {
     position: absolute;
     width: 240px;
     height: 360px;
-    background-image: url("../images/pic/street2.png");
-    background-position: 34% 125%;
-    background-repeat: no-repeat;
-    background-size: 250%;
     top: 45%;
     left: 40%;
     z-index: 1;
@@ -112,21 +109,18 @@ header {
     position: absolute;
     width: 240px;
     height: 360px;
-    background-image: url("../images/pic/street3.png");
-    background-position: 96% 133%;
-    background-size: 240%;
-    background-repeat: no-repeat;
     top: 45%;
     left: 60%;
     z-index: 1;
 }
 
 #info_1 {
-    width: 50px;
+    width: 60px;
     height: 50px;
     overflow: hidden;
-    background-color: #fff;
-    border-radius: 50%;
+    background-image: url("../images/pic/狗背景視窗.png");
+    background-size: cover;
+    background-position: 50% 50%;
     line-height: 30px;
     display: inline-block;
     position: absolute;
@@ -138,11 +132,11 @@ header {
 }
 
 #info_2 {
-    width: 50px;
+    width: 60px;
     height: 50px;
     overflow: hidden;
-    background-color: #fff;
-    border-radius: 50%;
+    background-image: url("../images/pic/狗背景視窗.png");
+    background-size: cover;
     line-height: 30px;
     display: inline-block;
     position: absolute;
@@ -154,11 +148,11 @@ header {
 }
 
 #info_3 {
-    width: 50px;
+    width: 60px;
     height: 50px;
     overflow: hidden;
-    background-color: #fff;
-    border-radius: 50%;
+    background-image: url("../images/pic/狗背景視窗.png");
+    background-size: cover;
     line-height: 30px;
     display: inline-block;
     position: absolute;
@@ -192,8 +186,6 @@ header {
         opacity: 1;
         width: 400px;
         height: 300px;
-        border-radius: 15px;
-        box-shadow: -6px 6px rgba(255, 132, 132, 0.7);
         transform: translateX(-200px) translateY(-400px);
         color: black;
     }
@@ -242,7 +234,7 @@ aside {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-color: #F1EFED;
+    background-image: url("../images/pic/網頁背景.png");
     text-align: center;
     >p {
         font-size: 50px;
@@ -285,9 +277,11 @@ aside {
 
 article {
     width: 100%;
-    height: 1500px;
+    height: 1080px;
     overflow: hidden;
-    background-color: #14213D;
+    background-image: url("../images/pic/故事框2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     >div {
         position: absolute;
@@ -298,7 +292,7 @@ article {
     width: 103px;
     height: 59px;
     overflow: hidden;
-    background-image: url("../images/pic/Path.png");
+    background-image: url("../images/pic/往下箭頭.png");
     margin: 0 auto;
     position: initial;
     margin: 110px auto;
@@ -403,7 +397,7 @@ article {
     width: 103px;
     height: 59px;
     overflow: hidden;
-    background-image: url("../images/pic/Path.png");
+    background-image: url("../images/pic/往下箭頭.png");
     margin: 0 auto;
     margin: 15% 0 0 47%;
 }
@@ -412,7 +406,7 @@ article {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-color: #F1EFED;
+    background-image: url("../images/pic/網頁背景.png");
     >p {
         font-size: 50px;
         color: #BDAEAE;
@@ -580,14 +574,13 @@ footer {
     position: fixed;
     top: 5%;
     left: 94%;
-    z-index: 999;
+    z-index: 998;
     &:hover {
         animation: push 0.5s ease forwards;
     }
     >a {
         width: 80px;
         height: 80px;
-        background-color: aqua;
         display: block;
         border-radius: 50%;
         font-size: 20px;
@@ -597,6 +590,12 @@ footer {
         &:hover {
             color: #FF521C;
         }
+        &.left_1{
+            background-image: url("../images/pic/選單.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
     }
 }
 
@@ -604,23 +603,5 @@ footer {
     0% {}
     100% {
         height: 418px;
-    }
-}
-
-#down_bar {
-    width: 651px;
-    height: 155px;
-    overflow: hidden;
-    background-image: url("../images/pic/Group\ 74.png");
-    float: right;
-    margin: 52px 622px 0 0;
-    >a {
-        font-size: 22px;
-        color: #fff;
-        line-height: 210px;
-        margin: 0 52px;
-        &.down_1 {
-            margin-left: 101px;
-        }
     }
 }
