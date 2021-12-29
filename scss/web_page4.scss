@@ -49,43 +49,119 @@ header {
 
 #section_1{
     width: 100%;
-    height: 700px;
-    overflow: hidden;
+    height: 500px;
+    background-image:url("../images/pic/網頁背景.png");
+    padding-top: 100px;
     >div{
-        width: 880px;
-        height: 470px;
-        background-color: #FFE81D;
-        margin-top: 100px;
-        >div{
-            width: 470px;
-            height: 100%;
-            border-radius: 50%;
-            background-color: #FFE81D;
-            margin-left: 73%;
-        }
+        width: 680px;
+        height: 300px;
+        background-image: url("../images/pic/page4/左選單1.png");
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: cover;     
     }
 }
 
 #section_2{
     width: 100%;
-    height: 700px;
-    overflow: hidden;
+    height: 500px;
+    background-image:url("../images/pic/網頁背景.png");
+    padding-top: 100px;
     >div{
-        width: 880px;
-        height: 470px;
-        background-color: #FFE81D;
-        margin-top: 100px;
-        margin-left: 1040px;
-        >div{
-            width: 470px;
-            height: 100%;
-            border-radius: 50%;
-            background-color: #FFE81D;
-            margin-left: -26%;
-        }
+        width: 680px;
+        height: 300px;
+        background-image: url("../images/pic/page4/右選單1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0%;
+        margin-left: 65%;
     }
 }
 
+#section_3{
+    width: 100%;
+    height: 500px;
+    background-image:url("../images/pic/網頁背景.png");
+    padding-top: 100px;
+    >div{
+        width: 680px;
+        height: 300px;
+        background-image: url("../images/pic/page4/左選單1.png");
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: cover;      
+    }
+}
+
+#section_4{
+    width: 100%;
+    height: 500px;
+    background-image:url("../images/pic/網頁背景.png");
+    padding-top: 100px;
+    >div{
+        width: 680px;
+        height: 300px;
+        background-image: url("../images/pic/page4/右選單1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0%;
+        margin-left: 65%;
+    }
+}
+
+#section_5{
+    width: 100%;
+    height: 500px;
+    background-image:url("../images/pic/網頁背景.png");
+    padding-top: 100px;
+    >div{
+        width: 680px;
+        height: 300px;
+        background-image: url("../images/pic/page4/左選單1.png");
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: cover;    
+    }
+}
+
+#last{
+    width: 100%;
+    height: 1080px;
+    background-image: url("../images/pic/網頁背景.png");
+    position: relative;
+    >img{
+        position: absolute;
+        left: 0;
+        top: 20%;  
+    }
+}
+
+#info{
+    width: 100%;
+    height: 900px;
+    background-image: url("../images/pic/網頁背景.png");
+    >div{
+        width: 100%;
+        height: 70%;
+        background-image: url("../images/pic/page4/收容所背景底色.png");
+        display: grid;
+        grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+        grid-template-rows: 100%;
+        >div{
+            width: 434px;
+            height: 520px;
+            background-image: url("../images/pic/page4/收容所框架.png");
+            margin:auto;
+            >a{
+                display: inline-block;
+                width: 157px;
+                height: 53px;
+                background-image: url("../images/pic/page4/收容所-按鈕.png");
+                margin: 100% 0 0 32%;
+            }
+        }
+    }
+}
 
 footer {
     width: 100%;
