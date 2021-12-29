@@ -228,11 +228,11 @@ article>div {
     width: 100%;
     height: 0;
     overflow: hidden;
-    background-color: #dfbfa0;
+    background-image: url("../images/pic/網頁背景.png");
     position: relative;
     > {
         h1 {
-            color: #fff;
+            color: rgb(138, 136, 136);
             font-size: 60px;
             padding: 10% 7%;
             >span {}
@@ -244,6 +244,15 @@ article>div {
             line-height: 45px;
         }
     }
+}
+
+#story_end{
+    width: 100%;
+    height: 1080px;
+    background-image: url("../images/pic/相框.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 footer {

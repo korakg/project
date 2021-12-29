@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -139,6 +140,11 @@ footer {
   color: #FF521C;
 }
 
+#left_bar > a.left_1 {
+  background-image: url("../images/pic/選單.png");
+  background-size: cover;
+}
+
 @-webkit-keyframes push {
   0% {
   }
@@ -153,24 +159,4 @@ footer {
   100% {
     height: 418px;
   }
-}
-
-#down_bar {
-  width: 651px;
-  height: 155px;
-  overflow: hidden;
-  background-image: url("../images/pic/Group 74.png");
-  float: right;
-  margin: 52px 622px 0 0;
-}
-
-#down_bar > a {
-  font-size: 22px;
-  color: #fff;
-  line-height: 210px;
-  margin: 0 52px;
-}
-
-#down_bar > a.down_1 {
-  margin-left: 101px;
 }

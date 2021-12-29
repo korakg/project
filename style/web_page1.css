@@ -83,14 +83,13 @@ header {
 }
 
 #street > div {
-  width: 1344px;
-  height: 756px;
+  width: 100%;
+  height: 1080px;
   overflow: hidden;
   background-image: url("../images/pic/街頭.jpg");
   background-size: cover;
   margin: 5% auto 5% auto;
   position: relative;
-  border-radius: 13%;
 }
 
 #infopic_1 {
@@ -222,6 +221,7 @@ aside {
   overflow: hidden;
   background-image: url("../images/pic_old/dog_pic/dog_3.JPG");
   background-size: cover;
+  opacity: 0.8;
 }
 
 aside > div {
@@ -272,15 +272,15 @@ aside > div > h2 {
 }
 
 .in {
-  -webkit-animation: right 1.5s;
-          animation: right 1.5s;
+  -webkit-animation: right 2s;
+          animation: right 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
 .out {
-  -webkit-animation: left 1.5s;
-          animation: left 1.5s;
+  -webkit-animation: left 2s;
+          animation: left 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -482,29 +482,23 @@ article > div {
   width: 100%;
   height: auto;
   overflow: hidden;
-  background-image: url("../images/pic/網頁背景.png");
+  background-image: url("../images/pic/文案-背景灰.png");
+  background-size: cover;
+}
+
+#aside3 > img {
+  display: inline-block;
+  margin-left: 15%;
 }
 
 #aside3 > p {
+  display: inline-block;
+  margin-left: 10%;
+  padding-bottom: 400px;
   font-size: 50px;
   color: #BDAEAE;
-  padding: 250px 0;
   text-align: center;
-}
-
-#aside4 {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  background-color: #14213D;
-}
-
-#aside4 > div {
-  width: 103px;
-  height: 59px;
-  overflow: hidden;
-  background-image: url("../images/pic/Path.png");
-  margin: 170px auto;
+  opacity: 0;
 }
 
 #article2 {
@@ -579,7 +573,8 @@ article > div {
   width: 112px;
   height: 112px;
   display: block;
-  background-image: url("../images/pic_old/up_button.png");
+  background-image: url("../images/pic/往下箭頭.png");
+  background-size: cover;
   border-radius: 50%;
   float: right;
   margin: 150px 70px 0 0;
@@ -629,12 +624,12 @@ article > div {
           animation: word_show 1.2s forwards 6.4s;
 }
 
+#black > a:hover {
+  color: #ffd13b;
+}
+
 #black > #back_btn {
-  width: 112px;
-  height: 112px;
-  background-image: url("../images/pic_old/blue_arrow.png");
   margin: 1% 0 0 90%;
-  border-radius: 50%;
 }
 
 footer {

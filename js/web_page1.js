@@ -109,6 +109,13 @@ $(function() {
             $("#aside2>p").removeClass("in")
             $("#aside2>p").addClass("out")
         }
+        if (scrollVal >= 4900 && scrollVal <= 5500) {
+            $("#aside3>p").addClass("in")
+            $("#aside3>p").removeClass("out")
+        } else {
+            $("#aside3>p").removeClass("in")
+            $("#aside3>p").addClass("out")
+        }
     });
     $("#page2_btn").click(function() {
         $("#black").removeClass("hide")
