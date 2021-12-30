@@ -337,60 +337,65 @@ aside > div > h2 {
 
 article {
   width: 100%;
-  height: 1080px;
+  height: auto;
   overflow: hidden;
-  background-image: url("../images/pic/故事框2.png");
+  background-image: url(../images/pic/網頁背景.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
-article > div {
-  position: absolute;
+#arrow1 {
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/pic/往下箭頭.png");
+  background-size: 98%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto  100px auto;
 }
 
-#arrow1 {
-  width: 103px;
-  height: 59px;
-  overflow: hidden;
-  background-image: url("../images/pic/往下箭頭.png");
-  margin: 0 auto;
-  position: initial;
-  margin: 110px auto;
+#dogPic_bg {
+  width: 100%;
+  height: 900px;
+  background-image: url("../images/pic/故事框左.png");
+  background-size: 93%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
 #dogPic {
-  width: 1280px;
-  height: 720px;
-  overflow: hidden;
+  width: 800px;
+  height: 450px;
+  position: absolute;
+  top: 40%;
+  left: 9%;
   background-size: cover;
-  margin: 100px 0 0 100px;
-  z-index: 1;
-  border-radius: 12%;
 }
 
 .dog_pic1 {
-  background-image: url("../images/pic/2.jpg");
+  background-image: url("../images/pic/story/2.jpg");
 }
 
 .dog_pic2 {
-  background-image: url("../images/pic/3.jpg");
+  background-image: url("../images/pic/story/3.jpg");
 }
 
 .dog_pic3 {
-  background-image: url("../images/pic/5.jpg");
+  background-image: url("../images/pic/story/5.jpg");
 }
 
 .dog_pic4 {
-  background-image: url("../images/pic/6.jpg");
+  background-image: url("../images/pic/story/6.jpg");
 }
 
 .dog_pic5 {
-  background-image: url("../images/pic/7.jpg");
+  background-image: url("../images/pic/story/7.jpg");
 }
 
 .dog_pic6 {
-  background-image: url("../images/pic/8.jpg");
+  background-image: url("../images/pic/story/8.jpg");
 }
 
 .dog_pic7,
@@ -399,14 +404,15 @@ article > div {
 }
 
 #story {
-  position: relative;
-  width: 700px;
-  height: 450px;
+  width: 640px;
+  height: 700px;
   overflow: hidden;
-  background-color: #fff;
-  z-index: 2;
-  margin: 330px 0 0 1000px;
-  border-radius: 12%;
+  background-image: url("../images/pic/故事框右.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 31%;
+  left: 64%;
 }
 
 #story > p {
@@ -440,42 +446,64 @@ article > div {
 }
 
 #story > div {
-  position: absolute;
-  width: 215px;
-  height: 120px;
+  width: 72%;
+  height: 10%;
   overflow: hidden;
-  background-color: black;
-  left: 41%;
-  top: 83%;
-  border-radius: 40%;
+  background-image: url("../images/pic/換頁鍵/故事換頁面底框.png");
+  background-position: center;
+  background-size: 100%;
+  margin: 55% auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #story > div > a {
-  font-size: 27px;
-  color: #fff;
-  line-height: 102px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  background-size: cover;
   margin: 0 10px 0 10px;
 }
 
 #story > div > a:hover {
-  color: #ff6e6e;
+  width: 65px;
+  height: 65px;
 }
 
 #story > div > a.active {
-  color: #ff6e6e;
+  width: 65px;
+  height: 65px;
 }
 
 #story > div > a.btn1 {
-  margin-left: 61px;
+  background-image: url("../images/pic/換頁鍵/1.png");
+}
+
+#story > div > a.btn2 {
+  background-image: url("../images/pic/換頁鍵/2.png");
+}
+
+#story > div > a.btn3 {
+  background-image: url("../images/pic/換頁鍵/3.png");
 }
 
 #arrow2 {
-  width: 103px;
-  height: 59px;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   background-image: url("../images/pic/往下箭頭.png");
-  margin: 0 auto;
-  margin: 15% 0 0 47%;
+  background-repeat: no-repeat;
+  background-size: 98%;
+  background-position: center;
+  margin: 100px auto;
 }
 
 #aside3 {
@@ -494,7 +522,7 @@ article > div {
 #aside3 > p {
   display: inline-block;
   margin-left: 10%;
-  padding-bottom: 400px;
+  padding-bottom: 250px;
   font-size: 50px;
   color: #BDAEAE;
   text-align: center;
@@ -502,28 +530,44 @@ article > div {
 }
 
 #article2 {
-  height: 1050px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url(../images/pic/網頁背景.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#dogPic2_bg {
+  width: 100%;
+  height: 900px;
+  background-image: url("../images/pic/故事框左.png");
+  background-size: 93%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
 }
 
 #dogPic2 {
-  width: 1280px;
-  height: 720px;
-  overflow: hidden;
+  width: 800px;
+  height: 450px;
+  position: absolute;
+  top: 40%;
+  left: 9%;
   background-size: cover;
-  margin: 100px 0 0 100px;
-  z-index: 1;
-  border-radius: 12%;
 }
 
 #story2 {
-  position: relative;
-  width: 700px;
-  height: 450px;
+  width: 640px;
+  height: 700px;
   overflow: hidden;
-  background-color: #fff;
-  z-index: 2;
-  margin: 280px 0 0 1000px;
-  border-radius: 12%;
+  background-image: url("../images/pic/故事框右.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 16.5%;
+  left: 64%;
 }
 
 #story2 > p {
@@ -536,37 +580,63 @@ article > div {
 }
 
 #story2 > div {
-  position: absolute;
-  width: 215px;
-  height: 120px;
+  width: 72%;
+  height: 10%;
   overflow: hidden;
-  background-color: black;
-  left: 36%;
-  top: 83%;
-  border-radius: 40%;
+  background-image: url("../images/pic/換頁鍵/故事換頁面底框.png");
+  background-position: center;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 15%;
+  top: 82%;
 }
 
 #story2 > div > a {
-  font-size: 27px;
-  color: #fff;
-  line-height: 102px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  background-size: cover;
   margin: 0 10px 0 10px;
 }
 
 #story2 > div > a:hover {
-  color: #ff6e6e;
-}
-
-#story2 > div > a.btn1 {
-  margin-left: 61px;
+  width: 65px;
+  height: 65px;
 }
 
 #story2 > div > a.active {
-  color: #ff6e6e;
+  width: 65px;
+  height: 65px;
 }
 
-.btn4 {
-  padding-left: 15px;
+#story2 > div > a.btn4 {
+  background-image: url("../images/pic/換頁鍵/1.png");
+}
+
+#story2 > div > a.btn5 {
+  background-image: url("../images/pic/換頁鍵/2.png");
+}
+
+#story2 > div > a.btn6 {
+  background-image: url("../images/pic/換頁鍵/3.png");
+}
+
+#story2 > div > a.btn7 {
+  background-image: url("../images/pic/換頁鍵/4.png");
+}
+
+#story2 > div > a.btn8 {
+  background-image: url("../images/pic/換頁鍵/5.png");
 }
 
 #page2_btn {
@@ -576,8 +646,7 @@ article > div {
   background-image: url("../images/pic/往下箭頭.png");
   background-size: cover;
   border-radius: 50%;
-  float: right;
-  margin: 150px 70px 0 0;
+  margin: 3% 0 3% 79%;
 }
 
 #black {
