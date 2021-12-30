@@ -182,7 +182,9 @@ footer {
     width: 86px;
     height: 86px;
     overflow: hidden;
-    background-color: #fff;
+    background-image: url("../images/pic/選單內底框.png");
+    background-size: cover;
+    background-position: 100%;
     border-radius: 50px;
     position: fixed;
     top: 5%;
@@ -194,7 +196,9 @@ footer {
     >a {
         width: 80px;
         height: 80px;
-        background-color: aqua;
+        background-image: url("../images/pic/選單內灰園框.png");
+        background-size: cover;
+        background-position: 100%;
         display: block;
         border-radius: 50%;
         font-size: 20px;
