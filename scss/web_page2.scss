@@ -23,6 +23,10 @@ header {
     overflow: hidden;
     background-image: url("../images/pic/收容所.jpg");
     background-size: cover;
+    position: relative;
+    >a{
+        position: absolute;
+    }
 }
 
 #logo {
@@ -35,20 +39,26 @@ header {
 
 #pick1 {
     width: 300px;
-    height: 300px;
-    display: inline-block; 
+    height: 330px;
+    display: inline-block;
+    top: 69%;
+    left: 24%; 
 }
 
 #pick2 {
-    width: 300px;
-    height: 300px;
-    display: inline-block;  
+    width: 240px;
+    height: 320px;
+    display: inline-block; 
+    top:67%;
+    left: 46%; 
 }
 
 #pick3 {
-    width: 300px;
-    height: 300px;
+    width: 440px;
+    height: 350px;
     display: inline-block;
+    top: 67%;
+    left: 61%;
 }
 
 .click_in {
@@ -57,17 +67,13 @@ header {
 
 #main_section {
     width: 300%;
-    height: 1200px;
-    overflow: hidden;
-    display: flex;
-    align-content: flex-start;
+    height: 1400px;
 }
 
 article {
     width: 100%;
-    height: 1200px;
-    overflow: hidden;
-    background-color: #14213D;
+    height: 1400px;
+    background-image: url("../images/pic/網頁背景.png");
     position: absolute;
 }
 
@@ -88,66 +94,64 @@ article>div {
 }
 
 #arrow1 {
-    width: 103px;
-    height: 59px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
-    background-image: url("../images/pic/Path.png");
+    background-image: url("../images/pic/往下箭頭.png");
+    background-repeat: no-repeat;
+    background-size: 98%;
+    background-position: center;
     position: initial;
     margin: 110px auto;
 }
 
-#dogPic {
-    width: 1024px;
-    height: 576px;
-    overflow: hidden;
+
+#dogPic_bg,
+#dogPic2_bg,
+#dogPic3_bg{
+    width: 100%;
+    height: 900px;
+    background-image: url("../images/pic/故事框左.png");
+    background-size: 93%;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+}
+
+#dogPic,
+#dogPic2,
+#dogPic3 {
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    top:40%;
+    left:9%;
     background-size: cover;
-    margin: 0 0 0 150px;
-    z-index: 1;
-    border-radius: 12%;
 }
 
-.dog_pic1 {
-    background-image: url("../images/pic/2.jpg");
-}
-
-.dog_pic2 {
-    background-image: url("../images/pic/3.jpg");
-}
-
-.dog_pic3 {
-    background-image: url("../images/pic/5.jpg");
-}
-
-.dog_pic4 {
-    background-image: url("../images/pic/6.jpg");
-}
-
-.dog_pic5 {
-    background-image: url("../images/pic/7.jpg");
-}
-
-.dog_pic6 {
-    background-image: url("../images/pic/8.jpg");
-}
-
-.dog_pic7,
-.dog_pic8,
-.dog_pic9,
-.dog_pic10 {
-    background-image: url("../images/pic/9.jpg");
-}
+.dog_pic1 {background-image: url("../images/pic/story/6.jpg");}
+.dog_pic2 {background-image: url("../images/pic/story/握手1.jpg");}
+.dog_pic3 {background-image: url("../images/pic/story/被欺負.jpg");}
+.dog_pic4 {background-image: url("../images/pic/story/電線杆.jpg");}
+.dog_pic5 {background-image: url("../images/pic/story/6.jpg");}
+.dog_pic6 {background-image: url("../images/pic/story/握手1.jpg");}
+.dog_pic7 {background-image: url("../images/pic/story/被欺負.jpg");}
+.dog_pic8 {background-image: url("../images/pic/story/6.jpg");}
+.dog_pic9 {background-image: url("../images/pic/story/被欺負.jpg");}
+.dog_pic10 {background-image: url("../images/pic/story/電線杆.jpg");}
 
 #story_Fir, 
 #story_Sec, 
 #story_Thr {
-    position: relative;
-    width: 600px;
-    height: 450px;
+    width: 640px;
+    height: 700px;
     overflow: hidden;
-    background-color: #fff;
-    z-index: 2;
-    margin: 320px 0 0 1000px;
-    border-radius: 12%;
+    background-image: url("../images/pic/故事框右.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 31%;
+    left:64%;
     >p {
         font-size: 23px;
         text-align: center;
@@ -172,35 +176,50 @@ article>div {
 #story_Fir>div,
 #story_Sec>div,
 #story_Thr>div {
-    position: absolute;
-    width: 215px;
-    height: 120px;
+    width: 72%;
+    height: 10%;
     overflow: hidden;
-    background-color: black;
-    left: 41%;
-    top: 83%;
-    border-radius: 40%;
+    background-image: url("../images/pic/換頁鍵/故事換頁面底框.png");
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 15%;
+    top: 82%;
     >a {
-        font-size: 27px;
-        color: #fff;
-        line-height: 102px;
+        width: 50px;
+        height: 50px;
+        display: block;
+        border-radius: 50%;
+        background-size: cover;
         margin: 0 10px 0 10px;
         &:hover {
-            color: rgb(255, 110, 110);
+            width: 65px;
+            height: 65px;
         }
         &.active{
-            color: rgb(255, 110, 110);
+            width: 65px;
+            height: 65px;
         }
+        &.btn1{background-image: url("../images/pic/換頁鍵/1.png");}
+        &.btn2{background-image: url("../images/pic/換頁鍵/2.png");}
+        &.btn3{background-image: url("../images/pic/換頁鍵/3.png");}
+        &.btn4{background-image: url("../images/pic/換頁鍵/4.png");}
+        &.btn5{background-image: url("../images/pic/換頁鍵/1.png");}
+        &.btn6{background-image: url("../images/pic/換頁鍵/2.png");}
+        &.btn7{background-image: url("../images/pic/換頁鍵/3.png");}
+        &.btn8{background-image: url("../images/pic/換頁鍵/1.png");}
+        &.btn9{background-image: url("../images/pic/換頁鍵/2.png");}
+        &.btn10{background-image: url("../images/pic/換頁鍵/3.png");}
     }
 }
 
-.btn1,
-.btn5,
-.btn8 {
-    margin-left: 61px;
-}
 
-#arrow2 {
+#arrowDown1,
+#arrowDown2,
+#arrowDown3 {
     width: 103px;
     height: 59px;
     overflow: hidden;
@@ -222,6 +241,7 @@ article>div {
     }
 }
 
+
 #abandon1,
 #abandon2,
 #abandon3 {
@@ -229,7 +249,8 @@ article>div {
     height: 0;
     overflow: hidden;
     background-image: url("../images/pic/網頁背景.png");
-    position: relative;
+    background-size: cover;
+    background-position: center;
     > {
         h1 {
             color: rgb(138, 136, 136);
@@ -253,6 +274,9 @@ article>div {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    &.click1{height: 0px;}
+    &.click2{height: 0px;}
+    &.click3{height: 0px;}
 }
 
 footer {
