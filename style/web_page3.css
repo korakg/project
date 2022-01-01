@@ -489,6 +489,51 @@ main {
   }
 }
 
+#infobox {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.295);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+#infobox.hide {
+  display: none;
+}
+
+#infobox > div {
+  width: 780px;
+  height: 781px;
+  -webkit-animation: info_show 0.6s forwards ease-out;
+          animation: info_show 0.6s forwards ease-out;
+  background-image: url("../images/pic/page3/九宮格點擊後視窗.png");
+  margin: 3% auto 0 auto;
+}
+
+#infobox > div.hide {
+  display: none;
+}
+
+@-webkit-keyframes info_show {
+  0% {
+  }
+  100% {
+    -webkit-transform: translateY(3%);
+            transform: translateY(3%);
+  }
+}
+
+@keyframes info_show {
+  0% {
+  }
+  100% {
+    -webkit-transform: translateY(3%);
+            transform: translateY(3%);
+  }
+}
+
 footer {
   width: 100%;
   height: auto;
