@@ -97,8 +97,12 @@ header > h1 {
   left: 75%;
   -webkit-transform-origin: top;
           transform-origin: top;
-  -webkit-animation: txt_show 3s ease-in-out;
-          animation: txt_show 3s ease-in-out;
+  opacity: 0;
+}
+
+#interview_txt.show {
+  -webkit-animation: txt_show 3s forwards ease-in-out;
+          animation: txt_show 3s forwards ease-in-out;
 }
 
 @-webkit-keyframes txt_show {
@@ -115,18 +119,22 @@ header > h1 {
   65% {
     -webkit-transform: rotate(-5deg);
             transform: rotate(-5deg);
+    opacity: 1;
   }
   80% {
     -webkit-transform: rotate(3deg);
             transform: rotate(3deg);
+    opacity: 1;
   }
   92% {
     -webkit-transform: rotate(-1deg);
             transform: rotate(-1deg);
+    opacity: 1;
   }
   100% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
+    opacity: 1;
   }
 }
 
@@ -144,18 +152,22 @@ header > h1 {
   65% {
     -webkit-transform: rotate(-5deg);
             transform: rotate(-5deg);
+    opacity: 1;
   }
   80% {
     -webkit-transform: rotate(3deg);
             transform: rotate(3deg);
+    opacity: 1;
   }
   92% {
     -webkit-transform: rotate(-1deg);
             transform: rotate(-1deg);
+    opacity: 1;
   }
   100% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
+    opacity: 1;
   }
 }
 

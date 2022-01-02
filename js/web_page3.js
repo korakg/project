@@ -32,6 +32,13 @@ $(function(){
             $("#v2").addClass("switch4")
         }
     })
+
+    $(window).scroll(function(){
+        var scrollVal=$(this).scrollTop();
+        if(scrollVal>=800){
+            $("#interview_txt").addClass("show")
+        }
+    })
     $("#wall-1 a").click(function(){
         $("#infobox").removeClass("hide")
         $("#info1").removeClass("hide")

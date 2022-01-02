@@ -91,7 +91,10 @@ header {
     top: -3%;
     left: 75%;
     transform-origin: top;
-    animation: txt_show 3s ease-in-out;
+    opacity: 0;
+    &.show{
+        animation: txt_show 3s forwards ease-in-out;
+    }
 }
 
 @keyframes txt_show{
@@ -103,10 +106,22 @@ header {
         transform: rotate(17deg);
         opacity: 1;
     }
-    65%{transform: rotate(-5deg);}
-    80%{transform: rotate(3deg);}
-    92%{transform: rotate(-1deg);}
-    100%{transform: rotate(0deg);}
+    65%{
+        transform: rotate(-5deg);
+        opacity: 1;
+    }
+    80%{
+        transform: rotate(3deg);
+        opacity: 1;
+    }
+    92%{
+        transform: rotate(-1deg);
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(0deg);
+        opacity: 1;
+    }
 }
 
 #v1{
