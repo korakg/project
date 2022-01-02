@@ -87,6 +87,78 @@ header > h1 {
   position: relative;
 }
 
+#interview_txt {
+  width: 300px;
+  height: 640px;
+  background-image: url("../images/pic/page3/採訪文字框.png");
+  background-size: cover;
+  position: absolute;
+  top: -3%;
+  left: 75%;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  -webkit-animation: txt_show 3s ease-in-out;
+          animation: txt_show 3s ease-in-out;
+}
+
+@-webkit-keyframes txt_show {
+  0% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: rotate(17deg);
+            transform: rotate(17deg);
+    opacity: 1;
+  }
+  65% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  80% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
+  }
+  92% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes txt_show {
+  0% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: rotate(17deg);
+            transform: rotate(17deg);
+    opacity: 1;
+  }
+  65% {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  80% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
+  }
+  92% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
 #v1 {
   width: 1000px;
   height: auto;
@@ -278,25 +350,23 @@ header > h1 {
 }
 
 #up_btn {
-  width: 200px;
-  height: 80px;
-  display: inline-block;
+  width: 150px;
+  height: 60px;
   position: absolute;
-  top: 10%;
-  left: 70%;
+  top: 64%;
+  left: 79%;
   background-image: url("../images/pic/Polygon 1.png");
-  background-size: 200px 80px;
+  background-size: 150px 60px;
 }
 
 #down_btn {
-  width: 200px;
-  height: 80px;
-  display: inline-block;
+  width: 150px;
+  height: 60px;
   position: absolute;
-  top: 20%;
-  left: 70%;
+  top: 71%;
+  left: 79%;
   background-image: url("../images/pic/Polygon 2.png");
-  background-size: 200px 80px;
+  background-size: 150px 60px;
 }
 
 main {

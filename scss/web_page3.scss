@@ -82,6 +82,33 @@ header {
     position: relative;
 }
 
+#interview_txt{
+    width: 300px;
+    height: 640px;
+    background-image: url("../images/pic/page3/採訪文字框.png");
+    background-size: cover;
+    position: absolute;
+    top: -3%;
+    left: 75%;
+    transform-origin: top;
+    animation: txt_show 3s ease-in-out;
+}
+
+@keyframes txt_show{
+    0%{
+        transform: rotate(-30deg);
+        opacity: 0;
+    }
+    40%{
+        transform: rotate(17deg);
+        opacity: 1;
+    }
+    65%{transform: rotate(-5deg);}
+    80%{transform: rotate(3deg);}
+    92%{transform: rotate(-1deg);}
+    100%{transform: rotate(0deg);}
+}
+
 #v1{
     width: 1000px;
     height: auto;
@@ -189,25 +216,23 @@ header {
 }
 
 #up_btn{
-    width: 200px;
-    height: 80px;
-    display: inline-block;
+    width: 150px;
+    height: 60px;
     position: absolute;  
-    top:10%;
-    left: 70%;  
+    top:64%;
+    left: 79%;  
     background-image: url("../images/pic/Polygon\ 1.png");
-    background-size: 200px 80px;
+    background-size: 150px 60px;
 }
 
 #down_btn{
-    width: 200px;
-    height: 80px;
-    display: inline-block;
+    width: 150px;
+    height: 60px;
     position: absolute;  
-    top:20%;
-    left: 70%;  
+    top:71%;
+    left: 79%;  
     background-image: url("../images/pic/Polygon\ 2.png");
-    background-size: 200px 80px;
+    background-size: 150px 60px;
 }
 
 main {
