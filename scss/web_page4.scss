@@ -58,7 +58,26 @@ header {
         background-image: url("../images/pic/page4/左選單1.png");
         background-repeat: no-repeat;
         background-position: 100%;
-        background-size: cover;     
+        background-size: cover;
+        display: inline-block;
+    }
+    >img{
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        border-radius: 5%;
+        &:hover{
+            box-shadow: 2px 2px 2px 1px #e48966;
+        }
+    }
+}
+
+@keyframes in {
+    0%{
+        
+    }
+    100%{
+        transform: translateX(10%);
     }
 }
 

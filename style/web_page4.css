@@ -63,6 +63,37 @@ header {
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: cover;
+  display: inline-block;
+}
+
+#section_1 > img {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 5%;
+}
+
+#section_1 > img:hover {
+  -webkit-box-shadow: 2px 2px 2px 1px #e48966;
+          box-shadow: 2px 2px 2px 1px #e48966;
+}
+
+@-webkit-keyframes in {
+  0% {
+  }
+  100% {
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
+}
+
+@keyframes in {
+  0% {
+  }
+  100% {
+    -webkit-transform: translateX(10%);
+            transform: translateX(10%);
+  }
 }
 
 #section_2 {
