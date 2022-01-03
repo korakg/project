@@ -69,12 +69,12 @@ header > a {
 
 #main_section {
   width: 300%;
-  height: 1400px;
+  height: 1000px;
 }
 
 article {
   width: 100%;
-  height: 1400px;
+  height: 1000px;
   background-image: url("../images/pic/網頁背景.png");
   position: absolute;
 }
@@ -95,28 +95,28 @@ article > div {
   position: absolute;
 }
 
-#arrow1 {
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
-  background-image: url("../images/pic/往下箭頭.png");
+#chain {
+  width: 78px;
+  height: 1000px;
+  background-image: url("../images/pic/page2/鍊子首端.png");
   background-repeat: no-repeat;
-  background-size: 98%;
-  background-position: center;
-  position: initial;
-  margin: 110px auto;
+  background-size: 100%;
+  background-position: bottom 0px right 0px;
+  margin-left: 100px;
 }
 
 #dogPic_bg,
 #dogPic2_bg,
 #dogPic3_bg {
-  width: 100%;
-  height: 900px;
-  background-image: url("../images/pic/故事框左.png");
+  width: 1140px;
+  height: 620px;
+  background-image: url("../images/pic/page1/故事框.png");
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center;
-  position: relative;
+  position: absolute;
+  top: 18.5%;
+  left: 5.5%;
 }
 
 #dogPic,
@@ -125,9 +125,10 @@ article > div {
   width: 800px;
   height: 450px;
   position: absolute;
-  top: 40%;
-  left: 9%;
-  background-size: cover;
+  border-radius: 15px;
+  top: 12%;
+  left: 20%;
+  background-size: 100%;
 }
 
 .dog_pic1 {
@@ -173,15 +174,15 @@ article > div {
 #story_Fir,
 #story_Sec,
 #story_Thr {
-  width: 640px;
+  width: 600px;
   height: 700px;
   overflow: hidden;
   background-image: url("../images/pic/故事框右.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   position: absolute;
-  top: 40%;
-  left: 64%;
+  top: 15%;
+  left: 67%;
 }
 
 #story_Fir > p,
@@ -224,6 +225,7 @@ article > div {
   overflow: hidden;
   background-image: url("../images/pic/換頁鍵/故事換頁面底框.png");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -236,7 +238,7 @@ article > div {
           align-items: center;
   position: absolute;
   left: 15%;
-  top: 82%;
+  top: 78%;
 }
 
 #story_Fir > div > a,
@@ -329,10 +331,9 @@ article > div {
 #arrowDown3 {
   width: 103px;
   height: 59px;
-  overflow: hidden;
   position: absolute;
   left: 49%;
-  top: 93%;
+  top: 90%;
   background-image: url("../images/pic/Path.png");
   background-repeat: no-repeat;
   -webkit-animation: arrowMove 3s linear infinite;
@@ -366,26 +367,50 @@ article > div {
 #abandon2,
 #abandon3 {
   width: 100%;
-  height: 0;
+  height: 0px;
   overflow: hidden;
   background-image: url("../images/pic/網頁背景.png");
   background-size: cover;
   background-position: center;
 }
 
-#abandon1 > h1,
-#abandon2 > h1,
-#abandon3 > h1 {
+#chain2 {
+  width: 78px;
+  height: 942px;
+  display: inline-block;
+  background-image: url("../images/pic/page2/鍊子2.png");
+  background-repeat: no-repeat;
+  background-size: 86%;
+  background-position: bottom 10px right 7px;
+  margin-left: 100px;
+}
+
+#info1,
+#info2,
+#info3 {
+  width: 1325px;
+  height: 1000px;
+  background-image: url("../images/pic/page2/知識點框.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: inline-block;
+  margin-left: 8%;
+}
+
+#info1 > h1,
+#info2 > h1,
+#info3 > h1 {
+  display: inline-block;
   color: #8a8888;
   font-size: 60px;
   padding: 10% 7%;
 }
 
-#abandon1 > p,
-#abandon2 > p,
-#abandon3 > p {
+#info1 > p,
+#info2 > p,
+#info3 > p {
   text-align: center;
-  padding: 0 15% 10% 15%;
   font-size: 30px;
   line-height: 45px;
 }
@@ -421,9 +446,8 @@ footer {
 #arrow3 {
   width: 103px;
   height: 59px;
-  overflow: hidden;
   background-image: url("../images/pic/Path.png");
-  margin: 200px auto 0 auto;
+  margin: 3% auto;
 }
 
 #left_bar {

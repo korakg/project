@@ -269,6 +269,21 @@ aside {
     position: absolute;
     top: 0%;
     left: 78%;
+    animation: rod_spin 3s infinite ease-in;
+    transform-origin: bottom left;
+    
+}
+
+@keyframes rod_spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(60deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
 
 #chain{
