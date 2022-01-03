@@ -59,26 +59,23 @@ header {
         background-repeat: no-repeat;
         background-position: 100%;
         background-size: cover;
-        display: inline-block;
-    }
-    >img{
-        width: 200px;
-        height: 200px;
-        display: inline-block;
-        border-radius: 5%;
-        &:hover{
-            box-shadow: 2px 2px 2px 1px #e48966;
+        margin-left: -12%;
+        >img{
+            width: 350px;
+            height: 350px;
+            border-radius: 5%;
+            margin: -3% auto 0 auto;
         }
     }
 }
 
-@keyframes in {
-    0%{
-        
-    }
-    100%{
-        transform: translateX(10%);
-    }
+@keyframes in_left {
+    0%{}
+    100%{transform: translateX(30%);}
+}
+@keyframes in_right {
+    0%{}
+    100%{transform: translateX(-30%);}
 }
 
 #section_2{
@@ -93,7 +90,13 @@ header {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0%;
-        margin-left: 65%;
+        margin-left: 77%;
+        >img{
+            width: 350px;
+            height: 350px;
+            border-radius: 5%;
+            margin: -3% auto 0 auto;
+        }
     }
 }
 
@@ -108,7 +111,14 @@ header {
         background-image: url("../images/pic/page4/左選單1.png");
         background-repeat: no-repeat;
         background-position: 100%;
-        background-size: cover;      
+        background-size: cover;
+        margin-left: -12%;
+        >img{
+            width: 350px;
+            height: 350px;
+            border-radius: 5%;
+            margin: -3% auto 0 auto;
+        }      
     }
 }
 
@@ -124,7 +134,13 @@ header {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0%;
-        margin-left: 65%;
+        margin-left: 77%;
+        >img{
+            width: 350px;
+            height: 350px;
+            border-radius: 5%;
+            margin: -3% auto 0 auto;
+        }
     }
 }
 
@@ -139,7 +155,14 @@ header {
         background-image: url("../images/pic/page4/左選單1.png");
         background-repeat: no-repeat;
         background-position: 100%;
-        background-size: cover;    
+        background-size: cover;
+        margin-left: -12%;
+        >img{
+            width: 350px;
+            height: 350px;
+            border-radius: 5%;
+            margin: -3% auto 0 auto;
+        }    
     }
 }
 
@@ -194,7 +217,7 @@ footer {
     height: 59px;
     overflow: hidden;
     background-image: url("../images/pic/Path.png");
-    margin: 200px auto 0 auto;
+    margin: 3% auto;
 }
 
 #left_bar {

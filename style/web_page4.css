@@ -63,36 +63,49 @@ header {
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: cover;
-  display: inline-block;
+  margin-left: -12%;
 }
 
-#section_1 > img {
-  width: 200px;
-  height: 200px;
-  display: inline-block;
+#section_1 > div > img {
+  width: 350px;
+  height: 350px;
   border-radius: 5%;
+  margin: -3% auto 0 auto;
 }
 
-#section_1 > img:hover {
-  -webkit-box-shadow: 2px 2px 2px 1px #e48966;
-          box-shadow: 2px 2px 2px 1px #e48966;
-}
-
-@-webkit-keyframes in {
+@-webkit-keyframes in_left {
   0% {
   }
   100% {
-    -webkit-transform: translateX(10%);
-            transform: translateX(10%);
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
   }
 }
 
-@keyframes in {
+@keyframes in_left {
   0% {
   }
   100% {
-    -webkit-transform: translateX(10%);
-            transform: translateX(10%);
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+  }
+}
+
+@-webkit-keyframes in_right {
+  0% {
+  }
+  100% {
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+  }
+}
+
+@keyframes in_right {
+  0% {
+  }
+  100% {
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
   }
 }
 
@@ -110,7 +123,14 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0%;
-  margin-left: 65%;
+  margin-left: 77%;
+}
+
+#section_2 > div > img {
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+  margin: -3% auto 0 auto;
 }
 
 #section_3 {
@@ -127,6 +147,14 @@ header {
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: cover;
+  margin-left: -12%;
+}
+
+#section_3 > div > img {
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+  margin: -3% auto 0 auto;
 }
 
 #section_4 {
@@ -143,7 +171,14 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0%;
-  margin-left: 65%;
+  margin-left: 77%;
+}
+
+#section_4 > div > img {
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+  margin: -3% auto 0 auto;
 }
 
 #section_5 {
@@ -160,6 +195,14 @@ header {
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: cover;
+  margin-left: -12%;
+}
+
+#section_5 > div > img {
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+  margin: -3% auto 0 auto;
 }
 
 #last {
@@ -220,7 +263,7 @@ footer {
   height: 59px;
   overflow: hidden;
   background-image: url("../images/pic/Path.png");
-  margin: 200px auto 0 auto;
+  margin: 3% auto;
 }
 
 #left_bar {
