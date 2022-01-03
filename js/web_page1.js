@@ -109,7 +109,7 @@ $(function() {
             $("#aside2>p").removeClass("in")
             $("#aside2>p").addClass("out")
         }
-        if (scrollVal >= 5300 && scrollVal <= 6000) {
+        if (scrollVal >= 4400 && scrollVal <= 5000) {
             $("#aside3>p").addClass("in")
             $("#aside3>p").removeClass("out")
         } else {
