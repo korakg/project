@@ -569,13 +569,13 @@ header > h1 > span {
 
 #info {
   width: 100%;
-  height: 900px;
+  height: 700px;
   background-image: url("../images/pic/網頁背景.png");
 }
 
 #info > div {
   width: 100%;
-  height: 70%;
+  height: 90%;
   background-image: url("../images/pic/page4/收容所背景底色.png");
   display: -ms-grid;
   display: grid;
@@ -598,6 +598,23 @@ header > h1 > span {
   height: 53px;
   background-image: url("../images/pic/page4/收容所-按鈕.png");
   margin: 100% 0 0 32%;
+}
+
+#aboutUs {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url("../images/pic/網頁背景.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aboutUs > div {
+  width: 85%;
+  height: 900px;
+  background-image: url("../images/pic/page4/關於我們.png");
+  background-size: cover;
+  margin: 3% auto;
 }
 
 footer {
