@@ -86,12 +86,8 @@ header {
         background-position: 100%;
         background-size: cover;
         margin-left: -12%;
-        &.in{
-            animation: in_left 1s forwards ease-in-out;
-        }
-        &.out{
-            animation: out_left 1s forwards ease-in-out;
-        }
+        &.in{animation: in_left 1s forwards ease-out;}
+        &.out{animation: out_left 1s forwards ease-out;}
         >img{
             width: 350px;
             height: 350px;
@@ -161,12 +157,36 @@ header {
         background-size: cover;
         background-position: 0%;
         margin-left: 77%;
+        &.in{animation: in_right 1s forwards ease-out;}
+        &.out{animation: out_right 1s forwards ease-out;}
         >img{
             width: 350px;
             height: 350px;
             border-radius: 5%;
             margin: -3% auto 0 auto;
         }
+    }
+    >h1{
+        position: absolute;
+        color: #242424;
+        font-size: 80px;
+        font-weight: bolder;
+        top: 31%;
+        left: 18%;
+        opacity: 0;
+        &.word_show{animation: show 1s forwards ease-in-out;}
+        &.word_hide{animation: hide 1s forwards ease-in-out;}
+    }
+    >p{
+        position: absolute;
+        color: #242424;
+        font-size: 40px;
+        font-weight: bold;
+        top: 40%;
+        left: 35%;
+        opacity: 0;
+        &.word_show{animation: show 1s forwards ease-in-out;}
+        &.word_hide{animation: hide 1s forwards ease-in-out;}
     }
 }
 
@@ -183,6 +203,8 @@ header {
         background-position: 100%;
         background-size: cover;
         margin-left: -12%;
+        &.in{animation: in_left 1s forwards ease-out;}
+        &.out{animation: out_left 1s forwards ease-out;}
         >img{
             width: 350px;
             height: 350px;
@@ -227,12 +249,36 @@ header {
         background-size: cover;
         background-position: 0%;
         margin-left: 77%;
+        &.in{animation: in_right 1s forwards ease-out;}
+        &.out{animation: out_right 1s forwards ease-out;}
         >img{
             width: 350px;
             height: 350px;
             border-radius: 5%;
             margin: -3% auto 0 auto;
         }
+    }
+    >h1{
+        position: absolute;
+        color: #242424;
+        font-size: 80px;
+        font-weight: bolder;
+        top: 31%;
+        left: 18%;
+        opacity: 0;
+        &.word_show{animation: show 1s forwards ease-in-out;}
+        &.word_hide{animation: hide 1s forwards ease-in-out;}
+    }
+    >p{
+        position: absolute;
+        color: #242424;
+        font-size: 40px;
+        font-weight: bold;
+        top: 40%;
+        left: 35%;
+        opacity: 0;
+        &.word_show{animation: show 1s forwards ease-in-out;}
+        &.word_hide{animation: hide 1s forwards ease-in-out;}
     }
 }
 
@@ -249,6 +295,8 @@ header {
         background-position: 100%;
         background-size: cover;
         margin-left: -12%;
+        &.in{animation: in_left 1s forwards ease-out;}
+        &.out{animation: out_left 1s forwards ease-out;}
         >img{
             width: 350px;
             height: 350px;

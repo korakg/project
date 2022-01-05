@@ -86,13 +86,13 @@ header > h1 > span {
 }
 
 #section_1 > div.in {
-  -webkit-animation: in_left 1s forwards ease-in-out;
-          animation: in_left 1s forwards ease-in-out;
+  -webkit-animation: in_left 1s forwards ease-out;
+          animation: in_left 1s forwards ease-out;
 }
 
 #section_1 > div.out {
-  -webkit-animation: out_left 1s forwards ease-in-out;
-          animation: out_left 1s forwards ease-in-out;
+  -webkit-animation: out_left 1s forwards ease-out;
+          animation: out_left 1s forwards ease-out;
 }
 
 #section_1 > div > img {
@@ -275,11 +275,61 @@ header > h1 > span {
   margin-left: 77%;
 }
 
+#section_2 > div.in {
+  -webkit-animation: in_right 1s forwards ease-out;
+          animation: in_right 1s forwards ease-out;
+}
+
+#section_2 > div.out {
+  -webkit-animation: out_right 1s forwards ease-out;
+          animation: out_right 1s forwards ease-out;
+}
+
 #section_2 > div > img {
   width: 350px;
   height: 350px;
   border-radius: 5%;
   margin: -3% auto 0 auto;
+}
+
+#section_2 > h1 {
+  position: absolute;
+  color: #242424;
+  font-size: 80px;
+  font-weight: bolder;
+  top: 31%;
+  left: 18%;
+  opacity: 0;
+}
+
+#section_2 > h1.word_show {
+  -webkit-animation: show 1s forwards ease-in-out;
+          animation: show 1s forwards ease-in-out;
+}
+
+#section_2 > h1.word_hide {
+  -webkit-animation: hide 1s forwards ease-in-out;
+          animation: hide 1s forwards ease-in-out;
+}
+
+#section_2 > p {
+  position: absolute;
+  color: #242424;
+  font-size: 40px;
+  font-weight: bold;
+  top: 40%;
+  left: 35%;
+  opacity: 0;
+}
+
+#section_2 > p.word_show {
+  -webkit-animation: show 1s forwards ease-in-out;
+          animation: show 1s forwards ease-in-out;
+}
+
+#section_2 > p.word_hide {
+  -webkit-animation: hide 1s forwards ease-in-out;
+          animation: hide 1s forwards ease-in-out;
 }
 
 #section_3 {
@@ -297,6 +347,16 @@ header > h1 > span {
   background-position: 100%;
   background-size: cover;
   margin-left: -12%;
+}
+
+#section_3 > div.in {
+  -webkit-animation: in_left 1s forwards ease-out;
+          animation: in_left 1s forwards ease-out;
+}
+
+#section_3 > div.out {
+  -webkit-animation: out_left 1s forwards ease-out;
+          animation: out_left 1s forwards ease-out;
 }
 
 #section_3 > div > img {
@@ -363,11 +423,61 @@ header > h1 > span {
   margin-left: 77%;
 }
 
+#section_4 > div.in {
+  -webkit-animation: in_right 1s forwards ease-out;
+          animation: in_right 1s forwards ease-out;
+}
+
+#section_4 > div.out {
+  -webkit-animation: out_right 1s forwards ease-out;
+          animation: out_right 1s forwards ease-out;
+}
+
 #section_4 > div > img {
   width: 350px;
   height: 350px;
   border-radius: 5%;
   margin: -3% auto 0 auto;
+}
+
+#section_4 > h1 {
+  position: absolute;
+  color: #242424;
+  font-size: 80px;
+  font-weight: bolder;
+  top: 31%;
+  left: 18%;
+  opacity: 0;
+}
+
+#section_4 > h1.word_show {
+  -webkit-animation: show 1s forwards ease-in-out;
+          animation: show 1s forwards ease-in-out;
+}
+
+#section_4 > h1.word_hide {
+  -webkit-animation: hide 1s forwards ease-in-out;
+          animation: hide 1s forwards ease-in-out;
+}
+
+#section_4 > p {
+  position: absolute;
+  color: #242424;
+  font-size: 40px;
+  font-weight: bold;
+  top: 40%;
+  left: 35%;
+  opacity: 0;
+}
+
+#section_4 > p.word_show {
+  -webkit-animation: show 1s forwards ease-in-out;
+          animation: show 1s forwards ease-in-out;
+}
+
+#section_4 > p.word_hide {
+  -webkit-animation: hide 1s forwards ease-in-out;
+          animation: hide 1s forwards ease-in-out;
 }
 
 #section_5 {
@@ -385,6 +495,16 @@ header > h1 > span {
   background-position: 100%;
   background-size: cover;
   margin-left: -12%;
+}
+
+#section_5 > div.in {
+  -webkit-animation: in_left 1s forwards ease-out;
+          animation: in_left 1s forwards ease-out;
+}
+
+#section_5 > div.out {
+  -webkit-animation: out_left 1s forwards ease-out;
+          animation: out_left 1s forwards ease-out;
 }
 
 #section_5 > div > img {
