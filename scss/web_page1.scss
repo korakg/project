@@ -510,9 +510,12 @@ article {
     width: 140px;
     height: 259px;
     background-image: url("../images/pic/page1/項圈.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
     position: absolute;
-    top: 74.3%;
-    left: 5.5%;
+    top: 73.4%;
+    left: 6%;
 }
 
 #dogPic2_bg{
@@ -652,17 +655,8 @@ article {
 
 footer {
     width: 100%;
-    height: auto;
-    overflow: hidden;
+    height: 100px;
     background-color: #14213D;
-}
-
-#arrow3 {
-    width: 103px;
-    height: 59px;
-    overflow: hidden;
-    background-image: url("../images/pic/Path.png");
-    margin: 200px auto 0 auto;
 }
 
 #left_bar {
