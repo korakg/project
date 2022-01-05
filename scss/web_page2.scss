@@ -160,11 +160,38 @@ article>div {
     top: 15%;
     left:67%;
     >p {
-        font-size: 23px;
+        font-size: 24px;
+        color: rgb(241, 241, 241);
+        font-weight: bold;
+        line-height: 48px;
         text-align: center;
-        padding-top: 30%;
         animation: word_show 0.5s ease-in forwards;
     }
+}
+
+#storyline_3,
+#storyline_11{
+    padding-top: 33%;
+}
+#storyline_1,
+#storyline_10{
+    padding-top: 37%;
+}
+#storyline_2,
+#storyline_7,
+#storyline_12,
+#storyline_14,
+#storyline_15,
+#storyline_16{
+    padding-top: 40%;
+}
+#storyline_4,
+#storyline_5,
+#storyline_6,
+#storyline_8,
+#storyline_9,
+#storyline_13{
+    padding-top: 45%;
 }
 
 @keyframes word_show {
@@ -229,7 +256,6 @@ article>div {
         &.btn16{background-image: url("../images/pic/換頁鍵/5.png");}
     }
 }
-
 
 #arrowDown1,
 #arrowDown2,
