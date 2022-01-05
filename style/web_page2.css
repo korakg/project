@@ -179,6 +179,22 @@ article > div {
   background-image: url("../images/pic/story/電線杆.jpg");
 }
 
+.dog_pic13 {
+  background-image: url("../images/pic/story/電線杆.jpg");
+}
+
+.dog_pic14 {
+  background-image: url("../images/pic/story/電線杆.jpg");
+}
+
+.dog_pic15 {
+  background-image: url("../images/pic/story/電線杆.jpg");
+}
+
+.dog_pic16 {
+  background-image: url("../images/pic/story/電線杆.jpg");
+}
+
 #story_Fir,
 #story_Sec,
 #story_Thr {
@@ -331,19 +347,43 @@ article > div {
 #story_Fir > div > a.btn10,
 #story_Sec > div > a.btn10,
 #story_Thr > div > a.btn10 {
-  background-image: url("../images/pic/換頁鍵/1.png");
+  background-image: url("../images/pic/換頁鍵/4.png");
 }
 
 #story_Fir > div > a.btn11,
 #story_Sec > div > a.btn11,
 #story_Thr > div > a.btn11 {
-  background-image: url("../images/pic/換頁鍵/2.png");
+  background-image: url("../images/pic/換頁鍵/5.png");
 }
 
 #story_Fir > div > a.btn12,
 #story_Sec > div > a.btn12,
 #story_Thr > div > a.btn12 {
+  background-image: url("../images/pic/換頁鍵/1.png");
+}
+
+#story_Fir > div > a.btn13,
+#story_Sec > div > a.btn13,
+#story_Thr > div > a.btn13 {
+  background-image: url("../images/pic/換頁鍵/2.png");
+}
+
+#story_Fir > div > a.btn14,
+#story_Sec > div > a.btn14,
+#story_Thr > div > a.btn14 {
   background-image: url("../images/pic/換頁鍵/3.png");
+}
+
+#story_Fir > div > a.btn15,
+#story_Sec > div > a.btn15,
+#story_Thr > div > a.btn15 {
+  background-image: url("../images/pic/換頁鍵/4.png");
+}
+
+#story_Fir > div > a.btn16,
+#story_Sec > div > a.btn16,
+#story_Thr > div > a.btn16 {
+  background-image: url("../images/pic/換頁鍵/5.png");
 }
 
 #arrowDown1,
