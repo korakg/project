@@ -462,6 +462,9 @@ article > div {
   background-image: url("../images/pic/網頁背景.png");
   background-size: cover;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #chain2 {
@@ -478,31 +481,47 @@ article > div {
 #info1,
 #info2,
 #info3 {
-  width: 1325px;
-  height: 1000px;
+  width: 1500px;
+  height: 1080px;
   background-image: url("../images/pic/page2/知識點框.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  display: inline-block;
   margin-left: 8%;
 }
 
 #info1 > h1,
 #info2 > h1,
 #info3 > h1 {
-  display: inline-block;
+  text-align: center;
   color: #8a8888;
   font-size: 60px;
-  padding: 10% 7%;
+  font-weight: bolder;
+  padding: 15% 0 0 0;
+}
+
+#info1 > h1 span,
+#info2 > h1 span,
+#info3 > h1 span {
+  font-size: 30px;
 }
 
 #info1 > p,
 #info2 > p,
 #info3 > p {
-  text-align: center;
-  font-size: 30px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
   line-height: 45px;
+  float: left;
+  padding: 1% 0 0 5%;
+}
+
+#info1 > p.p3,
+#info2 > p.p3,
+#info3 > p.p3 {
+  text-align: center;
+  padding: 5% 0 0 10%;
 }
 
 #story_end {

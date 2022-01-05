@@ -83,7 +83,7 @@ $(function() {
         $("#storyline_5").addClass("hide")
         $("#storyline_6").removeClass("hide")
         $("#arrowDown1").removeClass("hide")
-        $("#abandon1").animate({ height: '1135px' }, )
+        $("#abandon1").animate({ height: '1100px' }, )
         $("#story_end").removeClass("click1")
     })
     $(".btn7").click(function() {
@@ -146,7 +146,7 @@ $(function() {
         $("#storyline_10").addClass("hide")
         $("#storyline_11").removeClass("hide")
         $("#arrowDown2").removeClass("hide")
-        $("#abandon2").animate({ height: '1135px' }, )
+        $("#abandon2").animate({ height: '1100px' }, )
         $("#story_end").removeClass("click2")
     })
     $(".btn12").click(function() {
@@ -209,7 +209,7 @@ $(function() {
         $("#storyline_15").addClass("hide")
         $("#storyline_16").removeClass("hide")
         $("#arrowDown3").removeClass("hide")
-        $("#abandon3").animate({ height: '1135px' }, )
+        $("#abandon3").animate({ height: '1100px' }, )
         $("#story_end").removeClass("click3")
     })
     $("#pick1").click(function() {
