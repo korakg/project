@@ -304,16 +304,8 @@ article>div {
 
 footer {
     width: 100%;
-    height: auto;
-    overflow: hidden;
+    height: 100px;
     background-color: #14213D;
-}
-
-#arrow3 {
-    width: 103px;
-    height: 59px;
-    background-image: url("../images/pic/Path.png");
-    margin: 3% auto;
 }
 
 #left_bar {
@@ -325,7 +317,7 @@ footer {
     background-position: 100%;
     border-radius: 50px;
     position: fixed;
-    top: 5%;
+    top: 4%;
     left: 94%;
     &:hover {
         animation: push 0.5s ease forwards;
@@ -339,11 +331,13 @@ footer {
         background-position: 100%;
         border-radius: 50%;
         font-size: 20px;
+        font-weight: bolder;
+        color: #fff;
         margin: 3px auto 0 auto;
         text-align: center;
         line-height: 80px;
         &:hover {
-            color: #FF521C;
+            color: #ff754b;
         }
         &.left_1{
             background-image: url("../images/pic/選單.png");

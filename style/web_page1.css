@@ -818,7 +818,7 @@ footer {
   background-position: 100%;
   border-radius: 50px;
   position: fixed;
-  top: 5%;
+  top: 4%;
   left: 94%;
   z-index: 998;
 }
@@ -837,13 +837,15 @@ footer {
   display: block;
   border-radius: 50%;
   font-size: 20px;
+  font-weight: bolder;
+  color: #fff;
   margin: 3px auto 0 auto;
   text-align: center;
   line-height: 80px;
 }
 
 #left_bar > a:hover {
-  color: #FF521C;
+  color: #ff754b;
 }
 
 #left_bar > a.left_1 {
