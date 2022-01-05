@@ -105,6 +105,19 @@ header > h1 {
           animation: txt_show 3s forwards ease-in-out;
 }
 
+#interview_txt > p {
+  color: #3b3b3b;
+  font-size: 22px;
+  font-weight: bolder;
+  padding-top: 114%;
+  text-align: center;
+  line-height: 44px;
+}
+
+#interview_txt > p.hide {
+  display: none;
+}
+
 @-webkit-keyframes txt_show {
   0% {
     -webkit-transform: rotate(-30deg);
@@ -389,6 +402,13 @@ main {
   background-size: cover;
 }
 
+main > h1 {
+  font-size: 60px;
+  text-align: center;
+  padding: 5%;
+  color: #817669;
+}
+
 #wall {
   width: 90%;
   height: auto;
@@ -596,6 +616,20 @@ main {
 
 #infobox > div.hide {
   display: none;
+}
+
+#infobox > div > p {
+  font-size: 24px;
+  line-height: 44px;
+  font-weight: 800;
+  color: #4e3626;
+  padding: 25% 4% 0 4%;
+}
+
+#infobox > div > p > span {
+  font-size: 66px;
+  line-height: 50px;
+  color: #2bdbc4;
 }
 
 @-webkit-keyframes info_show {

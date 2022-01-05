@@ -95,6 +95,17 @@ header {
     &.show{
         animation: txt_show 3s forwards ease-in-out;
     }
+    >p{
+        color: rgb(59, 59, 59);
+        font-size: 22px;
+        font-weight: bolder;
+        padding-top: 114%;
+        text-align: center;
+        line-height: 44px;
+        &.hide{
+            display: none;
+        }
+    }
 }
 
 @keyframes txt_show{
@@ -250,12 +261,19 @@ header {
     background-size: cover;
 }
 
+
 main {
     width: 100%;
     height: auto;
     overflow: hidden;
     background-image: url("../images/pic/網頁背景.png");
     background-size: cover;
+    >h1{
+        font-size: 60px;
+        text-align: center;
+        padding: 5%;
+        color: #817669;
+    }
 }
 
 #wall {
@@ -389,6 +407,18 @@ main {
         margin: 3% auto 0 auto;
         &.hide{
             display: none;
+        }
+        >p{
+            font-size: 24px;
+            line-height: 44px;
+            font-weight: 800;
+            color: #4e3626;
+            padding: 25% 4% 0 4%;
+            >span{
+                font-size: 66px;
+                line-height: 50px;
+                color: #2bdbc4;
+            }
         }
     }
 }

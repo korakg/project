@@ -8,12 +8,16 @@ $(function(){
             $("#v2").removeClass("switch1 switch2 switch4")
             $("#v1").addClass("switch1")
             $("#v2").addClass("switch3")
+            $("#p1").addClass("hide")
+            $("#p2").removeClass("hide")
         }
         if(b==2){
             $("#v1").removeClass("switch1 switch2 switch4")
             $("#v2").removeClass("switch2 switch3 switch4")
             $("#v1").addClass("switch3")
             $("#v2").addClass("switch1")
+            $("#p2").addClass("hide")
+            $("#p1").removeClass("hide")
         }
     })
     $("#down_btn").click(function(){
@@ -24,12 +28,16 @@ $(function(){
             $("#v2").removeClass("switch1 switch3 switch4")
             $("#v1").addClass("switch4")
             $("#v2").addClass("switch2")
+            $("#p1").addClass("hide")
+            $("#p2").removeClass("hide")
         }
         if(b==2){
             $("#v1").removeClass("switch1 switch3 switch4")
             $("#v2").removeClass("switch1 switch2 switch3")
             $("#v1").addClass("switch2")
             $("#v2").addClass("switch4")
+            $("#p2").addClass("hide")
+            $("#p1").removeClass("hide")
         }
     })
 
