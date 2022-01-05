@@ -474,8 +474,7 @@ article {
   background-image: url("../images/pic/story/8.jpg");
 }
 
-.dog_pic7,
-.dog_pic8 {
+.dog_pic7 {
   background-image: url("../images/pic/9.jpg");
 }
 
@@ -492,9 +491,12 @@ article {
 }
 
 #story > p {
-  font-size: 23px;
+  font-size: 24px;
   text-align: center;
-  padding-top: 30%;
+  color: #f1f1f1;
+  font-weight: bold;
+  line-height: 48px;
+  padding-top: 47%;
   -webkit-animation: word_show 0.5s ease-in forwards;
           animation: word_show 0.5s ease-in forwards;
 }
@@ -529,7 +531,9 @@ article {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  margin: 55% auto 0 auto;
+  position: absolute;
+  top: 78%;
+  left: 14%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -672,12 +676,23 @@ article {
 }
 
 #story2 > p {
-  font-size: 23px;
+  font-size: 24px;
   text-align: center;
-  padding-top: 20%;
+  color: #f1f1f1;
+  font-weight: bold;
+  line-height: 48px;
   -webkit-animation: word_show 0.5s ease-in forwards;
           animation: word_show 0.5s ease-in forwards;
-  line-height: 60px;
+}
+
+#storyline_4 {
+  padding-top: 45%;
+}
+
+#storyline_5,
+#storyline_6,
+#storyline_7 {
+  padding-top: 37%;
 }
 
 #story2 > div {
@@ -735,10 +750,6 @@ article {
 
 #story2 > div > a.btn7 {
   background-image: url("../images/pic/換頁鍵/4.png");
-}
-
-#story2 > div > a.btn8 {
-  background-image: url("../images/pic/換頁鍵/5.png");
 }
 
 #page2_btn {

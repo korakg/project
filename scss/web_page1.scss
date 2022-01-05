@@ -381,8 +381,7 @@ article {
     background-image: url("../images/pic/story/8.jpg");
 }
 
-.dog_pic7,
-.dog_pic8 {
+.dog_pic7 {
     background-image: url("../images/pic/9.jpg");
 }
 
@@ -397,9 +396,12 @@ article {
     top: 16%;
     left:67%;
     >p {
-        font-size: 23px;
+        font-size: 24px;
         text-align: center;
-        padding-top: 30%;
+        color: rgb(241, 241, 241);
+        font-weight: bold;
+        line-height: 48px;
+        padding-top: 47%;
         animation: word_show 0.5s ease-in forwards;
     }
 }
@@ -425,7 +427,9 @@ article {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: 55% auto 0 auto;
+    position: absolute;
+    top: 78%;
+    left: 14%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -444,15 +448,9 @@ article {
             width: 65px;
             height: 65px;
         }
-        &.btn1{
-            background-image: url("../images/pic/換頁鍵/1.png");
-        }
-        &.btn2{
-            background-image: url("../images/pic/換頁鍵/2.png");
-        }
-        &.btn3{
-            background-image: url("../images/pic/換頁鍵/3.png");
-        }
+        &.btn1{background-image: url("../images/pic/換頁鍵/1.png");}
+        &.btn2{background-image: url("../images/pic/換頁鍵/2.png");}
+        &.btn3{background-image: url("../images/pic/換頁鍵/3.png");}
     }
 }
 
@@ -551,12 +549,21 @@ article {
     top: 12%;
     left:67%;
     >p {
-        font-size: 23px;
+        font-size: 24px;
         text-align: center;
-        padding-top: 20%;
+        color: rgb(241, 241, 241);
+        font-weight: bold;
+        line-height: 48px;
         animation: word_show 0.5s ease-in forwards;
-        line-height: 60px;
-    }       
+    }      
+}
+#storyline_4{
+    padding-top: 45%;
+}
+#storyline_5,
+#storyline_6,
+#storyline_7{
+    padding-top: 37%;
 }
 
 #story2>div {
@@ -592,7 +599,6 @@ article {
         &.btn5{background-image: url("../images/pic/換頁鍵/2.png");}
         &.btn6{background-image: url("../images/pic/換頁鍵/3.png");}
         &.btn7{background-image: url("../images/pic/換頁鍵/4.png");}
-        &.btn8{background-image: url("../images/pic/換頁鍵/5.png");}
     }
 }
 
