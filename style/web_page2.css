@@ -132,19 +132,19 @@ article > div {
 }
 
 .dog_pic1 {
-  background-image: url("../images/pic/story/6.jpg");
+  background-image: url("../images/pic/story/分支1/1.jpg");
 }
 
 .dog_pic2 {
-  background-image: url("../images/pic/story/握手1.jpg");
+  background-image: url("../images/pic/story/分支1/2.jpg");
 }
 
 .dog_pic3 {
-  background-image: url("../images/pic/story/被欺負.jpg");
+  background-image: url("../images/pic/story/分支1/3.jpg");
 }
 
 .dog_pic4 {
-  background-image: url("../images/pic/story/電線杆.jpg");
+  background-image: url("../images/pic/story/分支1/4.jpg");
 }
 
 .dog_pic5 {
@@ -168,6 +168,14 @@ article > div {
 }
 
 .dog_pic10 {
+  background-image: url("../images/pic/story/電線杆.jpg");
+}
+
+.dog_pic11 {
+  background-image: url("../images/pic/story/電線杆.jpg");
+}
+
+.dog_pic12 {
   background-image: url("../images/pic/story/電線杆.jpg");
 }
 
@@ -220,13 +228,13 @@ article > div {
 #story_Fir > div,
 #story_Sec > div,
 #story_Thr > div {
-  width: 72%;
+  width: 92%;
   height: 10%;
   overflow: hidden;
   background-image: url("../images/pic/換頁鍵/故事換頁面底框.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 89%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -237,7 +245,7 @@ article > div {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  left: 15%;
+  left: 4%;
   top: 78%;
 }
 
@@ -293,36 +301,48 @@ article > div {
 #story_Fir > div > a.btn5,
 #story_Sec > div > a.btn5,
 #story_Thr > div > a.btn5 {
-  background-image: url("../images/pic/換頁鍵/1.png");
+  background-image: url("../images/pic/換頁鍵/5.png");
 }
 
 #story_Fir > div > a.btn6,
 #story_Sec > div > a.btn6,
 #story_Thr > div > a.btn6 {
-  background-image: url("../images/pic/換頁鍵/2.png");
+  background-image: url("../images/pic/換頁鍵/6.png");
 }
 
 #story_Fir > div > a.btn7,
 #story_Sec > div > a.btn7,
 #story_Thr > div > a.btn7 {
-  background-image: url("../images/pic/換頁鍵/3.png");
+  background-image: url("../images/pic/換頁鍵/1.png");
 }
 
 #story_Fir > div > a.btn8,
 #story_Sec > div > a.btn8,
 #story_Thr > div > a.btn8 {
-  background-image: url("../images/pic/換頁鍵/1.png");
+  background-image: url("../images/pic/換頁鍵/2.png");
 }
 
 #story_Fir > div > a.btn9,
 #story_Sec > div > a.btn9,
 #story_Thr > div > a.btn9 {
-  background-image: url("../images/pic/換頁鍵/2.png");
+  background-image: url("../images/pic/換頁鍵/3.png");
 }
 
 #story_Fir > div > a.btn10,
 #story_Sec > div > a.btn10,
 #story_Thr > div > a.btn10 {
+  background-image: url("../images/pic/換頁鍵/1.png");
+}
+
+#story_Fir > div > a.btn11,
+#story_Sec > div > a.btn11,
+#story_Thr > div > a.btn11 {
+  background-image: url("../images/pic/換頁鍵/2.png");
+}
+
+#story_Fir > div > a.btn12,
+#story_Sec > div > a.btn12,
+#story_Thr > div > a.btn12 {
   background-image: url("../images/pic/換頁鍵/3.png");
 }
 
