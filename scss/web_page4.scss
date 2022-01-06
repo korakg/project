@@ -344,9 +344,16 @@ header {
     width: 100%;
     height: 700px;
     background-image: url("../images/pic/網頁背景.png");
+    >h1{
+        color: #CCD1E4;
+        font-size: 80px;
+        font-weight: bolder;
+        line-height: 100px;
+        letter-spacing: -5px;
+    }
     >div{
         width: 100%;
-        height: 90%;
+        height: 80%;
         display: grid;
         grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
         grid-template-rows: 100%;
@@ -354,13 +361,32 @@ header {
             width: 434px;
             height: 520px;
             background-image: url("../images/pic/page4/收容所框架.png");
+            position: relative;
             margin:auto;
+            >h1{
+                font-size: 30px;
+                font-weight: bolder;
+                color: #3E8E7E;
+                padding: 46% 7% 4% 7%;
+                &.p1{
+                    padding: 37% 7% 4% 7% ;
+                }
+            }
+            >p{
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: bold;
+                color: rgb(71, 71, 71);
+                padding: 0 9%;
+            }
             >a{
-                display: inline-block;
+                display:block;
+                position: absolute;
                 width: 157px;
                 height: 53px;
                 background-image: url("../images/pic/page4/收容所-按鈕.png");
-                margin: 100% 0 0 32%;
+                top:84%;
+                left: 46%;
             }
         }
     }

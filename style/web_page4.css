@@ -573,9 +573,17 @@ header > h1 > span {
   background-image: url("../images/pic/網頁背景.png");
 }
 
+#info > h1 {
+  color: #CCD1E4;
+  font-size: 80px;
+  font-weight: bolder;
+  line-height: 100px;
+  letter-spacing: -5px;
+}
+
 #info > div {
   width: 100%;
-  height: 90%;
+  height: 80%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: calc(100%/3) calc(100%/3) calc(100%/3);
@@ -588,15 +596,37 @@ header > h1 > span {
   width: 434px;
   height: 520px;
   background-image: url("../images/pic/page4/收容所框架.png");
+  position: relative;
   margin: auto;
 }
 
+#info > div > div > h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #3E8E7E;
+  padding: 46% 7% 4% 7%;
+}
+
+#info > div > div > h1.p1 {
+  padding: 37% 7% 4% 7%;
+}
+
+#info > div > div > p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #474747;
+  padding: 0 9%;
+}
+
 #info > div > div > a {
-  display: inline-block;
+  display: block;
+  position: absolute;
   width: 157px;
   height: 53px;
   background-image: url("../images/pic/page4/收容所-按鈕.png");
-  margin: 100% 0 0 32%;
+  top: 84%;
+  left: 46%;
 }
 
 #aboutUs {
