@@ -88,13 +88,18 @@ header {
         background-position: 100%;
         background-size: cover;
         margin-left: -12%;
+        position: relative;
         &.in{animation: in_left 1s forwards ease-out;}
         &.out{animation: out_left 1s forwards ease-out;}
-        >img{
+        >div{
             width: 350px;
             height: 350px;
             border-radius: 5%;
-            margin: -3% auto 0 auto;
+            position: absolute;
+            background-image: url("../images/pic/page4/寵物認養.png");
+            background-size: cover;
+            top:-15%;
+            left: 25%;
         }
     }
     >h1{
@@ -158,14 +163,19 @@ header {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0%;
+        position: relative;
         margin-left: 77%;
         &.in{animation: in_right 1s forwards ease-out;}
         &.out{animation: out_right 1s forwards ease-out;}
-        >img{
+        >div{
             width: 350px;
             height: 350px;
             border-radius: 5%;
-            margin: -3% auto 0 auto;
+            position: absolute;
+            background-image: url("../images/pic/page4/志工招募.png");
+            background-size: 115%;
+            top: -21%;
+            left: 20%;
         }
     }
     >h1{
@@ -204,14 +214,19 @@ header {
         background-repeat: no-repeat;
         background-position: 100%;
         background-size: cover;
+        position: relative;
         margin-left: -12%;
         &.in{animation: in_left 1s forwards ease-out;}
         &.out{animation: out_left 1s forwards ease-out;}
-        >img{
+        >div{
             width: 350px;
             height: 350px;
             border-radius: 5%;
-            margin: -3% auto 0 auto;
+            background-image: url("../images/pic/page4/線上捐款.png");
+            background-size: 115%;
+            position: absolute;
+            top:-19%;
+            left: 22%;
         }      
     }
     >h1{
@@ -250,14 +265,19 @@ header {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0%;
+        position: relative;
         margin-left: 77%;
         &.in{animation: in_right 1s forwards ease-out;}
         &.out{animation: out_right 1s forwards ease-out;}
-        >img{
+        >div{
             width: 350px;
             height: 350px;
             border-radius: 5%;
-            margin: -3% auto 0 auto;
+            position: absolute;
+            background-image: url("../images/pic/page4/寵物陪睡.png");
+            background-size: 113%;
+            top: -21%;
+            left: 20%;
         }
     }
     >h1{
@@ -296,14 +316,19 @@ header {
         background-repeat: no-repeat;
         background-position: 100%;
         background-size: cover;
+        position: relative;
         margin-left: -12%;
         &.in{animation: in_left 1s forwards ease-out;}
         &.out{animation: out_left 1s forwards ease-out;}
-        >img{
+        >div{
             width: 350px;
             height: 350px;
             border-radius: 5%;
-            margin: -3% auto 0 auto;
+            background-image: url("../images/pic/page4/贊助商品.png");
+            background-size: cover;
+            position: absolute;
+            top:-15%;
+            left: 25%;
         }    
     }
     >h1{
