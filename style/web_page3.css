@@ -615,7 +615,6 @@ main > h1 {
   -webkit-animation: info_show 0.6s forwards ease-out;
           animation: info_show 0.6s forwards ease-out;
   background-image: url("../images/pic/page3/九宮格點擊後視窗.png");
-  background-repeat: no-repeat;
   margin: 3% auto 0 auto;
   position: relative;
 }

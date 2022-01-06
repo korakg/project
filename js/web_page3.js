@@ -83,40 +83,40 @@ $(function(){
         $("#infobox").removeClass("hide")
         $("#info9").removeClass("hide")
     })
-    $("#info1>a").click(function(){
-        $("#infobox").addClass("hide")
+    $("#info1 a").click(function(){
         $("#info1").addClass("hide")
-    })
-    $("#info2>a").click(function(){
         $("#infobox").addClass("hide")
+    })
+    $("#info2 a").click(function(){
         $("#info2").addClass("hide")
-    })
-    $("#info3>a").click(function(){
         $("#infobox").addClass("hide")
+    })
+    $("#info3 a").click(function(){
         $("#info3").addClass("hide")
-    })
-    $("#info4>a").click(function(){
         $("#infobox").addClass("hide")
+    })
+    $("#info4 a").click(function(){
         $("#info4").addClass("hide")
-    })
-    $("#info5>a").click(function(){
         $("#infobox").addClass("hide")
+    })
+    $("#info5 a").click(function(){
+        $("#info5").addClass("hide")
+        $("#infobox").addClass("hide")
+    })
+    $("#info6 a").click(function(){
         $("#info6").addClass("hide")
-    })
-    $("#info6>a").click(function(){
         $("#infobox").addClass("hide")
-        $("#info6").addClass("hide")
     })
-    $("#info7>a").click(function(){
-        $("#infobox").addClass("hide")
+    $("#info7 a").click(function(){
         $("#info7").addClass("hide")
-    })
-    $("#info8>a").click(function(){
         $("#infobox").addClass("hide")
+    })
+    $("#info8 a").click(function(){
         $("#info8").addClass("hide")
-    })
-    $("#info9>a").click(function(){
         $("#infobox").addClass("hide")
+    })
+    $("#info9 a").click(function(){
         $("#info9").addClass("hide")
+        $("#infobox").addClass("hide")
     })
 })
