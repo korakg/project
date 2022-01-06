@@ -49,6 +49,8 @@ header {
     height: 333px;
     position: relative;
     background-image: url("../images/pic/page4/照片鍊子上層.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     >img{
         position: absolute;
         &.pic1{
