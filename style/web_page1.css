@@ -63,7 +63,7 @@ header {
   position: absolute;
   left: 0;
   top: 80%;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 90px;
   text-align: center;
   line-height: 100px;
@@ -77,25 +77,20 @@ header {
   background-image: url("../images/pic/網頁背景.png");
 }
 
-#street > img {
-  margin: 0 auto;
-  padding-top: 5%;
-}
-
 #street > div {
   width: 100%;
   height: 1080px;
   overflow: hidden;
   background-image: url("../images/pic/街頭.jpg");
   background-size: cover;
-  margin: 5% auto 5% auto;
   position: relative;
 }
 
 #infopic_1 {
   position: absolute;
-  width: 240px;
+  width: 230px;
   height: 500px;
+  display: inline-block;
   top: 43%;
   left: 26%;
 }
@@ -104,120 +99,167 @@ header {
   position: absolute;
   width: 300px;
   height: 500px;
+  display: inline-block;
   top: 46%;
   left: 43%;
 }
 
 #infopic_3 {
   position: absolute;
-  width: 240px;
+  width: 200px;
   height: 480px;
+  display: inline-block;
   top: 46%;
-  left: 64%;
+  left: 65%;
 }
 
 #info_1 {
-  width: 60px;
-  height: 50px;
-  overflow: hidden;
+  width: 529px;
+  height: 463px;
   background-image: url("../images/pic/狗背景視窗.png");
   background-size: cover;
   background-position: 50% 50%;
-  line-height: 30px;
   display: inline-block;
   position: absolute;
-  color: #fff;
-  padding: 0 15px;
-  top: 58%;
-  left: 28%;
+  top: 23%;
+  left: 41%;
+  opacity: 0;
   z-index: -1;
+}
+
+#info_1.show {
+  -webkit-animation: show 1s forwards;
+          animation: show 1s forwards;
+}
+
+#info_1 > a {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 18px 0 0 445px;
+}
+
+#info_1 > a:hover {
+  border: solid 2px #444444;
+}
+
+#info_1 > h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 72px 0 45px 160px;
+}
+
+#info_1 > p {
+  padding: 0 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #14213D;
 }
 
 #info_2 {
-  width: 60px;
-  height: 50px;
-  overflow: hidden;
+  width: 529px;
+  height: 463px;
   background-image: url("../images/pic/狗背景視窗.png");
   background-size: cover;
-  line-height: 30px;
-  display: inline-block;
+  display: block;
   position: absolute;
-  color: #fff;
-  padding: 0 15px;
-  top: 58%;
-  left: 48%;
+  top: 12%;
+  left: 54%;
+  opacity: 0;
   z-index: -1;
+}
+
+#info_2.show {
+  -webkit-animation: show 1s forwards;
+          animation: show 1s forwards;
+}
+
+#info_2 > a {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 18px 0 0 445px;
+}
+
+#info_2 > a:hover {
+  border: solid 2px #444444;
+}
+
+#info_2 > h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 72px 0 45px 160px;
+}
+
+#info_2 > p {
+  padding: 0 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #14213D;
 }
 
 #info_3 {
-  width: 60px;
-  height: 50px;
-  overflow: hidden;
+  width: 529px;
+  height: 463px;
   background-image: url("../images/pic/狗背景視窗.png");
   background-size: cover;
-  line-height: 30px;
-  display: inline-block;
+  display: block;
   position: absolute;
-  color: #fff;
-  padding: 0 15px;
-  top: 58%;
-  left: 67%;
+  top: 25%;
+  left: 34%;
+  opacity: 0;
   z-index: -1;
 }
 
-#info_1 > h1,
-#info_2 > h1,
-#info_3 > h1 {
-  padding: 10px 0;
+#info_3.show {
+  -webkit-animation: show 1s forwards;
+          animation: show 1s forwards;
 }
 
-#infopic_1:hover ~ #info_1,
-#infopic_2:hover ~ #info_2,
-#infopic_3:hover ~ #info_3 {
-  -webkit-animation: show 0.6s forwards;
-          animation: show 0.6s forwards;
+#info_3 > a {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 18px 0 0 445px;
+}
+
+#info_3 > a:hover {
+  border: solid 2px #444444;
+}
+
+#info_3 > h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 72px 0 45px 160px;
+}
+
+#info_3 > p {
+  padding: 0 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #14213D;
 }
 
 @-webkit-keyframes show {
   0% {
-    opacity: 0;
-  }
-  60% {
-    z-index: 1;
-  }
-  99% {
-    color: #fff;
-    z-index: 1;
   }
   100% {
     opacity: 1;
-    width: 400px;
-    height: 300px;
-    -webkit-transform: translateX(-160px) translateY(-450px);
-            transform: translateX(-160px) translateY(-450px);
-    color: black;
     z-index: 1;
   }
 }
 
 @keyframes show {
   0% {
-    opacity: 0;
-  }
-  60% {
-    z-index: 1;
-  }
-  99% {
-    color: #fff;
-    z-index: 1;
   }
   100% {
     opacity: 1;
-    width: 400px;
-    height: 300px;
-    -webkit-transform: translateX(-160px) translateY(-450px);
-            transform: translateX(-160px) translateY(-450px);
-    color: black;
     z-index: 1;
   }
 }
@@ -235,9 +277,7 @@ aside > div {
   width: 100%;
   height: auto;
   overflow: hidden;
-  padding-top: 257px;
-  padding-bottom: 197px;
-  padding-left: 75px;
+  padding: 450px 0 150px 75px;
 }
 
 aside > div > div {
@@ -251,16 +291,6 @@ aside > div > h2 {
   font-size: 50px;
   color: #fff;
   padding-left: 50px;
-}
-
-#icon1 {
-  width: 111px;
-  height: 111px;
-  overflow: hidden;
-  background-image: url("../images/pic/circle.png");
-  background-repeat: no-repeat;
-  padding: 0;
-  margin: 0 auto 122px auto;
 }
 
 #aside2 {

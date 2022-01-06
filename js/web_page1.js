@@ -109,7 +109,7 @@ $(function() {
             $("#aside2>p").removeClass("in")
             $("#aside2>p").addClass("out")
         }
-        if (scrollVal >= 4400 && scrollVal <= 5000) {
+        if (scrollVal >= 4200 && scrollVal <= 4600) {
             $("#aside3>p").addClass("in")
             $("#aside3>p").removeClass("out")
         } else {
@@ -122,5 +122,23 @@ $(function() {
     })
     $("#back_btn").click(function() {
         $("#black").addClass("hide")
+    })
+    $("#infopic_1").click(function(){
+        $("#info_1").addClass("show")
+    })
+    $("#infopic_2").click(function(){
+        $("#info_2").addClass("show")
+    })
+    $("#infopic_3").click(function(){
+        $("#info_3").addClass("show")
+    })
+    $("#info_1>a").click(function(){
+        $("#info_1").removeClass("show")
+    })
+    $("#info_2>a").click(function(){
+        $("#info_2").removeClass("show")
+    })
+    $("#info_3>a").click(function(){
+        $("#info_3").removeClass("show")
     })
 })
