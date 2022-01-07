@@ -283,37 +283,38 @@ aside {
 }
 
 #chain_circle{
-    width: calc(153px*0.3);
-    height: calc(249px*0.3);
-    background-image: url("../images/pic/page1/拉桿連接.png");
-    background-size: cover;
+    width: calc(153px*0.5);
+    height: calc(249px*0.5);
+    background-image: url("../images/pic/page1/778.png");
+    background-size: 300%;
+    background-position: -13% 150%;
     position: absolute;
     top:9%;
-    left: 75%;
+    left: 67%;
 }
 
 #chain_rod{
-    width: 42px;
-    height: 140px;
-    background-image: url("../images/pic/page1/拉桿.png");
+    width: 145px;
+    height: 125px;
+    background-image: url("../images/pic/page1/777.png");
     background-size: cover;
     position: absolute;
-    top: 0%;
-    left: 78%;
+    top: 3.3%;
+    left: 76%;
     animation: rod_spin 5s infinite ease-in-out;
-    transform-origin: bottom;
+    transform-origin: bottom left;
     
 }
 
 @keyframes rod_spin{
     0%{
-        transform: rotate(45deg);
+        transform: rotate(10deg);
     }
     50%{
-        transform: rotate(135deg);
+        transform: rotate(45deg);
     }
     100%{
-        transform: rotate(45deg);
+        transform: rotate(10deg);
     }
 }
 

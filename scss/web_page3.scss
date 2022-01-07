@@ -289,7 +289,7 @@ main {
         width: 418px;
         height: 418px;
         overflow: hidden;
-        border-radius: 40px;
+        border-radius: 30px;
         margin: 75px auto;
         &:hover{
             animation: touch 0.3s forwards;
@@ -366,17 +366,20 @@ main {
 
 #wall-7{
     background-image: url("../images/pic/page3/九宮格子3.png");
+    background-size: cover;
     grid-column: 1/2;
     grid-row: 3/4;
 }
 #wall-8 {
     background-image: url("../images/pic/page3/九宮格子3.png");
+    background-size: cover;
     grid-column: 2/3;
     grid-row: 3/4;
 }
 
 #wall-9 {
     background-image: url("../images/pic/page3/九宮格子3.png");
+    background-size: cover;
     grid-column: 3/4;
     grid-row: 3/4;
 }

@@ -427,7 +427,7 @@ main > h1 {
   width: 418px;
   height: 418px;
   overflow: hidden;
-  border-radius: 40px;
+  border-radius: 30px;
   margin: 75px auto;
 }
 
@@ -547,6 +547,7 @@ main > h1 {
 
 #wall-7 {
   background-image: url("../images/pic/page3/九宮格子3.png");
+  background-size: cover;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
@@ -557,6 +558,7 @@ main > h1 {
 
 #wall-8 {
   background-image: url("../images/pic/page3/九宮格子3.png");
+  background-size: cover;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -567,6 +569,7 @@ main > h1 {
 
 #wall-9 {
   background-image: url("../images/pic/page3/九宮格子3.png");
+  background-size: cover;
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
