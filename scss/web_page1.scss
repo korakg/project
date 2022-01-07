@@ -257,7 +257,7 @@ aside {
     height: auto;
     overflow: hidden;
     position: relative;
-    background-image: url("../images/pic/網頁背景.png");
+    background-image: url("../images/pic/網頁背景修改.jpg");
     text-align: center;
     >p {
         -webkit-user-select: none;
@@ -348,8 +348,9 @@ article {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-image: url(../images/pic/網頁背景.png);
+    background-image: url("../images/pic/網頁背景修改.jpg");
     background-size: cover;
+    background-position: 50% 29%;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -469,7 +470,8 @@ article {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-image: url("../images/pic/網頁背景.png");
+    background-image: url("../images/pic/網頁背景修改.jpg");
+    background-position: 50% 50%;
     background-size: cover;
     position: relative;
     >div{
@@ -500,8 +502,9 @@ article {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-image: url(../images/pic/網頁背景.png);
+    background-image: url("../images/pic/網頁背景修改.jpg");
     background-size: cover;
+    background-position: 50% 85%;
     background-repeat: no-repeat;
     position: relative;
 }
