@@ -11,6 +11,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 img {
@@ -67,7 +68,8 @@ header > h1 > span {
   width: 100%;
   height: auto;
   overflow: hidden;
-  background-image: url("../images/pic/網頁背景.png");
+  background-image: url("../images/pic/網頁背景修改.jpg");
+  background-size: cover;
 }
 
 #section_1 {
@@ -651,9 +653,17 @@ header > h1 > span {
   position: absolute;
   width: 157px;
   height: 53px;
+  color: #CCD1E4;
+  text-align: center;
+  font-size: 24px;
+  line-height: 55px;
   background-image: url("../images/pic/page4/收容所-按鈕.png");
   top: 84%;
   left: 46%;
+}
+
+#info > div > div > a:hover {
+  color: #fff;
 }
 
 #aboutUs {
