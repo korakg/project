@@ -114,9 +114,9 @@ header {
 }
 
 #info_1 {
-  width: 529px;
-  height: 463px;
-  background-image: url("../images/pic/狗背景視窗.png");
+  width: calc(736px*0.6);
+  height: calc(921px*0.6);
+  background-image: url("../images/pic/page1/新視窗.png");
   background-size: cover;
   background-position: 50% 50%;
   display: inline-block;
@@ -159,9 +159,9 @@ header {
 }
 
 #info_2 {
-  width: 529px;
-  height: 463px;
-  background-image: url("../images/pic/狗背景視窗.png");
+  width: calc(736px*0.6);
+  height: calc(921px*0.6);
+  background-image: url("../images/pic/page1/新視窗.png");
   background-size: cover;
   display: block;
   position: absolute;
@@ -203,9 +203,9 @@ header {
 }
 
 #info_3 {
-  width: 529px;
-  height: 463px;
-  background-image: url("../images/pic/狗背景視窗.png");
+  width: calc(736px*0.6);
+  height: calc(921px*0.6);
+  background-image: url("../images/pic/page1/新視窗.png");
   background-size: cover;
   display: block;
   position: absolute;
@@ -518,7 +518,7 @@ article {
 }
 
 .dog_pic7 {
-  background-image: url("../images/pic/9.jpg");
+  background-image: url("../images/pic/story/7.jpg");
 }
 
 #story {
