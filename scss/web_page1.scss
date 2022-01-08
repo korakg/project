@@ -48,7 +48,7 @@ header {
         position: absolute;
         left: 0;
         top: 0;
-        background-color: rgba(255, 177, 153, 0.8);
+        background-color: rgba(255, 255, 255, 0.3);
         mix-blend-mode: screen;
     }
     >h1{
@@ -583,10 +583,12 @@ article {
 #storyline_4{
     padding-top: 45%;
 }
-#storyline_5,
 #storyline_6,
 #storyline_7{
     padding-top: 37%;
+}
+#storyline_5{
+    padding-top: 33%;
 }
 
 #story2>div {

@@ -446,8 +446,9 @@ main > h1 {
   height: 15%;
   display: block;
   background-image: url("../images/pic/page3/九宮格 放大鍵.png");
-  background-size: cover;
+  background-size: 106%;
   margin-top: -20%;
+  background-position: 140% 50%;
 }
 
 @-webkit-keyframes flyIn {
@@ -475,7 +476,7 @@ main > h1 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
-  background-image: url("../images/pic/page3/九宮格子1.png");
+  background-image: url("../images/pic/wall_1.JPG");
   background-size: cover;
   background-repeat: no-repeat;
 }
