@@ -92,10 +92,11 @@ header {
         position: relative;
         &.in{animation: in_left 1s forwards ease-out;}
         &.out{animation: out_left 1s forwards ease-out;}
-        >div{
+        >a{
             width: 300px;
             height: 300px;
-            border-radius: 5%;
+            border-radius: 50%;
+            display: block;
             position: absolute;
             background-image: url("../images/pic/page4/寵物認養.png");
             background-size: cover;
@@ -168,10 +169,11 @@ header {
         margin-left: 77%;
         &.in{animation: in_right 1s forwards ease-out;}
         &.out{animation: out_right 1s forwards ease-out;}
-        >div{
+        >a{
             width: 300px;
             height: 300px;
-            border-radius: 5%;
+            border-radius: 50%;
+            display: block;
             position: absolute;
             background-image: url("../images/pic/page4/志工招募.png");
             background-size: 115%;
@@ -219,10 +221,11 @@ header {
         margin-left: -12%;
         &.in{animation: in_left 1s forwards ease-out;}
         &.out{animation: out_left 1s forwards ease-out;}
-        >div{
+        >a{
             width: 300px;
             height: 300px;
-            border-radius: 5%;
+            border-radius: 50%;
+            display: block;
             background-image: url("../images/pic/page4/線上捐款.png");
             background-size: 115%;
             position: absolute;
@@ -270,10 +273,11 @@ header {
         margin-left: 77%;
         &.in{animation: in_right 1s forwards ease-out;}
         &.out{animation: out_right 1s forwards ease-out;}
-        >div{
+        >a{
             width: 300px;
             height: 300px;
-            border-radius: 5%;
+            display: block;
+            border-radius: 50%;
             position: absolute;
             background-image: url("../images/pic/page4/寵物陪睡.png");
             background-size: 113%;
@@ -321,10 +325,11 @@ header {
         margin-left: -12%;
         &.in{animation: in_left 1s forwards ease-out;}
         &.out{animation: out_left 1s forwards ease-out;}
-        >div{
+        >a{
             width: 300px;
             height: 300px;
-            border-radius: 5%;
+            border-radius: 50%;
+            display: block;
             background-image: url("../images/pic/page4/贊助商品.png");
             background-size: cover;
             position: absolute;

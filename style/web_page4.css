@@ -99,10 +99,11 @@ header > h1 > span {
           animation: out_left 1s forwards ease-out;
 }
 
-#section_1 > div > div {
+#section_1 > div > a {
   width: 300px;
   height: 300px;
-  border-radius: 5%;
+  border-radius: 50%;
+  display: block;
   position: absolute;
   background-image: url("../images/pic/page4/寵物認養.png");
   background-size: cover;
@@ -294,10 +295,11 @@ header > h1 > span {
           animation: out_right 1s forwards ease-out;
 }
 
-#section_2 > div > div {
+#section_2 > div > a {
   width: 300px;
   height: 300px;
-  border-radius: 5%;
+  border-radius: 50%;
+  display: block;
   position: absolute;
   background-image: url("../images/pic/page4/志工招募.png");
   background-size: 115%;
@@ -373,10 +375,11 @@ header > h1 > span {
           animation: out_left 1s forwards ease-out;
 }
 
-#section_3 > div > div {
+#section_3 > div > a {
   width: 300px;
   height: 300px;
-  border-radius: 5%;
+  border-radius: 50%;
+  display: block;
   background-image: url("../images/pic/page4/線上捐款.png");
   background-size: 115%;
   position: absolute;
@@ -452,10 +455,11 @@ header > h1 > span {
           animation: out_right 1s forwards ease-out;
 }
 
-#section_4 > div > div {
+#section_4 > div > a {
   width: 300px;
   height: 300px;
-  border-radius: 5%;
+  display: block;
+  border-radius: 50%;
   position: absolute;
   background-image: url("../images/pic/page4/寵物陪睡.png");
   background-size: 113%;
@@ -531,10 +535,11 @@ header > h1 > span {
           animation: out_left 1s forwards ease-out;
 }
 
-#section_5 > div > div {
+#section_5 > div > a {
   width: 300px;
   height: 300px;
-  border-radius: 5%;
+  border-radius: 50%;
+  display: block;
   background-image: url("../images/pic/page4/贊助商品.png");
   background-size: cover;
   position: absolute;
