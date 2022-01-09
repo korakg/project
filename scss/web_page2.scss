@@ -477,6 +477,52 @@ article>div {
             border: 2px solid rgb(99, 99, 99);
         }
     }
+    >div{
+        width: 90%;
+        height: 78%;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50% 50%;
+        top: 14%;
+        left: 7%;
+        >div{
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            background-size: cover;
+        }
+        >h1{
+            display: block;
+            font-size: 30px;
+            font-weight: bolder;
+            text-align: center;
+            color: #152850;
+            line-height: 295px;
+            text-shadow: -2px 2px #BDAEAE;
+        }
+    } 
+}
+
+#member1{
+    background-image: url("../images/pic/aboutUs/鍾.JPG");
+    background-position: 36% 50%;
+    margin: auto;
+}
+#member2{
+    background-image: url("../images/pic/aboutUs/林.jpeg");
+    background-position: 57% 50%;
+    margin:auto 0 auto 15%;
+}
+#member3{
+    background-image: url("../images/pic/aboutUs/蔡.JPG");
+    background-position: 43% 50%;
+    margin: auto;
+}
+#member4{
+    background-image: url("../images/pic/aboutUs/趙.JPG");
+    background-position: 69% 50%;
+    margin:auto 0 auto 15%;
 }
 
 footer {
