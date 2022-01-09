@@ -917,7 +917,7 @@ footer {
   height: 86px;
   overflow: hidden;
   background-image: url("../images/pic/選單內底框.png");
-  background-size: cover;
+  background-size: 100% 120%;
   background-position: 100% 50%;
   border-radius: 50px;
   position: fixed;

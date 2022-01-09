@@ -77,4 +77,7 @@ $(function(){
             $("#section_5>p").removeClass("word_show")
         }
     });
+    $("#about_btn").click(function(){
+        $("#abuotUs").removeClass("hide")
+    })
 })
