@@ -397,10 +397,48 @@ header > h1 {
 
 #talk {
   width: 100%;
-  height: auto;
-  overflow: hidden;
+  height: 1350px;
   background-image: url("../images/pic/網頁背景修改.jpg");
   background-size: cover;
+  background-position: 50% 26%;
+  position: relative;
+}
+
+#talk > img {
+  position: absolute;
+  z-index: 1;
+}
+
+#talk > img.img1 {
+  width: calc(898px*0.7);
+  height: calc(1140px*0.7);
+  top: 0%;
+  left: 0%;
+}
+
+#talk > img.img2 {
+  width: calc(1018px*0.7);
+  height: calc(1099px*0.7);
+  top: 40%;
+  right: 0%;
+}
+
+#talk h1 {
+  font-size: 50px;
+  color: #7a563e;
+  font-weight: bolder;
+  z-index: 2;
+  position: absolute;
+}
+
+#talk h1.txt1 {
+  top: 7%;
+  left: 8%;
+}
+
+#talk h1.txt2 {
+  top: 51%;
+  left: 66%;
 }
 
 main {
@@ -409,7 +447,7 @@ main {
   overflow: hidden;
   background-image: url("../images/pic/網頁背景修改.jpg");
   background-size: cover;
-  background-position: 50% 32%;
+  background-position: 50% 67%;
 }
 
 #wall {
@@ -429,6 +467,7 @@ main {
   height: 418px;
   overflow: hidden;
   border-radius: 30px;
+  position: relative;
   margin: 75px auto;
 }
 
@@ -440,6 +479,29 @@ main {
 #wall > div:hover > a {
   -webkit-animation: flyIn 0.6s forwards ease-out;
           animation: flyIn 0.6s forwards ease-out;
+}
+
+#wall > div:hover > h1 {
+  -webkit-animation: flyIn2 0.6s forwards ease-out;
+          animation: flyIn2 0.6s forwards ease-out;
+}
+
+#wall > div > h1 {
+  width: 100%;
+  display: block;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #f5c55e;
+  line-height: 72px;
+  position: absolute;
+  text-align: center;
+  top: 110%;
+  left: 0%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #wall > div > a {
@@ -467,6 +529,18 @@ main {
   }
   100% {
     margin-top: 25%;
+  }
+}
+
+@-webkit-keyframes flyIn2 {
+  100% {
+    top: 75%;
+  }
+}
+
+@keyframes flyIn2 {
+  100% {
+    top: 75%;
   }
 }
 
@@ -586,8 +660,8 @@ main {
   100% {
     -webkit-transform: scale(1.1, 1.1);
             transform: scale(1.1, 1.1);
-    -webkit-box-shadow: -20px 10px 10px #313131;
-            box-shadow: -20px 10px 10px #313131;
+    -webkit-box-shadow: -20px 10px 8px #313131;
+            box-shadow: -20px 10px 8px #313131;
   }
 }
 
@@ -597,8 +671,8 @@ main {
   100% {
     -webkit-transform: scale(1.1, 1.1);
             transform: scale(1.1, 1.1);
-    -webkit-box-shadow: -20px 10px 10px #313131;
-            box-shadow: -20px 10px 10px #313131;
+    -webkit-box-shadow: -20px 10px 8px #313131;
+            box-shadow: -20px 10px 8px #313131;
   }
 }
 
@@ -644,18 +718,21 @@ main {
   background-color: rgba(255, 234, 43, 0.5);
 }
 
+#infobox > div > h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  letter-spacing: -3px;
+  line-height: 60px;
+  color: dimgray;
+  padding: 11% 0 0 7%;
+}
+
 #infobox > div > p {
   font-size: 24px;
   line-height: 44px;
   font-weight: 800;
   color: #4e3626;
-  padding: 25% 4% 0 4%;
-}
-
-#infobox > div > p > span {
-  font-size: 66px;
-  line-height: 50px;
-  color: #2bdbc4;
+  padding: 7% 4% 0 4%;
 }
 
 @-webkit-keyframes info_show {
