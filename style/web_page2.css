@@ -483,24 +483,24 @@ article > div {
 #info1,
 #info2,
 #info3 {
-  width: 1500px;
-  height: 1080px;
+  width: 1650px;
+  height: 1100px;
   background-image: url("../images/pic/page2/知識點框.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  margin-left: 8%;
+  margin-left: 2%;
   position: relative;
 }
 
 #info1 > div,
 #info2 > div,
 #info3 > div {
-  width: 180px;
-  height: 180px;
+  width: 220px;
+  height: 220px;
   position: absolute;
-  top: 9%;
-  left: -3%;
+  top: 12%;
+  left: 3%;
   background-repeat: no-repeat;
 }
 
@@ -535,7 +535,7 @@ article > div {
   color: #8a8888;
   font-size: 60px;
   font-weight: bolder;
-  padding: 15% 0 0 0;
+  padding: 18% 0 0 6%;
 }
 
 #info1 > h1 span,
@@ -552,14 +552,26 @@ article > div {
   font-weight: bold;
   line-height: 45px;
   float: left;
-  padding: 1% 0 0 5%;
+  padding: 1% 0 0 13%;
 }
 
 #info1 > p.p3,
 #info2 > p.p3,
 #info3 > p.p3 {
   text-align: center;
-  padding: 5% 0 0 10%;
+  padding: 5% 0 0 17%;
+}
+
+#info1 > p.p1L,
+#info2 > p.p1L,
+#info3 > p.p1L {
+  padding: 1% 0 0 14%;
+}
+
+#info1 > p.p1R,
+#info2 > p.p1R,
+#info3 > p.p1R {
+  padding: 1% 0 0 3%;
 }
 
 #story_end {
