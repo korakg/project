@@ -25,14 +25,17 @@ header {
 }
 
 header > h1 {
+  font-size: 70px;
+  color: white;
   position: absolute;
-  left: 75%;
-  top: 65%;
-  font-weight: bolder;
+  line-height: 70px;
+  top: 83%;
+  left: 66%;
+  text-align: right;
+}
+
+header > h1 span {
   font-size: 60px;
-  text-align: center;
-  line-height: 100px;
-  color: black;
 }
 
 #logo {
@@ -70,11 +73,11 @@ header > h1 {
   width: 0;
   height: 0;
   position: absolute;
-  top: 12%;
-  left: 58%;
+  top: 45%;
+  left: 66%;
   border-style: solid;
-  border-width: 0 0 800px 800px;
-  border-color: transparent transparent #fff transparent;
+  border-width: 0 0 500px 650px;
+  border-color: transparent transparent #daac81 transparent;
 }
 
 #interview {
