@@ -496,11 +496,11 @@ article > div {
 #info1 > div,
 #info2 > div,
 #info3 > div {
-  width: 220px;
-  height: 220px;
+  width: 270px;
+  height: 270px;
   position: absolute;
-  top: 12%;
-  left: 3%;
+  top: 10%;
+  left: 1.5%;
   background-repeat: no-repeat;
 }
 
@@ -508,16 +508,16 @@ article > div {
 #info2 > div.white,
 #info3 > div.white {
   background-image: url("../images/pic/page2/小白.png");
-  background-size: 100%;
-  background-position: center;
+  background-size: 110%;
+  background-position: 75% 100%;
 }
 
 #info1 > div.black,
 #info2 > div.black,
 #info3 > div.black {
   background-image: url("../images/pic/page2/小黑.png");
-  background-size: 240%;
-  background-position: 60% 50%;
+  background-size: 250%;
+  background-position: 59% 120%;
 }
 
 #info1 > div.yellow,
@@ -525,7 +525,7 @@ article > div {
 #info3 > div.yellow {
   background-image: url("../images/pic/page2/小黃.png");
   background-size: 100%;
-  background-position: center;
+  background-position: 50% 50%;
 }
 
 #info1 > h1,
