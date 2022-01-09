@@ -413,14 +413,14 @@ header > h1 {
   width: calc(898px*0.7);
   height: calc(1140px*0.7);
   top: 0%;
-  left: 0%;
+  left: 10%;
 }
 
 #talk > img.img2 {
   width: calc(1018px*0.7);
   height: calc(1099px*0.7);
   top: 40%;
-  right: 0%;
+  right: 10%;
 }
 
 #talk h1 {
@@ -433,12 +433,12 @@ header > h1 {
 
 #talk h1.txt1 {
   top: 7%;
-  left: 8%;
+  left: 18%;
 }
 
 #talk h1.txt2 {
   top: 51%;
-  left: 66%;
+  left: 56%;
 }
 
 main {
