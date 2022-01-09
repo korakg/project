@@ -367,72 +367,79 @@ main {
 #wall-1 {
     grid-column: 1/2;
     grid-row: 1/2;
-    background-image: url("../images/pic/wall_1.JPG");
+    background-image: url("../images/pic/page3/九宮格圖片/狗狗1.jpg");
     background-size: cover;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
 #wall-2 {
     grid-column: 2/3;
     grid-row: 1/2;
-    background-image: url("../images/pic/page3/九宮格子1.png");
+    background-image: url("../images/pic/page3/九宮格圖片/狗狗2.jpg");
     background-size: cover;
-    background-position: 50% 12%;
+    background-position: 90% 0%;
     background-repeat: no-repeat;
 }
 
 #wall-3 {
     grid-column: 3/4;
     grid-row: 1/2;
-    background-image: url("../images/pic/page3/九宮格子1.png");
+    background-image: url("../images/pic/page3/九宮格圖片/狗狗3.jpg");
     background-size: cover;
-    background-position: 50%;
+    background-position: 50% 25%;
     background-repeat: no-repeat;
 }
 
 #wall-4 {
     grid-column: 1/2;
     grid-row: 2/3;
-    background-image: url("../images/pic/page3/九宮格子2.png");
+    background-image: url("../images/pic/page3/九宮格圖片/狗狗4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 84%;
+    background-position: 66% 50%;
 }
 
 #wall-5 {
     grid-column: 2/3;
     grid-row: 2/3;
-    background-image: url("../images/pic/page3/九宮格子2.png");
+    background-image: url("../images/pic/page3/九宮格圖片/狗狗5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 42%;
+    background-position: 50% 50%;
 }
 
 #wall-6 {
     grid-column: 3/4;
     grid-row: 2/3;
-    background-image: url("../images/pic/page3/九宮格子2.png");
+    background-image: url("../images/pic/page3/九宮格圖片/狗狗6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 40%;
+    background-position: 50% 50%;
 }
 
 #wall-7{
-    background-image: url("../images/pic/page3/九宮格子3.png");
+    background-image: url("../images/pic/page3/九宮格圖片/狗狗7.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     grid-column: 1/2;
     grid-row: 3/4;
 }
 #wall-8 {
-    background-image: url("../images/pic/page3/九宮格子3.png");
+    background-image: url("../images/pic/page3/九宮格圖片/狗狗8.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
     grid-column: 2/3;
     grid-row: 3/4;
 }
 
 #wall-9 {
-    background-image: url("../images/pic/page3/九宮格子3.png");
+    background-image: url("../images/pic/page3/九宮格圖片/狗狗9.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
     grid-column: 3/4;
     grid-row: 3/4;
 }
@@ -443,7 +450,7 @@ main {
     }
     100% {
         transform: scale(1.1,1.1);
-        box-shadow: -20px 10px 8px rgb(49, 49, 49);
+        box-shadow: -15px 10px 10px rgb(63, 63, 63);
     }
 }
 
