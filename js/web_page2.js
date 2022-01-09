@@ -259,4 +259,9 @@ $(function() {
             $(this).addClass("active")
         })
     })
+
+    $("#story_end>div>a").click(function(){
+        $("#p1").addClass("h1_type")
+        $("#p2").addClass("h2_type")
+    })
 })

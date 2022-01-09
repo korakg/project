@@ -564,11 +564,13 @@ article > div {
 
 #story_end {
   width: 100%;
-  height: 980px;
+  height: 1180px;
+  overflow: hidden;
   background-image: url("../images/pic/網頁背景修改.jpg");
   background-position: 50% 49.6%;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 #story_end.click1 {
@@ -583,27 +585,115 @@ article > div {
   height: 0px;
 }
 
+#story_end > h1 {
+  font-size: 4em;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  color: #f1cc97;
+  text-shadow: -1px 2px #383838;
+  width: 0;
+}
+
+#story_end > h1.h1_type {
+  width: 14em;
+  border-right: 0.2rem solid transparent;
+  -webkit-animation: typing 4s steps(14), caret 1s steps(1) 4;
+          animation: typing 4s steps(14), caret 1s steps(1) 4;
+}
+
+#story_end > h1.h2_type {
+  width: 11em;
+  border-right: 0.2rem solid transparent;
+  color: transparent;
+  text-shadow: none;
+  -webkit-animation: typing 3s steps(11) 4.5s, caret 1s steps(1) 4.5s 3, time_delay 1s 4.5s forwards;
+          animation: typing 3s steps(11) 4.5s, caret 1s steps(1) 4.5s 3, time_delay 1s 4.5s forwards;
+}
+
 #story_end > div {
   width: 100%;
   height: 100%;
   background-image: url("../images/pic/page2/相框.png");
   background-size: 100%;
-  background-position: 50% 100%;
+  background-position: 50% 128%;
   background-repeat: no-repeat;
   position: relative;
 }
 
-#story_end > div > div {
+#story_end > div > a {
   width: 56.3%;
-  height: 58%;
+  height: 48%;
   background-image: url("../images/pic/page2/三隻狗2.jpg");
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 18.5%;
+  bottom: -13.5%;
   margin: auto;
+}
+
+#story_end > div > a:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+#p1 {
+  top: 18%;
+  left: 7%;
+}
+
+#p2 {
+  top: 18%;
+  left: 58%;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes caret {
+  50% {
+    border-color: #4d4d4d;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-color: #4d4d4d;
+  }
+}
+
+@-webkit-keyframes time_delay {
+  from {
+    color: #f1cc97;
+    text-shadow: -1px 2px #383838;
+  }
+  to {
+    color: #f1cc97;
+    text-shadow: -1px 2px #383838;
+  }
+}
+
+@keyframes time_delay {
+  from {
+    color: #f1cc97;
+    text-shadow: -1px 2px #383838;
+  }
+  to {
+    color: #f1cc97;
+    text-shadow: -1px 2px #383838;
+  }
 }
 
 footer {
