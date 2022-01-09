@@ -78,6 +78,9 @@ $(function(){
         }
     });
     $("#about_btn").click(function(){
-        $("#abuotUs").removeClass("hide")
+        $("#aboutUs").removeClass("hide")
+    })
+    $("#aboutUs>a").click(function(){
+        $("#aboutUs").addClass("hide")
     })
 })
