@@ -906,6 +906,34 @@ article {
   margin: 1% 0 0 90%;
 }
 
+#aboutUs {
+  width: 1356px;
+  height: 758.4px;
+  background-image: url("../images/pic/page4/關於我們.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 10%;
+  left: 13%;
+}
+
+#aboutUs.about_hide {
+  display: none;
+}
+
+#aboutUs > a {
+  width: 55px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  top: 1.6%;
+  left: 3.7%;
+}
+
+#aboutUs > a:hover {
+  border: 2px solid #636363;
+}
+
 footer {
   width: 100%;
   height: 100px;

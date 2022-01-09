@@ -701,7 +701,7 @@ header > h1 > span {
   left: 13%;
 }
 
-#aboutUs.hide {
+#aboutUs.about_hide {
   display: none;
 }
 

@@ -264,4 +264,10 @@ $(function() {
         $("#p1").addClass("h1_type")
         $("#p2").addClass("h2_type")
     })
+    $("#about_btn").click(function(){
+        $("#aboutUs").removeClass("about_hide")
+    })
+    $("#aboutUs>a").click(function(){
+        $("#aboutUs").addClass("about_hide")
+    })
 })

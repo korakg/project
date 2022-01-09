@@ -141,4 +141,10 @@ $(function() {
     $("#info_3>a").click(function(){
         $("#info_3").removeClass("show")
     })
+    $("#about_btn").click(function(){
+        $("#aboutUs").removeClass("about_hide")
+    })
+    $("#aboutUs>a").click(function(){
+        $("#aboutUs").addClass("about_hide")
+    })
 })

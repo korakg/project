@@ -119,4 +119,10 @@ $(function(){
         $("#info9").addClass("hide")
         $("#infobox").addClass("hide")
     })
+    $("#about_btn").click(function(){
+        $("#aboutUs").removeClass("about_hide")
+    })
+    $("#aboutUs>a").click(function(){
+        $("#aboutUs").addClass("about_hide")
+    })
 })

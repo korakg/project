@@ -456,6 +456,29 @@ article>div {
     }
 }
 
+#aboutUs{
+    width: 1695px*0.8;
+    height: 948px*0.8;
+    background-image: url("../images/pic/page4/關於我們.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 10%;
+    left: 13%;
+    &.about_hide{display: none;}
+    >a{
+        width: 55px;
+        height: 50px;
+        display: block;
+        position: absolute;
+        top: 1.6%;
+        left: 3.7%;
+        &:hover{
+            border: 2px solid rgb(99, 99, 99);
+        }
+    }
+}
+
 footer {
     width: 100%;
     height: 100px;
