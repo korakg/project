@@ -187,7 +187,7 @@ header > h1 {
 
 #v1 {
   width: 1000px;
-  height: auto;
+  height: calc(1000px*9/16);
   position: absolute;
   top: 28%;
   left: 15%;
