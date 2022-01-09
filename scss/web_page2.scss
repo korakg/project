@@ -73,7 +73,9 @@ header {
 article {
     width: 100%;
     height: 1000px;
-    background-image: url("../images/pic/網頁背景.png");
+    background-image: url("../images/pic/網頁背景修改.jpg");
+    background-size: cover;
+    background-position: 50% 0%;
     position: absolute;
 }
 
@@ -125,7 +127,7 @@ article>div {
     height: 450px;
     position: absolute;
     border-radius: 15px;
-    top:12%;
+    top:14%;
     left:20%;
     background-size: 100%;
 }
@@ -174,12 +176,12 @@ article>div {
     padding-top: 33%;
 }
 #storyline_1,
-#storyline_10{
+#storyline_10,
+#storyline_12{
     padding-top: 37%;
 }
 #storyline_2,
 #storyline_7,
-#storyline_12,
 #storyline_14,
 #storyline_15,
 #storyline_16{
@@ -287,9 +289,9 @@ article>div {
     width: 100%;
     height:0px;
     overflow: hidden;
-    background-image: url("../images/pic/網頁背景.png");
+    background-image: url("../images/pic/網頁背景修改.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 50% 24%;
     display: flex;
 }
 
@@ -314,6 +316,30 @@ article>div {
     background-size: 100%;
     background-position: center;
     margin-left: 8%;
+    position: relative;
+    >div{
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        top: 9%;
+        left: -3%;
+        background-repeat: no-repeat;
+        &.white{
+            background-image: url("../images/pic/page2/小白.png");
+            background-size: 100%;
+            background-position: center;
+        }
+        &.black{
+            background-image: url("../images/pic/page2/小黑.png");
+            background-size: 240%;
+            background-position:60% 50%;
+        }
+        &.yellow{
+            background-image: url("../images/pic/page2/小黃.png");
+            background-size: 100%;
+            background-position: center;
+        }
+    }
     >h1 {
         text-align: center;
         color: rgb(138, 136, 136);
@@ -340,14 +366,35 @@ article>div {
 
 #story_end{
     width: 100%;
-    height: 1080px;
-    background-image: url("../images/pic/相框.png");
-    background-position: 50% 50%;
+    height: 980px;
+    background-image: url("../images/pic/網頁背景修改.jpg");
+    background-position: 50% 49.6%;
     background-size: cover;
     background-repeat: no-repeat;
     &.click1{height: 0px;}
     &.click2{height: 0px;}
     &.click3{height: 0px;}
+    >div{
+        width: 100%;
+        height: 100%;
+        background-image: url("../images/pic/page2/相框.png");
+        background-size: 100%;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        >div{
+            width: 56.3%;
+            height: 58%;
+            background-image: url("../images/pic/page2/三隻狗2.jpg");
+            background-size: cover;
+            position: absolute;
+            top:0;
+            left: 0;
+            right: 0;
+            bottom:18.5%;
+            margin:auto;
+        }
+    }
 }
 
 footer {
