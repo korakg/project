@@ -100,13 +100,13 @@ header > h1 > span {
 }
 
 #section_1 > div > div {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 5%;
   position: absolute;
   background-image: url("../images/pic/page4/寵物認養.png");
   background-size: cover;
-  top: -15%;
+  top: -5%;
   left: 25%;
 }
 
@@ -295,13 +295,13 @@ header > h1 > span {
 }
 
 #section_2 > div > div {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 5%;
   position: absolute;
   background-image: url("../images/pic/page4/志工招募.png");
   background-size: 115%;
-  top: -21%;
+  top: -11%;
   left: 20%;
 }
 
@@ -374,13 +374,13 @@ header > h1 > span {
 }
 
 #section_3 > div > div {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 5%;
   background-image: url("../images/pic/page4/線上捐款.png");
   background-size: 115%;
   position: absolute;
-  top: -19%;
+  top: -9%;
   left: 22%;
 }
 
@@ -453,13 +453,13 @@ header > h1 > span {
 }
 
 #section_4 > div > div {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 5%;
   position: absolute;
   background-image: url("../images/pic/page4/寵物陪睡.png");
   background-size: 113%;
-  top: -21%;
+  top: -11%;
   left: 20%;
 }
 
@@ -532,13 +532,13 @@ header > h1 > span {
 }
 
 #section_5 > div > div {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 5%;
   background-image: url("../images/pic/page4/贊助商品.png");
   background-size: cover;
   position: absolute;
-  top: -15%;
+  top: -5%;
   left: 25%;
 }
 
@@ -582,23 +582,12 @@ header > h1 > span {
           animation: hide 1s forwards ease-in-out;
 }
 
-#last {
-  width: 100%;
-  height: 1080px;
-  background-image: url("../images/pic/網頁背景.png");
-  position: relative;
-}
-
-#last > img {
-  position: absolute;
-  left: 0;
-  top: 20%;
-}
-
 #info {
   width: 100%;
-  height: 700px;
-  background-image: url("../images/pic/網頁背景.png");
+  height: 850px;
+  background-image: url("../images/pic/網頁背景修改.jpg");
+  background-size: cover;
+  background-position: 50% 54%;
 }
 
 #info > h1 {
@@ -611,7 +600,7 @@ header > h1 > span {
 
 #info > div {
   width: 100%;
-  height: 80%;
+  height: 90%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: calc(100%/3) calc(100%/3) calc(100%/3);
@@ -621,8 +610,8 @@ header > h1 > span {
 }
 
 #info > div > div {
-  width: 434px;
-  height: 520px;
+  width: calc(903px*0.53);
+  height: calc(1098px*0.53);
   background-image: url("../images/pic/page4/收容所框架.png");
   background-size: 99%;
   background-repeat: no-repeat;
@@ -671,7 +660,7 @@ header > h1 > span {
   line-height: 55px;
   background-image: url("../images/pic/page4/收容所-按鈕.png");
   top: 84%;
-  left: 46%;
+  left: 34%;
 }
 
 #info > div > div > a.a2:hover {
@@ -679,6 +668,7 @@ header > h1 > span {
 }
 
 #aboutUs {
+  display: none;
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -693,6 +683,15 @@ header > h1 > span {
   background-image: url("../images/pic/page4/關於我們.png");
   background-size: cover;
   margin: 3% auto;
+}
+
+#last {
+  width: 100%;
+  height: 1080px;
+  background-image: url("../images/pic/網頁背景修改.jpg");
+  background-size: cover;
+  background-position: 50% 75%;
+  position: relative;
 }
 
 footer {
