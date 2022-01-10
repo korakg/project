@@ -506,13 +506,19 @@ main {
 }
 
 #wall > div > a {
-  width: 30%;
-  height: 15%;
+  width: 25%;
+  height: 10%;
   display: block;
   background-image: url("../images/pic/page3/九宮格 放大鍵.png");
-  background-size: 106%;
+  background-size: 102%;
+  background-repeat: no-repeat;
   margin-top: -20%;
+  margin-left: -1%;
   background-position: 140% 50%;
+}
+
+#wall > div > a:hover {
+  margin-left: 0%;
 }
 
 @-webkit-keyframes flyIn {
