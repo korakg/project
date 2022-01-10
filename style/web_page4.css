@@ -696,6 +696,7 @@ header > h1 > span {
   position: fixed;
   top: 10%;
   left: 13%;
+  z-index: 3;
 }
 
 #aboutUs.about_hide {
@@ -707,8 +708,8 @@ header > h1 > span {
   height: 50px;
   display: block;
   position: absolute;
-  top: 1.6%;
-  left: 3.7%;
+  top: 3.1%;
+  left: 4.3%;
 }
 
 #aboutUs > a:hover {
@@ -725,7 +726,7 @@ header > h1 > span {
       grid-template-columns: 25% 25% 25% 25%;
   -ms-grid-rows: 50% 50%;
       grid-template-rows: 50% 50%;
-  top: 14%;
+  top: 15%;
   left: 7%;
 }
 

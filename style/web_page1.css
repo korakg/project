@@ -34,7 +34,7 @@ header {
   background-image: url("../images/pic/logo.png");
   background-size: 208px 204px;
   margin: 27px 0 0 40px;
-  z-index: 3;
+  z-index: 2;
 }
 
 #top_video {
@@ -912,9 +912,11 @@ article {
   background-image: url("../images/pic/page4/關於我們.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
   position: fixed;
   top: 10%;
   left: 13%;
+  z-index: 3;
 }
 
 #aboutUs.about_hide {
@@ -926,8 +928,8 @@ article {
   height: 50px;
   display: block;
   position: absolute;
-  top: 1.6%;
-  left: 3.7%;
+  top: 3.1%;
+  left: 4.3%;
 }
 
 #aboutUs > a:hover {
@@ -944,7 +946,7 @@ article {
       grid-template-columns: 25% 25% 25% 25%;
   -ms-grid-rows: 50% 50%;
       grid-template-rows: 50% 50%;
-  top: 14%;
+  top: 15%;
   left: 7%;
 }
 

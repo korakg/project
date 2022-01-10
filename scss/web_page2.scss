@@ -388,6 +388,7 @@ article>div {
         white-space: nowrap;
         overflow: hidden;
         position: absolute;
+        top: 25%;
         color: rgb(241, 204, 151);
         text-shadow: -1px 2px rgb(56, 56, 56);
         width: 0;
@@ -409,7 +410,7 @@ article>div {
         height: 100%;
         background-image: url("../images/pic/page2/相框.png");
         background-size: 100%;
-        background-position: 50% 128%;
+        background-position: 50% 100%;
         background-repeat: no-repeat;
         position: relative;
         >a{
@@ -420,8 +421,8 @@ article>div {
             position: absolute;
             top:0;
             left: 0;
-            right: 0;
-            bottom:-13.5%;
+            right: 1%;
+            bottom:-30.5%;
             margin:auto;
             &:hover{
                 transform: scale(1.01);
@@ -465,14 +466,15 @@ article>div {
     position: fixed;
     top: 10%;
     left: 13%;
+    z-index: 3;
     &.about_hide{display: none;}
     >a{
         width: 55px;
         height: 50px;
         display: block;
         position: absolute;
-        top: 1.6%;
-        left: 3.7%;
+        top: 3.1%;
+        left: 4.3%;
         &:hover{
             border: 2px solid rgb(99, 99, 99);
         }
@@ -484,7 +486,7 @@ article>div {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 50% 50%;
-        top: 14%;
+        top: 15%;
         left: 7%;
         >div{
             width: 260px;
