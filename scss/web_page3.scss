@@ -107,7 +107,7 @@ header {
     >p{
         color: rgb(255, 255, 255);
         font-size: 22px;
-        font-weight: bolder;
+        font-weight: bold;
         padding-top: 114%;
         text-align: center;
         line-height: 44px;
@@ -528,11 +528,13 @@ main {
             text-align: center;
         }
         >p{
-            font-size: 24px;
-            line-height: 44px;
+            font-size: 26px;
+            line-height: 48px;
             font-weight: 800;
             color: #4e3626;
-            padding: 7% 4% 0 4%;
+            padding: 7% 7% 0 4%;
+            &.p5{line-height: 60px;}
+            >span{color: rgb(255, 92, 92);}
         }
     }
 }

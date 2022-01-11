@@ -115,7 +115,7 @@ header > h1 span {
 #interview_txt > p {
   color: white;
   font-size: 22px;
-  font-weight: bolder;
+  font-weight: bold;
   padding-top: 114%;
   text-align: center;
   line-height: 44px;
@@ -808,11 +808,19 @@ main {
 }
 
 #infobox > div > p {
-  font-size: 24px;
-  line-height: 44px;
+  font-size: 26px;
+  line-height: 48px;
   font-weight: 800;
   color: #4e3626;
-  padding: 7% 4% 0 4%;
+  padding: 7% 7% 0 4%;
+}
+
+#infobox > div > p.p5 {
+  line-height: 60px;
+}
+
+#infobox > div > p > span {
+  color: #ff5c5c;
 }
 
 @-webkit-keyframes info_show {
