@@ -927,8 +927,14 @@ main {
 
 footer {
   width: 100%;
-  height: 50px;
+  height: auto;
   background-color: #14213D;
+}
+
+footer > p {
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
 }
 
 #left_bar {
