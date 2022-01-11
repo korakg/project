@@ -106,14 +106,14 @@ header {
 }
 
 #info_1 {
-    width: calc(736px*0.6);
-    height: calc(921px*0.6);
+    width: calc(736px*0.9);
+    height: calc(921px*0.9);
     background-image: url("../images/pic/page1/新視窗.png");
     background-size: cover;
     background-position: 50% 50%;
     display: inline-block;
     position: absolute;
-    top: 23%;
+    top: 14%;
     left: 41%;
     opacity: 0;
     z-index: -1;
@@ -121,42 +121,45 @@ header {
         animation: show 1s forwards;
     }
     >a{
-        width: 50px;
-        height: 50px;
+        width: 65px;
+        height: 75px;
         display: block;
-        margin: 15px 0 0 346px;
+        margin: 23px 0 0 523px;
         &:hover{border: solid 2px rgb(68, 68, 68);}
     }
     >div{
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
+        width: 140px;
+        height: 140px;
         background-image: url("../images/pic/page1/小黑.png");
         background-repeat: no-repeat;
-        background-size: 245%;
+        background-size: 270%;
         background-position: 57% 110%;
         position: absolute;
-        top: 19.5%;
-        left: 8.5%;
+        top: 22.5%;
+        left: 10%;
     }
     >h1{
         color: black;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: bolder;
-        padding: 72px 0 45px 160px;
+        padding: 30px 16px 35px 243px;
+        >span{
+            font-size: 30px;
+            text-shadow: -1px 1px 1px #ff754b;
+        }
     }
     >p{
-        padding: 0 20px;
-        font-size: 20px;
-        line-height: 30px;
+        padding: 0 45px;
+        font-size: 24px;
+        line-height: 40px;
         font-weight: bold;
         color: #14213D;
     }
 }
 
 #info_2 {
-    width: calc(736px*0.6);
-    height: calc(921px*0.6);
+    width: calc(736px*0.9);
+    height: calc(921px*0.9);
     background-image: url("../images/pic/page1/新視窗.png");
     background-size: cover;
     display: block;
@@ -169,82 +172,88 @@ header {
         animation: show 1s forwards;
     }
     >a{
-        width: 50px;
-        height: 50px;
+        width: 65px;
+        height: 75px;
         display: inline-block;
-        margin: 15px 0 0 346px;
+        margin: 23px 0 0 523px;
         &:hover{border: solid 2px rgb(68, 68, 68);}
     }
     >div{
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
+        width: 160px;
+        height: 160px;
         background-image: url("../images/pic/page1/小黃.png");
         background-repeat: no-repeat;
         background-size: 95%;
         background-position: 50% 50%;
         position: absolute;
-        top: 19.5%;
-        left: 8.5%;
+        top: 20.5%;
+        left: 9%;
     }
     >h1{
         color: black;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: bolder;
-        padding: 72px 0 45px 160px;
+        padding: 30px 16px 35px 243px;
+        >span{
+            font-size: 30px;
+            text-shadow: -1px 1px 1px #ff754b;
+        }
     }
     >p{
-        padding: 0 20px;
-        font-size: 20px;
-        line-height: 30px;
+        padding: 0 45px;
+        font-size: 24px;
+        line-height: 40px;
         font-weight: bold;
         color: #14213D;
     }
 }
 
 #info_3 {
-    width: calc(736px*0.6);
-    height: calc(921px*0.6);
+    width: calc(736px*0.9);
+    height: calc(921px*0.9);
     background-image: url("../images/pic/page1/新視窗.png");
     background-size: cover;
     display:block;
     position: absolute;
-    top: 25%;
-    left: 34%;
+    top: 10%;
+    left: 27%;
     opacity: 0;
     z-index: -1;
     &.show{
         animation: show 1s forwards;
     }
     >a{
-        width: 50px;
-        height: 50px;
+        width: 65px;
+        height: 75px;
         display: inline-block;
-        margin: 15px 0 0 346px;
+        margin: 23px 0 0 523px;
         &:hover{border: solid 2px rgb(68, 68, 68);}
     }
     >div{
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
+        width: 160px;
+        height: 160px;
         background-image: url("../images/pic/page1/小白.png");
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: 50% 85%;
         position: absolute;
-        top: 19.5%;
-        left: 8.5%;
+        top: 20.5%;
+        left: 8%;
     }
     >h1{
         color: black;
-        font-size: 40px;
+        font-size: 20px;
         font-weight: bolder;
-        padding: 72px 0 45px 160px;
+        padding: 30px 16px 35px 243px;
+        >span{
+            font-size: 30px;
+            text-shadow: -1px 1px 1px #ff754b;
+        }
     }
     >p{
-        padding: 0 20px;
-        font-size: 20px;
-        line-height: 30px;
+        padding: 0 45px;
+        font-size: 24px;
+        line-height: 40px;
         font-weight: bold;
         color: #14213D;
     }
