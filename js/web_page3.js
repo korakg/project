@@ -46,6 +46,14 @@ $(function(){
         if(scrollVal>=800){
             $("#interview_txt").addClass("show")
         }
+        if(scrollVal>=1300){
+            $("#talk>img.img1").addClass("show_L")
+            $("#talk>h1.txt1").addClass("show_L")
+        }
+        if(scrollVal>=1700){
+            $("#talk>img.img2").addClass("show_R")
+            $("#talk>h1.txt2").addClass("show_R")
+        }
     })
     $("#wall-1 a").click(function(){
         $("#infobox").removeClass("hide")
