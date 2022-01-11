@@ -1,3 +1,9 @@
+@font-face {
+    font-family: FakePearl-Regular;
+    src: url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff2) format("woff2")
+    , url(https://cdn.jsdelivr.net/gh/max32002/FakePearl@1.1/webfont/FakePearl-Regular.woff) format("woff");
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -5,6 +11,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: FakePearl-Regular;
 }
 
 html,
@@ -164,7 +171,6 @@ article>div {
     >p {
         font-size: 24px;
         color: rgb(241, 241, 241);
-        font-weight: bold;
         line-height: 48px;
         text-align: center;
         animation: word_show 0.5s ease-in forwards;
