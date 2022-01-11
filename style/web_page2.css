@@ -223,6 +223,7 @@ article > div {
   font-size: 24px;
   color: #f1f1f1;
   line-height: 48px;
+  font-weight: bold;
   text-align: center;
   -webkit-animation: word_show 0.5s ease-in forwards;
           animation: word_show 0.5s ease-in forwards;
