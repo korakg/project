@@ -76,21 +76,30 @@ header {
 
 #street {
     width: 100%;
-    height: auto;
-    overflow: hidden;
+    height: 1080px;
+    background-image: url("../images/pic/網頁背景修改.jpg");
+    background-size: cover;
+    position: relative;
     >div {
-        width: 100%;
-        height: 1080px;
+        width: 85%;
+        height: 1080px*0.85;
+        border-radius: 30px;
+        border: 10px solid rgba(0, 0, 0, 0.7);
         background-image: url("../images/pic/街頭.jpg");
         background-size: cover;
-        position: relative;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
     }
 }
 
 #infopic_1 {
     position: absolute;
-    width: 230px;
-    height: 500px;
+    width: 190px;
+    height: 420px;
     display: inline-block;
     top: 43%;
     left: 26%;
@@ -98,20 +107,20 @@ header {
 
 #infopic_2 {
     position: absolute;
-    width: 300px;
-    height: 500px;
+    width: 290px;
+    height: 450px;
     display: inline-block;
-    top: 46%;
-    left: 43%;
+    top: 45%;
+    left: 42%;
 }
 
 #infopic_3 {
     position: absolute;
-    width: 200px;
-    height: 480px;
+    width: 190px;
+    height: 410px;
     display: inline-block;
-    top: 46%;
-    left: 65%;
+    top: 45%;
+    left: 64%;
 }
 
 #info_1 {
@@ -122,7 +131,7 @@ header {
     background-position: 50% 50%;
     display: inline-block;
     position: absolute;
-    top: 14%;
+    top: 2%;
     left: 41%;
     opacity: 0;
     z-index: -1;
@@ -194,8 +203,8 @@ header {
     background-size: cover;
     display: block;
     position: absolute;
-    top: 12%;
-    left: 54%;
+    top: 1%;
+    left: 60%;
     opacity: 0;
     z-index: -1;
     &.show{
@@ -266,8 +275,8 @@ header {
     background-size: cover;
     display:block;
     position: absolute;
-    top: 10%;
-    left: 27%;
+    top: 2%;
+    left: 19%;
     opacity: 0;
     z-index: -1;
     &.show{
@@ -343,9 +352,8 @@ aside {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-image: url("../images/pic/dog_3.JPG");
+    background-image: url("../images/pic/dog.JPG");
     background-size: cover;
-    opacity: 0.8;
     >div {
         width: 100%;
         height: auto;
@@ -423,15 +431,9 @@ aside {
 }
 
 @keyframes rod_spin{
-    0%{
-        transform: rotate(10deg);
-    }
-    50%{
-        transform: rotate(45deg);
-    }
-    100%{
-        transform: rotate(10deg);
-    }
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(45deg);}
+    100%{transform: rotate(10deg);}
 }
 
 #chain{
@@ -544,12 +546,8 @@ article {
 }
 
 @keyframes word_show {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .hide {
