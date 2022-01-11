@@ -596,8 +596,8 @@ header > h1 > span {
 }
 
 #info > img {
-  width: 576px;
-  height: 684px;
+  width: 75%;
+  height: auto;
   margin: 0 auto;
 }
 
