@@ -193,7 +193,7 @@ header > h1 span {
 
 #v1 {
   width: 1000px;
-  height: calc(1000px*9/16);
+  height: 562.5px;
   position: absolute;
   top: 28%;
   left: 15%;
@@ -201,8 +201,8 @@ header > h1 span {
 }
 
 #v2 {
-  width: 900px;
-  height: auto;
+  width: 1000px;
+  height: 562.5px;
   position: absolute;
   top: 16%;
   left: 4%;
