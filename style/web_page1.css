@@ -90,6 +90,7 @@ header {
   height: 90%;
   background-image: url("../images/pic/街頭.png");
   background-size: cover;
+  background-position: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -403,7 +404,7 @@ aside {
   width: 100%;
   height: auto;
   overflow: hidden;
-  background-image: url("../images/pic/dog.JPG");
+  background-image: url("../images/pic/dog.jpg");
   background-size: cover;
 }
 

@@ -31,15 +31,16 @@ header {
 }
 
 header > h1 {
-  font-size: 40px;
+  text-align: right;
+  font-size: 29px;
   color: white;
   position: absolute;
-  top: 85%;
-  left: 76.5%;
+  top: 88%;
+  left: 81%;
 }
 
 header > h1 span {
-  font-size: 88px;
+  font-size: 72px;
   line-height: 77px;
 }
 
@@ -201,8 +202,8 @@ header > h1 span {
 }
 
 #v2 {
-  width: 1000px;
-  height: 562.5px;
+  width: 900px;
+  height: 506.25px;
   position: absolute;
   top: 16%;
   left: 4%;
