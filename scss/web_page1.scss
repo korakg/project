@@ -68,7 +68,7 @@ header {
         font-size: 90px;
         text-align: center;
         line-height: 100px;
-        color: rgb(102, 102, 102);
+        color: #785740;
         text-shadow: -5px 5px 3px rgb(255, 255, 255);
     }
 }
@@ -169,6 +169,7 @@ header {
         display: inline-block;
         width: 60%;
         height: auto;
+        border: 5px #27b9fd solid;
         background-color: #5376c4;
         border-radius: 30px;
         margin: 0 0 3% 36%;
@@ -242,6 +243,7 @@ header {
         width: 60%;
         height: auto;
         background-color: #5376c4;
+        border: 5px #27b9fd solid;
         border-radius: 30px;
         margin: 0 0 4% 36%;
         color: black;
@@ -314,6 +316,7 @@ header {
         width: 60%;
         height: auto;
         background-color: #5376c4;
+        border: 5px #27b9fd solid;
         border-radius: 30px;
         margin: 0 0 3% 36%;
         color: black;
