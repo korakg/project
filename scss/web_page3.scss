@@ -50,29 +50,28 @@ header {
     }
     >h1{
         position: absolute;
-        left: 55%;
-        top: 89%;
-        font-size: 60px;
-        color: #ff754b;
-        background-color: #fff;
+        left: 46%;
+        top: 91%;
+        font-size: 70px;      
+        color: rgb(255, 247, 247);
         line-height: 77px;
-        span{
-            background-color:#ff754b;
-            color: #fff;
+        text-shadow: -5px 5px 2px #ff754b;
+        >span{
+            font-size: 90px;
         }
     } 
 }
 
-#triangle{
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 63%;
-    left: 66%;
-    border-style: solid;
-    border-width: 0 0 450px 650px;
-    border-color: transparent transparent rgb(221, 188, 157) transparent; 
-}
+// #triangle{
+//     width: 0;
+//     height: 0;
+//     position: absolute;
+//     top: 63%;
+//     left: 66%;
+//     border-style: solid;
+//     border-width: 0 0 450px 650px;
+//     border-color: transparent transparent rgb(221, 188, 157) transparent; 
+// }
 
 
 #interview{

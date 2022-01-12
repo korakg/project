@@ -53,28 +53,16 @@ header {
 
 #top_video > h1 {
   position: absolute;
-  left: 55%;
-  top: 89%;
-  font-size: 60px;
-  color: #ff754b;
-  background-color: #fff;
+  left: 46%;
+  top: 91%;
+  font-size: 70px;
+  color: #fff7f7;
   line-height: 77px;
+  text-shadow: -5px 5px 2px #ff754b;
 }
 
-#top_video > h1 span {
-  background-color: #ff754b;
-  color: #fff;
-}
-
-#triangle {
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: 63%;
-  left: 66%;
-  border-style: solid;
-  border-width: 0 0 450px 650px;
-  border-color: transparent transparent #ddbc9d transparent;
+#top_video > h1 > span {
+  font-size: 90px;
 }
 
 #interview {
