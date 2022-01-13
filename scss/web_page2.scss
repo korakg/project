@@ -45,11 +45,11 @@ header {
 }
 
 #pick1 {
-    width: 300px;
-    height: 330px;
+    width: 320px;
+    height: 350px;
     display: inline-block;
-    top: 69%;
-    left: 24%; 
+    top: 67%;
+    left: 23%; 
 }
 
 #pick2 {
@@ -406,13 +406,6 @@ article>div {
         line-height: 119px;
         font-size: 52px;
         font-weight: bolder;
-        &.p1{line-height: 90px;}
-    }
-    >h2{
-        font-size: 30px;
-        color: rgb(63, 63, 63);
-        text-align: center;
-        margin: -2.5% 0 0 6%;
     }
 }
 
