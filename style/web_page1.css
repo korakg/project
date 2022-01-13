@@ -1109,7 +1109,8 @@ article {
   font-weight: bolder;
   text-align: center;
   color: #152850;
-  line-height: 295px;
+  line-height: 60px;
+  padding-top: 30%;
   text-shadow: -2px 2px #BDAEAE;
 }
 
