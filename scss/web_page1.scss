@@ -98,10 +98,20 @@ header {
 #infopic_1 {
     position: absolute;
     width: 190px;
-    height: 420px;
+    height: 355px;
     display: inline-block;
-    top: 42%;
+    top: 48%;
     left: 30%;
+    &:hover{
+        >img{display:block;}
+    }
+    >img{
+        width: 22%;
+        margin: -83% 0 0 -15% ;
+        transform:rotate(-15deg);
+        cursor: default;
+        display: none;  
+    }
 }
 
 #infopic_2 {
@@ -111,6 +121,16 @@ header {
     display: inline-block;
     top: 44%;
     left: 44%;
+    &:hover{
+        >img{display:block;}
+    }
+    >img{
+        width: 15%;
+        margin: -58% 0 0 32% ;
+        transform:rotate(8deg); 
+        cursor: default;
+        display: none; 
+    }
 }
 
 #infopic_3 {
@@ -120,6 +140,16 @@ header {
     display: inline-block;
     top: 44%;
     left: 62%;
+    &:hover{
+        >img{display:block;}
+    }
+    >img{
+        width: 18%;
+        margin: -57% 0 0 -15% ;
+        transform:rotate(-15deg);
+        cursor: default;
+        display: none;   
+    }
 }
 
 #info_1 {

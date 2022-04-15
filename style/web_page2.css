@@ -52,6 +52,19 @@ header > a {
   left: 23%;
 }
 
+#pick1:hover > img {
+  display: block;
+}
+
+#pick1 > img {
+  width: 15%;
+  margin: -36% 0 0 8%;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  cursor: default;
+  display: none;
+}
+
 #pick2 {
   width: 240px;
   height: 320px;
@@ -60,12 +73,38 @@ header > a {
   left: 46%;
 }
 
+#pick2:hover > img {
+  display: block;
+}
+
+#pick2 > img {
+  width: 9%;
+  margin: -44% 0 0 78%;
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
+  cursor: default;
+  display: none;
+}
+
 #pick3 {
   width: 440px;
   height: 350px;
   display: inline-block;
   top: 67%;
   left: 61%;
+}
+
+#pick3:hover > img {
+  display: block;
+}
+
+#pick3 > img {
+  width: 8%;
+  margin: -36% 0 0 42%;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+  cursor: default;
+  display: none;
 }
 
 .click_in {

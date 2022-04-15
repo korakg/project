@@ -50,6 +50,16 @@ header {
     display: inline-block;
     top: 67%;
     left: 23%; 
+    &:hover{
+        >img{display:block;}
+    }
+    >img{
+        width: 15%;
+        margin: -36% 0 0 8% ;
+        transform:rotate(-15deg);
+        cursor: default;
+        display: none;  
+    }
 }
 
 #pick2 {
@@ -58,6 +68,16 @@ header {
     display: inline-block; 
     top:67%;
     left: 46%; 
+    &:hover{
+        >img{display:block;}
+    }
+    >img{
+        width: 9%;
+        margin: -44% 0 0 78% ;
+        transform:rotate(12deg);
+        cursor: default;
+        display: none;  
+    }
 }
 
 #pick3 {
@@ -66,6 +86,16 @@ header {
     display: inline-block;
     top: 67%;
     left: 61%;
+    &:hover{
+        >img{display:block;}
+    }
+    >img{
+        width: 8%;
+        margin: -36% 0 0 42% ;
+        transform:rotate(15deg);
+        cursor: default;
+        display: none;  
+    }
 }
 
 .click_in {
