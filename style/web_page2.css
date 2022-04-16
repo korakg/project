@@ -514,6 +514,14 @@ article > div {
   display: flex;
 }
 
+#abandon1 > img,
+#abandon2 > img,
+#abandon3 > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
 #chain2 {
   width: 78px;
   height: 942px;
@@ -995,6 +1003,17 @@ footer > p {
   background-image: url("../images/pic/選單.png");
   background-size: cover;
   background-position: 50% 50%;
+}
+
+#down_bar {
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  top: 85%;
+  left: 94%;
+  border-radius: 50%;
+  background-image: url("../images/pic/往上箭頭.png");
+  background-size: cover;
 }
 
 @-webkit-keyframes push {

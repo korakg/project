@@ -128,4 +128,7 @@ $(function() {
     $("#aboutUs>a").click(function(){
         $("#aboutUs").addClass("about_hide")
     })
+
+
+    
 })

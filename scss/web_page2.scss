@@ -330,6 +330,11 @@ article>div {
     background-size: cover;
     background-position: 50% 24%;
     display: flex;
+    >img{
+        height: 100px;
+        width: 100px;
+        border-radius:50%
+    }
 }
 
 #chain2{
@@ -645,6 +650,17 @@ footer {
             background-position: 50% 50%;
         }
     }
+}
+
+#down_bar{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top:85%;
+    left: 94%;
+    border-radius: 50%;
+    background-image: url("../images/pic/往上箭頭.png");
+    background-size: cover;
 }
 
 @keyframes push {

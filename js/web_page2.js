@@ -83,7 +83,7 @@ $(function() {
         $("#storyline_5").addClass("hide")
         $("#storyline_6").removeClass("hide")
         $("#arrowDown1").removeClass("hide")
-        $("#abandon1").animate({ height: '1100px' }, )
+        $("#abandon1").animate({ height: '1150px' }, )
         $("#story_end").removeClass("click1")
     })
     $(".btn7").click(function() {
@@ -146,7 +146,7 @@ $(function() {
         $("#storyline_10").addClass("hide")
         $("#storyline_11").removeClass("hide")
         $("#arrowDown2").removeClass("hide")
-        $("#abandon2").animate({ height: '1100px' }, )
+        $("#abandon2").animate({ height: '1150px' }, )
         $("#story_end").removeClass("click2")
     })
     $(".btn12").click(function() {
@@ -209,9 +209,11 @@ $(function() {
         $("#storyline_15").addClass("hide")
         $("#storyline_16").removeClass("hide")
         $("#arrowDown3").removeClass("hide")
-        $("#abandon3").animate({ height: '1100px' }, )
+        $("#abandon3").animate({ height: '1150px' }, )
         $("#story_end").removeClass("click3")
     })
+
+    var position=document.documentElement;
     $("#pick1").click(function() {
         $("#story_1").animate({ left: '0%' }, 1000)
         $("#story_2").animate({ left: '100%' }, 1000)
@@ -219,6 +221,7 @@ $(function() {
         $("#arrowDown1").addClass("hide")
         $("#abandon2").animate({ height: '0px' }, )
         $("#abandon3").animate({ height: '0px' }, )
+        $(position).animate({scrollTop:1120},1000,"swing")
     })
     $("#pick2").click(function() {
         $("#story_1").animate({ left: '-100%' }, 1000)
@@ -227,7 +230,7 @@ $(function() {
         $("#arrowDown2").addClass("hide")
         $("#abandon1").animate({ height: '0px' }, )
         $("#abandon3").animate({ height: '0px' }, )
-
+        $(position).animate({scrollTop:1120},1000,"swing")
     })
     $("#pick3").click(function() {
         $("#story_1").animate({ left: '-200%' }, 1000)
@@ -236,7 +239,23 @@ $(function() {
         $("#arrowDown3").addClass("hide")
         $("#abandon2").animate({ height: '0px' }, )
         $("#abandon1").animate({ height: '0px' }, )
+        $(position).animate({scrollTop:1120},1000,"swing")
     })
+    $("#down_bar").click(function(){
+        $(position).animate({scrollTop:100},1000,"swing")
+    })
+
+    $("#down_bar").hide()
+    $(window).scroll(function(){
+        var scrollVal=$(this).scrollTop()
+        if(scrollVal>=1080){
+            $("#down_bar").show()
+        }
+        else{
+            $("#down_bar").hide()
+        }
+    })
+
     let act1=Array.from(document.querySelectorAll("#story_Fir>div>a"))
     let act2=Array.from(document.querySelectorAll("#story_Sec>div>a"))
     let act3=Array.from(document.querySelectorAll("#story_Thr>div>a"))
