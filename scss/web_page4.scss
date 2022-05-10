@@ -26,16 +26,16 @@ img {
 
 header {
     width: 100%;
-    height: 850px;
+    height: 44.27vw;
     background-color: #ffa958;
     >h1{
-        font-size: 40px;
+        font-size: 2.08vw;
         font-weight: bolder;
         color: #fff;
         padding: 16% 0 0 1%;
-        line-height: 70px;
+        line-height: 3.646vw;
         >span{
-            font-size: 96px;
+            font-size: 5vw;
         }
     }  
 }
@@ -53,7 +53,7 @@ header {
 
 #top{
     width: 100%;
-    height: 333px;
+    height: 17.34vw;
     position: relative;
     background-image: url("../images/pic/page4/照片鍊子上層.png");
     background-repeat: no-repeat;
@@ -61,14 +61,17 @@ header {
     >img{
         position: absolute;
         &.pic1{
+            width: 32%;
             top: 56%;
             left: 2%;
         }
         &.pic2{
+            width: 27.5%;
             top: 64%;
             left: 36%;
         }
         &.pic3{
+            width: 34%;
             top: 84%;
             left: 65%;
         }
@@ -85,12 +88,12 @@ header {
 
 #section_1{
     width: 100%;
-    height: 500px;
-    padding-top: 100px;
+    height: 26.04vw;
+    padding-top: 5.2vw;
     position: relative;
     >div{
-        width: 680px;
-        height: 300px;
+        width: 35.41vw;
+        height: 15.625vw;
         background-image: url("../images/pic/page4/左選單1.png");
         background-repeat: no-repeat;
         background-position: 100%;
@@ -100,8 +103,8 @@ header {
         &.in{animation: in_left 1s forwards ease-out;}
         &.out{animation: out_left 1s forwards ease-out;}
         >a{
-            width: 300px;
-            height: 300px;
+            width: 15.625vw;
+            height: 15.625vw;
             border-radius: 50%;
             display: block;
             position: absolute;
@@ -115,7 +118,7 @@ header {
     >h1{
         position: absolute;
         color: #242424;
-        font-size: 80px;
+        font-size: 4.16vw;
         font-weight: bolder;
         top: 31%;
         left: 49%;
@@ -126,7 +129,7 @@ header {
     >p{
         position: absolute;
         color: #242424;
-        font-size: 40px;
+        font-size: 2.08vw;
         font-weight: bold;
         top: 49%;
         left: 59%;
@@ -163,12 +166,12 @@ header {
 
 #section_2{
     width: 100%;
-    height: 500px;
-    padding-top: 100px;
+    height: 26.04vw;
+    padding-top: 5.2vw;
     position: relative;
     >div{
-        width: 680px;
-        height: 300px;
+        width: 35.41vw;
+        height: 15.625vw;
         background-image: url("../images/pic/page4/右選單1.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -178,8 +181,8 @@ header {
         &.in{animation: in_right 1s forwards ease-out;}
         &.out{animation: out_right 1s forwards ease-out;}
         >a{
-            width: 300px;
-            height: 300px;
+            width: 15.625vw;
+            height: 15.625vw;
             border-radius: 50%;
             display: block;
             position: absolute;
@@ -193,7 +196,7 @@ header {
     >h1{
         position: absolute;
         color: #242424;
-        font-size: 80px;
+        font-size: 4.16vw;
         font-weight: bolder;
         top: 31%;
         left: 18%;
@@ -204,7 +207,7 @@ header {
     >p{
         position: absolute;
         color: #242424;
-        font-size: 40px;
+        font-size: 2.08vw;
         font-weight: bold;
         top: 49%;
         left: 29%;
@@ -216,12 +219,12 @@ header {
 
 #section_3{
     width: 100%;
-    height: 500px;
-    padding-top: 100px;
+    height: 26.04vw;
+    padding-top: 5.2vw;
     position: relative;
     >div{
-        width: 680px;
-        height: 300px;
+        width: 35.41vw;
+        height: 15.625vw;
         background-image: url("../images/pic/page4/左選單1.png");
         background-repeat: no-repeat;
         background-position: 100%;
@@ -231,8 +234,8 @@ header {
         &.in{animation: in_left 1s forwards ease-out;}
         &.out{animation: out_left 1s forwards ease-out;}
         >a{
-            width: 300px;
-            height: 300px;
+            width: 15.625vw;
+            height: 15.625vw;
             border-radius: 50%;
             display: block;
             background-image: url("../images/pic/page4/線上捐款.png");
@@ -246,7 +249,7 @@ header {
     >h1{
         position: absolute;
         color: #242424;
-        font-size: 80px;
+        font-size: 4.16vw;
         font-weight: bolder;
         top: 31%;
         left: 49%;
@@ -257,7 +260,7 @@ header {
     >p{
         position: absolute;
         color: #242424;
-        font-size: 40px;
+        font-size: 2.08vw;
         font-weight: bold;
         top: 49%;
         left: 59%;
@@ -269,12 +272,12 @@ header {
 
 #section_4{
     width: 100%;
-    height: 500px;
-    padding-top: 100px;
+    height: 26.04vw;
+    padding-top: 5.2vw;
     position: relative;
     >div{
-        width: 680px;
-        height: 300px;
+        width: 35.41vw;
+        height: 15.625vw;
         background-image: url("../images/pic/page4/右選單1.png");
         background-repeat: no-repeat;
         background-size: cover;
@@ -284,8 +287,8 @@ header {
         &.in{animation: in_right 1s forwards ease-out;}
         &.out{animation: out_right 1s forwards ease-out;}
         >a{
-            width: 300px;
-            height: 300px;
+            width: 15.625vw;
+            height: 15.625vw;
             display: block;
             border-radius: 50%;
             position: absolute;
@@ -299,7 +302,7 @@ header {
     >h1{
         position: absolute;
         color: #242424;
-        font-size: 80px;
+        font-size: 4.16vw;
         font-weight: bolder;
         top: 31%;
         left: 18%;
@@ -310,7 +313,7 @@ header {
     >p{
         position: absolute;
         color: #242424;
-        font-size: 40px;
+        font-size: 2.08vw;
         font-weight: bold;
         top: 49%;
         left: 29%;
@@ -322,12 +325,12 @@ header {
 
 #section_5{
     width: 100%;
-    height: 500px;
-    padding-top: 100px;
+    height: 26.04vw;
+    padding-top: 5.2vw;
     position: relative;
     >div{
-        width: 680px;
-        height: 300px;
+        width: 35.41vw;
+        height: 15.625vw;
         background-image: url("../images/pic/page4/左選單1.png");
         background-repeat: no-repeat;
         background-position: 100%;
@@ -337,8 +340,8 @@ header {
         &.in{animation: in_left 1s forwards ease-out;}
         &.out{animation: out_left 1s forwards ease-out;}
         >a{
-            width: 300px;
-            height: 300px;
+            width: 15.625vw;
+            height: 15.625vw;
             border-radius: 50%;
             display: block;
             background-image: url("../images/pic/page4/贊助商品.png");
@@ -352,7 +355,7 @@ header {
     >h1{
         position: absolute;
         color: #242424;
-        font-size: 80px;
+        font-size: 4.16vw;
         font-weight: bolder;
         top: 31%;
         left: 49%;
@@ -363,7 +366,7 @@ header {
     >p{
         position: absolute;
         color: #242424;
-        font-size: 40px;
+        font-size: 2.08vw;
         font-weight: bold;
         top: 49%;
         left: 59%;
@@ -376,7 +379,7 @@ header {
 
 #info{
     width: 100%;
-    height: 1900px;
+    height: auto;
     background-image: url("../images/pic/網頁背景修改.jpg");
     background-size: cover;
     background-position: 50% 54%;
@@ -387,23 +390,23 @@ header {
     }
     >div{
         width: 100%;
-        height: 55%;
+        height:auto;
         display: grid;
         grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
         grid-template-rows: 100%;
         >div{
-            width: 995px*0.5;
-            height: 1347px*0.5;
+            width: 25.91vw;
+            height: 35.07vw;
             background-size: 99%;
             background-repeat: no-repeat;
             position: relative;
-            margin:auto;
+            margin:5vw auto;
             &.info1{background-image: url("../images/pic/page4/流浪動物救援協會.png");}
             &.info2{background-image: url("../images/pic/page4/民雄.png");}
             &.info3{background-image: url("../images/pic/page4/嘉義市.png");}
             >a.a1{
-                width: calc(315px*0.2);
-                height: calc(327px*0.2);
+                width: 3.28vw;
+                height: 3.4vw;
                 display: block;
                 background-image: url("../images/pic/page4/導航.png");
                 background-size: cover;
@@ -415,7 +418,7 @@ header {
                 }
             }
             >h1{
-                font-size: 30px;
+                font-size: 1.56vw;
                 font-weight: bolder;
                 text-align: center;
                 color: #3E8E7E;
@@ -426,8 +429,8 @@ header {
                 }
             }
             >p{
-                font-size: 20px;
-                line-height: 30px;
+                font-size: 1.04vw;
+                line-height: 1.56vw;
                 font-weight: bold;
                 color: rgb(71, 71, 71);
                 padding: 0 9%;
@@ -435,12 +438,12 @@ header {
             >a.a2{
                 display:block;
                 position: absolute;
-                width: 157px;
-                height: 53px;
+                width: 8.17vw;
+                height: 2.76vw;
                 color: #CCD1E4;
                 text-align: center;
-                font-size: 24px;
-                line-height: 50px;
+                font-size: 1.25vw;
+                line-height: 2.6vw;
                 background-image: url("../images/pic/page4/收容所-按鈕.png");
                 background-size: 100%;
                 background-repeat: no-repeat;
@@ -457,41 +460,42 @@ header {
 
 #last{
     width: 100%;
-    height: 1200px;
+    height: 62.5vw;
     background-image: url("../images/pic/page4/結尾圖滿版.png");
     background-size: cover;
     background-position: 50% 55%;
     >h1{
         text-align: center;
-        font-size: 50px;
+        font-size: 2.6vw;
         color: #4ff5d4;
         padding-top: 10%;
-        text-shadow: -6px 7px 1px #3E8E7E;
-        >span{font-size: 70px;}
+        text-shadow: -0.31vw 0.36vw 0.05vw #3E8E7E;
+        >span{font-size: 3.64vw;}
     }
 }
 
 
 #aboutUs{
-    width: 1695px*0.8;
-    height: 948px*0.8;
+    width: 88.3vw*0.8;
+    height: 49.4vw*0.8;
     background-image: url("../images/pic/page4/關於我們.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
     position: fixed;
     top: 10%;
     left: 13%;
     z-index: 3;
     &.about_hide{display: none;}
     >a{
-        width: 55px;
-        height: 50px;
+        width: 2.86vw;
+        height: 2.6vw;
         display: block;
         position: absolute;
         top: 3.1%;
         left: 4.3%;
         &:hover{
-            border: 2px solid rgb(99, 99, 99);
+            border: 0.1vw solid rgb(99, 99, 99);
         }
     }
     >div{
@@ -504,22 +508,22 @@ header {
         top: 15%;
         left: 7%;
         >div{
-            width: 260px;
-            height: 260px;
+            width: 13.54vw;
+            height: 13.54vw;
             border-radius: 50%;
             background-size: cover;
         }
         >h1{
             display: block;
-            font-size: 30px;
+            font-size: 1.56vw;
             font-weight: bolder;
             text-align: center;
             color: #152850;
-            line-height: 60px;
+            line-height: 3.125vw;
             padding-top:30%;
-            text-shadow: -2px 2px #BDAEAE;
+            text-shadow: -0.1vw 0.1vw #BDAEAE;
         }
-    } 
+    }   
 }
 
 #member1{
@@ -550,46 +554,48 @@ footer {
     >p{
         text-align: center;
         color: #fff;
-        line-height: 40px;
+        line-height: 2.08vw;
     }
 }
 
 #left_bar {
-    width: 86px;
-    height: 86px;
+    width: 4.48vw;
+    height: 4.48vw;
     overflow: hidden;
     background-image: url("../images/pic/選單內底框.png");
     background-size: 100% 120%;
-    background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: 100% 50%;
     border-radius: 50px;
     position: fixed;
     top: 4%;
     left: 94%;
-    z-index: 999;
+    z-index: 998;
     &:hover {
         animation: push 0.5s ease forwards;
     }
     >a {
-        width: 80px;
-        height: 80px;
+        width: 4.16vw;
+        height: 4.16vw;
         background-image: url("../images/pic/選單內灰園框.png");
         background-size: cover;
         background-position: 100%;
         display: block;
         border-radius: 50%;
-        font-size: 20px;
+        font-size: 1.04vw;
         font-weight: bolder;
+        white-space: nowrap;
         color: #fff;
-        margin: 3px auto 0 auto;
+        margin: 0.15vw auto 0 auto;
         text-align: center;
-        line-height: 80px;
+        line-height: 4.16vw;
         &:hover {
             color: #ff754b;
         }
         &.left_1{
             background-image: url("../images/pic/選單.png");
+            background-repeat: no-repeat;
             background-size: cover;
+            background-position: 50% 50%;
         }
     }
 }
@@ -597,6 +603,62 @@ footer {
 @keyframes push {
     0% {}
     100% {
-        height: 501px;
+        height: 26.09vw;
+    }
+}
+
+@media screen and(max-width:1050px) {
+    #info{
+        >div{
+            grid-template-columns: calc(100%/2) calc(100%/2);
+            grid-template-rows: 50%;
+            >div{
+                width: 35vw;
+                height: 47.37vw;
+                >a.a1{
+                    width:4.43vw;
+                    height: 4.59vw;
+                }
+                >h1{font-size: 2.1vw;}
+                >p{
+                    font-size: 1.4vw;
+                    line-height: 2.1vw;
+                }
+                >a.a2{
+                    width: 11.03vw;
+                    height: 3.72vw;
+                    font-size: 1.68vw;
+                    line-height: 3.51vw;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width:800px) {
+    #info{
+        >div{
+            grid-template-columns: 100%;
+            grid-template-rows: calc(100%/3);
+            >div{
+                width: 50vw;
+                height: 67.67vw;
+                >a.a1{
+                    width:6.328vw;
+                    height: 6.55vw;
+                }
+                >h1{font-size: 3vw;}
+                >p{
+                    font-size: 2vw;
+                    line-height: 3vw;
+                }
+                >a.a2{
+                    width: 15.75vw;
+                    height: 5.31vw;
+                    font-size: 2.4vw;
+                    line-height: 5.01vw;
+                }
+            }
+        }
     }
 }
