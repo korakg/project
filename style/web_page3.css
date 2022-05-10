@@ -25,18 +25,20 @@ img {
 
 header {
   width: 100%;
-  height: 900px;
+  height: 46.87vw;
   overflow: hidden;
   position: relative;
 }
 
 #logo {
-  width: 208px;
-  height: 204px;
+  width: 10vw;
+  height: 10vw;
   position: absolute;
+  border-radius: 50%;
   background-image: url("../images/pic/logo.png");
-  background-size: 208px 204px;
-  margin: 27px 0 0 40px;
+  background-size: 10vw 10vw;
+  background-position: center;
+  margin: 2vw 0 0 3vw;
   z-index: 3;
 }
 
@@ -55,19 +57,19 @@ header {
   position: absolute;
   left: 46%;
   top: 91%;
-  font-size: 70px;
+  font-size: 3.65vw;
   color: #fff7f7;
-  line-height: 77px;
-  text-shadow: -5px 5px 2px #ff754b;
+  line-height: 4vw;
+  text-shadow: -0.26vw 0.26vw 0.1vw #ff754b;
 }
 
 #top_video > h1 > span {
-  font-size: 90px;
+  font-size: 4.3vw;
 }
 
 #interview {
   width: 100%;
-  height: 1080px;
+  height: 56.25vw;
   overflow: hidden;
   background-image: url("../images/pic/網頁背景修改.jpg");
   background-size: cover;
@@ -75,8 +77,8 @@ header {
 }
 
 #interview_txt {
-  width: 300px;
-  height: 640px;
+  width: 15.625vw;
+  height: 33.33vw;
   background-image: url("../images/pic/page3/採訪文字框.png");
   background-size: cover;
   position: absolute;
@@ -93,12 +95,12 @@ header {
 }
 
 #interview_txt > p {
-  color: white;
-  font-size: 22px;
+  color: #f1f1f1;
+  font-size: 1vw;
   font-weight: bold;
   padding-top: 114%;
   text-align: center;
-  line-height: 44px;
+  line-height: 2.3vw;
 }
 
 #interview_txt > p.hide {
@@ -172,8 +174,8 @@ header {
 }
 
 #v1 {
-  width: 1000px;
-  height: 562.5px;
+  width: 52.08vw;
+  height: 29.295vw;
   position: absolute;
   top: 28%;
   left: 15%;
@@ -181,8 +183,8 @@ header {
 }
 
 #v2 {
-  width: 900px;
-  height: 506.25px;
+  width: 46.875vw;
+  height: 26.36719vw;
   position: absolute;
   top: 16%;
   left: 4%;
@@ -211,7 +213,7 @@ header {
 
 @-webkit-keyframes up_back {
   0% {
-    width: 1000px;
+    width: 52.08vw;
     top: 28%;
     left: 15%;
     z-index: 2;
@@ -221,7 +223,7 @@ header {
     z-index: 1;
   }
   100% {
-    width: 900px;
+    width: 46.875vw;
     top: 16%;
     left: 4%;
     z-index: 1;
@@ -230,7 +232,7 @@ header {
 
 @keyframes up_back {
   0% {
-    width: 1000px;
+    width: 52.08vw;
     top: 28%;
     left: 15%;
     z-index: 2;
@@ -240,7 +242,7 @@ header {
     z-index: 1;
   }
   100% {
-    width: 900px;
+    width: 46.875vw;
     top: 16%;
     left: 4%;
     z-index: 1;
@@ -249,7 +251,7 @@ header {
 
 @-webkit-keyframes up_front {
   0% {
-    width: 900px;
+    width: 46.875vw;
     top: 16%;
     left: 4%;
     z-index: 1;
@@ -259,7 +261,7 @@ header {
     z-index: 2;
   }
   100% {
-    width: 1000px;
+    width: 52.08vw;
     top: 28%;
     left: 15%;
     z-index: 2;
@@ -268,7 +270,7 @@ header {
 
 @keyframes up_front {
   0% {
-    width: 900px;
+    width: 46.875vw;
     top: 16%;
     left: 4%;
     z-index: 1;
@@ -278,7 +280,7 @@ header {
     z-index: 2;
   }
   100% {
-    width: 1000px;
+    width: 52.08vw;
     top: 28%;
     left: 15%;
     z-index: 2;
@@ -287,7 +289,7 @@ header {
 
 @-webkit-keyframes down_front {
   0% {
-    width: 900px;
+    width: 46.875vw;
     top: 16%;
     left: 4%;
     z-index: 1;
@@ -297,7 +299,7 @@ header {
     z-index: 2;
   }
   100% {
-    width: 1000px;
+    width: 52.08vw;
     top: 28%;
     left: 15%;
     z-index: 2;
@@ -306,7 +308,7 @@ header {
 
 @keyframes down_front {
   0% {
-    width: 900px;
+    width: 46.875vw;
     top: 16%;
     left: 4%;
     z-index: 1;
@@ -316,7 +318,7 @@ header {
     z-index: 2;
   }
   100% {
-    width: 1000px;
+    width: 52.08vw;
     top: 28%;
     left: 15%;
     z-index: 2;
@@ -325,7 +327,7 @@ header {
 
 @-webkit-keyframes down_back {
   0% {
-    width: 1000px;
+    width: 52.08vw;
     top: 28%;
     left: 15%;
     z-index: 2;
@@ -335,7 +337,7 @@ header {
     z-index: 1;
   }
   100% {
-    width: 900px;
+    width: 46.875vw;
     top: 16%;
     left: 4%;
     z-index: 1;
@@ -344,7 +346,7 @@ header {
 
 @keyframes down_back {
   0% {
-    width: 1000px;
+    width: 52.08vw;
     top: 28%;
     left: 15%;
     z-index: 2;
@@ -354,7 +356,7 @@ header {
     z-index: 1;
   }
   100% {
-    width: 900px;
+    width: 46.875vw;
     top: 16%;
     left: 4%;
     z-index: 1;
@@ -362,8 +364,8 @@ header {
 }
 
 #up_btn {
-  width: calc(207px*0.8);
-  height: calc(189px*0.8);
+  width: calc(10.78vw*0.8);
+  height: calc(9.84vw*0.8);
   position: absolute;
   top: 64%;
   left: 73%;
@@ -372,8 +374,8 @@ header {
 }
 
 #down_btn {
-  width: calc(207px*0.8);
-  height: calc(189px*0.8);
+  width: calc(10.78vw*0.8);
+  height: calc(9.84vw*0.8);
   position: absolute;
   top: 64%;
   left: 84%;
@@ -383,7 +385,7 @@ header {
 
 #talk {
   width: 100%;
-  height: 1350px;
+  height: 70.31vw;
   background-image: url("../images/pic/網頁背景修改.jpg");
   background-size: cover;
   background-position: 50% 26%;
@@ -397,21 +399,21 @@ header {
 }
 
 #talk > img.img1 {
-  width: calc(898px*0.7);
-  height: calc(1140px*0.7);
+  width: calc(46.77vw*0.7);
+  height: calc(59.375vw*0.7);
   top: 0%;
   left: 10%;
 }
 
 #talk > img.img2 {
-  width: calc(1018px*0.7);
-  height: calc(1099px*0.7);
+  width: calc(53.02vw*0.7);
+  height: calc(57.24vw*0.7);
   top: 40%;
   right: 10%;
 }
 
 #talk > h1 {
-  font-size: 50px;
+  font-size: 2.6vw;
   color: #7a563e;
   font-weight: bolder;
   z-index: 2;
@@ -441,8 +443,8 @@ header {
 
 @-webkit-keyframes talk_L {
   0% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    -webkit-transform: translateX(-5.2vw);
+            transform: translateX(-5.2vw);
   }
   100% {
     opacity: 1;
@@ -453,8 +455,8 @@ header {
 
 @keyframes talk_L {
   0% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    -webkit-transform: translateX(-5.2vw);
+            transform: translateX(-5.2vw);
   }
   100% {
     opacity: 1;
@@ -465,8 +467,8 @@ header {
 
 @-webkit-keyframes talk_R {
   0% {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
+    -webkit-transform: translateX(5.2vw);
+            transform: translateX(5.2vw);
   }
   100% {
     opacity: 1;
@@ -477,8 +479,8 @@ header {
 
 @keyframes talk_R {
   0% {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
+    -webkit-transform: translateX(5.2vw);
+            transform: translateX(5.2vw);
   }
   100% {
     opacity: 1;
@@ -509,12 +511,12 @@ main {
 }
 
 #wall > div {
-  width: 418px;
-  height: 418px;
+  width: 21.77vw;
+  height: 21.77vw;
   overflow: hidden;
-  border-radius: 30px;
+  border-radius: 1.56vw;
   position: relative;
-  margin: 75px auto;
+  margin: 3.9vw auto;
 }
 
 #wall > div:hover {
@@ -535,11 +537,11 @@ main {
 #wall > div > h1 {
   width: 100%;
   display: block;
-  font-size: 60px;
+  font-size: 3.125vw;
   font-weight: bolder;
   color: #fff;
   background-color: #f5c55e;
-  line-height: 72px;
+  line-height: 3.75vw;
   position: absolute;
   text-align: center;
   top: 110%;
@@ -719,8 +721,8 @@ main {
   100% {
     -webkit-transform: scale(1.1, 1.1);
             transform: scale(1.1, 1.1);
-    -webkit-box-shadow: -15px 10px 10px #3f3f3f;
-            box-shadow: -15px 10px 10px #3f3f3f;
+    -webkit-box-shadow: -0.78vw 0.52vw 0.52vw #3f3f3f;
+            box-shadow: -0.78vw 0.52vw 0.52vw #3f3f3f;
   }
 }
 
@@ -730,8 +732,8 @@ main {
   100% {
     -webkit-transform: scale(1.1, 1.1);
             transform: scale(1.1, 1.1);
-    -webkit-box-shadow: -15px 10px 10px #3f3f3f;
-            box-shadow: -15px 10px 10px #3f3f3f;
+    -webkit-box-shadow: -0.78vw 0.52vw 0.52vw #3f3f3f;
+            box-shadow: -0.78vw 0.52vw 0.52vw #3f3f3f;
   }
 }
 
@@ -750,8 +752,8 @@ main {
 }
 
 #infobox > div {
-  width: 1061.2px;
-  height: 945.7px;
+  width: 55.272vw;
+  height: 49.252vw;
   -webkit-animation: info_show 0.6s forwards ease-out;
           animation: info_show 0.6s forwards ease-out;
   background-image: url("../images/pic/page3/九宮格點擊後視窗.png");
@@ -765,8 +767,8 @@ main {
 }
 
 #infobox > div > a {
-  width: 124px;
-  height: 116px;
+  width: 6.46vw;
+  height: 6.04vw;
   display: block;
   position: absolute;
   top: 6%;
@@ -778,10 +780,10 @@ main {
 }
 
 #infobox > div > h1 {
-  font-size: 58px;
+  font-size: 3.02vw;
   font-weight: bolder;
-  letter-spacing: -3px;
-  line-height: 60px;
+  letter-spacing: -0.15vw;
+  line-height: 3.125vw;
   color: dimgray;
   padding: 10% 59.5% 0 0;
   text-align: center;
@@ -799,15 +801,15 @@ main {
 }
 
 #infobox > div > p {
-  font-size: 26px;
-  line-height: 48px;
+  font-size: 1.354vw;
+  line-height: 2.5vw;
   font-weight: 800;
   color: #4e3626;
   padding: 7% 7% 0 4%;
 }
 
 #infobox > div > p.p5 {
-  line-height: 60px;
+  line-height: 3.125vw;
 }
 
 #infobox > div > p > span {
@@ -833,11 +835,12 @@ main {
 }
 
 #aboutUs {
-  width: 1356px;
-  height: 758.4px;
+  width: 70.64vw;
+  height: 39.52vw;
   background-image: url("../images/pic/page4/關於我們.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
   position: fixed;
   top: 10%;
   left: 13%;
@@ -849,8 +852,8 @@ main {
 }
 
 #aboutUs > a {
-  width: 55px;
-  height: 50px;
+  width: 2.86vw;
+  height: 2.6vw;
   display: block;
   position: absolute;
   top: 3.1%;
@@ -858,7 +861,7 @@ main {
 }
 
 #aboutUs > a:hover {
-  border: 2px solid #636363;
+  border: 0.1vw solid #636363;
 }
 
 #aboutUs > div {
@@ -876,21 +879,21 @@ main {
 }
 
 #aboutUs > div > div {
-  width: 260px;
-  height: 260px;
+  width: 13.54vw;
+  height: 13.54vw;
   border-radius: 50%;
   background-size: cover;
 }
 
 #aboutUs > div > h1 {
   display: block;
-  font-size: 30px;
+  font-size: 1.56vw;
   font-weight: bolder;
   text-align: center;
   color: #152850;
-  line-height: 60px;
+  line-height: 3.125vw;
   padding-top: 30%;
-  text-shadow: -2px 2px #BDAEAE;
+  text-shadow: -0.1vw 0.1vw #BDAEAE;
 }
 
 #member1 {
@@ -926,20 +929,21 @@ footer {
 footer > p {
   text-align: center;
   color: #fff;
-  line-height: 40px;
+  line-height: 2.08vw;
 }
 
 #left_bar {
-  width: 86px;
-  height: 86px;
+  width: 4.48vw;
+  height: 4.48vw;
   overflow: hidden;
   background-image: url("../images/pic/選單內底框.png");
-  background-size: cover;
-  background-position: 100%;
+  background-size: 100% 120%;
+  background-position: 100% 50%;
   border-radius: 50px;
   position: fixed;
   top: 4%;
   left: 94%;
+  z-index: 998;
 }
 
 #left_bar:hover {
@@ -948,19 +952,20 @@ footer > p {
 }
 
 #left_bar > a {
-  width: 80px;
-  height: 80px;
-  display: block;
+  width: 4.16vw;
+  height: 4.16vw;
   background-image: url("../images/pic/選單內灰園框.png");
-  background-size: 100% 120%;
+  background-size: cover;
   background-position: 100%;
+  display: block;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 1.04vw;
   font-weight: bolder;
+  white-space: nowrap;
   color: #fff;
-  margin: 3px auto 0 auto;
+  margin: 0.15vw auto 0 auto;
   text-align: center;
-  line-height: 80px;
+  line-height: 4.16vw;
 }
 
 #left_bar > a:hover {
@@ -969,14 +974,16 @@ footer > p {
 
 #left_bar > a.left_1 {
   background-image: url("../images/pic/選單.png");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
 }
 
 @-webkit-keyframes push {
   0% {
   }
   100% {
-    height: 501px;
+    height: 26.09vw;
   }
 }
 
@@ -984,6 +991,30 @@ footer > p {
   0% {
   }
   100% {
-    height: 501px;
+    height: 26.09vw;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  #talk > img {
+    opacity: 1;
+  }
+  #talk > h1 {
+    opacity: 1;
+  }
+  .show_L {
+    -webkit-animation: none;
+            animation: none;
+  }
+  .show_R {
+    -webkit-animation: none;
+            animation: none;
+  }
+  #interview_txt {
+    opacity: 1;
+  }
+  #interview_txt.show {
+    -webkit-animation: none;
+            animation: none;
   }
 }
