@@ -27,24 +27,25 @@ img {
 
 header {
     width: 100%;
-    height: 900px;
+    height: auto;
     overflow: hidden;
-    display: flex;    
+    display: flex;   
 }
 
 #logo {
-    width: 208px;
-    height: 204px;
+    width: 10vw;
+    height: 10vw;
     position: absolute;
-    border-radius: 45%;
+    border-radius: 50%;
     background-image: url("../images/pic/logo.png");
-    background-size: 208px 204px;
-    margin: 27px 0 0 40px;
+    background-size: 10vw 10vw;
+    background-position: center;
+    margin: 2vw 0 0 3vw;
     z-index: 2;
 }
 #top_video{
     width: 100%;
-    height: 100%;
+    height: 50vw;
     overflow: hidden;
     >video{
         width: 100%;
@@ -52,7 +53,7 @@ header {
     }
     >div{
         width: 100%;
-        height: 900px;
+        height: 50vw;
         position: absolute;
         left: 0;
         top: 0;
@@ -63,20 +64,20 @@ header {
         width: 100%;
         position: absolute;
         left: 0;
-        top: 80%;
+        top: 39vw;
         font-weight: bolder;
-        font-size: 90px;
+        font-size: 5.5vw;
         text-align: center;
-        line-height: 100px;
+        line-height: 9.5vw;
         color: #a3826b;
-        text-shadow: -7px 5px 2px rgb(255, 255, 255);
+        text-shadow: -0.4vw 0.2vw 2px rgb(255, 255, 255);
     }
 }
 
 
 #street {
     width: 100%;
-    height: 1080px;
+    height: 60vw;
     background-image: url("../images/pic/網頁背景修改.jpg");
     background-size: cover;
     position: relative;
@@ -97,8 +98,8 @@ header {
 
 #infopic_1 {
     position: absolute;
-    width: 190px;
-    height: 355px;
+    width: 9.7vw;
+    height: 19vw;
     display: inline-block;
     top: 48%;
     left: 30%;
@@ -116,8 +117,8 @@ header {
 
 #infopic_2 {
     position: absolute;
-    width: 290px;
-    height: 450px;
+    width: 15vw;
+    height: 24vw;
     display: inline-block;
     top: 44%;
     left: 44%;
@@ -135,8 +136,8 @@ header {
 
 #infopic_3 {
     position: absolute;
-    width: 190px;
-    height: 410px;
+    width: 9.7vw;
+    height: 22vw;
     display: inline-block;
     top: 44%;
     left: 62%;
@@ -153,8 +154,8 @@ header {
 }
 
 #info_1 {
-    width: calc(736px*0.9);
-    height: calc(921px*0.9);
+    width: calc(38vw*0.9);
+    height: calc(48vw*0.9);
     background-image: url("../images/pic/page1/新視窗.png");
     background-size: cover;
     background-position: 50% 50%;
@@ -168,15 +169,15 @@ header {
         animation: show 1s forwards;
     }
     >a{
-        width: 65px;
-        height: 75px;
+        width: 3.4vw;
+        height: 3.9vw;
         display: block;
-        margin: 23px 0 0 523px;
+        margin: 1.2vw 0 0 27.2vw;
         &:hover{border: solid 2px rgb(68, 68, 68);}
     }
     >div.d1{
-        width: 140px;
-        height: 140px;
+        width: 7.3vw;
+        height: 7.3vw;
         background-image: url("../images/pic/page1/小黑.png");
         background-repeat: no-repeat;
         background-size: 270%;
@@ -187,39 +188,39 @@ header {
     }
     >h1{
         color: black;
-        font-size: 20px;
+        font-size: 1vw;
         font-weight: bold;
-        padding: 30px 16px 20px 243px;
+        padding: 1.5vw 0.8vw 1vw 12.6vw;
         >span{
-            font-size: 30px;
-            text-shadow: -1px 1px 1px #ff754b;
+            font-size: 1.5vw;
+            text-shadow: -0.05vw 0.05vw 1px #ff754b;
         }
     }
     >h2{
         display: inline-block;
         width: 60%;
         height: auto;
-        border: 5px #27b9fd solid;
+        border: 0.26vw #27b9fd solid;
         background-color: #5376c4;
-        border-radius: 30px;
+        border-radius: 1.56vw;
         margin: 0 0 3% 36%;
         color: black;
-        font-size: 20px;
+        font-size: 1vw;
         font-weight: bold;
-        padding: 5px 16px;
+        padding: 0.26vw 0.83vw;
         >span{
-            font-size: 26px;
+            font-size: 1.35vw;
         }
     }
     >div.d2{
         width: 97%;
-        height: 50%;
+        height: 48%;
         overflow: scroll;
         overflow-x: hidden;
         >p{
-            padding: 10px 45px;
-            font-size: 24px;
-            line-height: 50px;
+            padding: 0.52vw 2.34vw;
+            font-size: 1.25vw;
+            line-height: 2.6vw;
             font-weight: bold;
             color: #14213D;
         }
@@ -227,8 +228,8 @@ header {
 }
 
 #info_2 {
-    width: calc(736px*0.9);
-    height: calc(921px*0.9);
+    width: calc(38vw*0.9);
+    height: calc(48vw*0.9);
     background-image: url("../images/pic/page1/新視窗.png");
     background-size: cover;
     display: block;
@@ -241,31 +242,31 @@ header {
         animation: show 1s forwards;
     }
     >a{
-        width: 65px;
-        height: 75px;
+        width: 3.4vw;
+        height: 3.9vw;
         display: inline-block;
-        margin: 23px 0 0 523px;
+        margin: 1.2vw 0 0 27.2vw;
         &:hover{border: solid 2px rgb(68, 68, 68);}
     }
     >div.d1{
-        width: 160px;
-        height: 160px;
+        width: 7.3vw;
+        height: 7.3vw;
         background-image: url("../images/pic/page1/小黃.png");
         background-repeat: no-repeat;
         background-size: 95%;
         background-position: 50% 50%;
         position: absolute;
         top: 20.5%;
-        left: 9%;
+        left: 10%;
     }
     >h1{
         color: black;
-        font-size: 20px;
+        font-size: 1vw;
         font-weight: bold;
-        padding: 30px 16px 20px 243px;
+        padding: 1.5vw 0.8vw 1vw 12.6vw;
         >span{
-            font-size: 30px;
-            text-shadow: -1px 1px 1px #ff754b;
+            font-size: 1.5vw;
+            text-shadow: -0.05vw 0.05vw 1px #ff754b;
         }
     }
     >h2{
@@ -273,15 +274,15 @@ header {
         width: 60%;
         height: auto;
         background-color: #5376c4;
-        border: 5px #27b9fd solid;
-        border-radius: 30px;
+        border: 0.26vw #27b9fd solid;
+        border-radius: 1.56vw;
         margin: 0 0 4% 36%;
         color: black;
-        font-size: 20px;
+        font-size: 1vw;
         font-weight: bold;
-        padding: 5px 16px;
+        padding: 0.26vw 0.83vw;
         >span{
-            font-size: 26px;
+            font-size: 1.35vw;
         }
     }
     >div.d2{
@@ -290,9 +291,9 @@ header {
         overflow: scroll;
         overflow-x: hidden;
         >p{
-            padding: 10px 45px;
-            font-size: 24px;
-            line-height: 50px;
+            padding: 0.52vw 2.34vw;
+            font-size: 1.25vw;
+            line-height: 2.6vw;
             font-weight: bold;
             color: #14213D;
         }
@@ -300,8 +301,8 @@ header {
 }
 
 #info_3 {
-    width: calc(736px*0.9);
-    height: calc(921px*0.9);
+    width: calc(38vw*0.9);
+    height: calc(48vw*0.9);
     background-image: url("../images/pic/page1/新視窗.png");
     background-size: cover;
     display:block;
@@ -314,31 +315,31 @@ header {
         animation: show 1s forwards;
     }
     >a{
-        width: 65px;
-        height: 75px;
+        width: 3.4vw;
+        height: 3.9vw;
         display: inline-block;
-        margin: 23px 0 0 523px;
+        margin: 1.2vw 0 0 27.2vw;
         &:hover{border: solid 2px rgb(68, 68, 68);}
     }
     >div.d1{
-        width: 160px;
-        height: 160px;
+        width: 7.3vw;
+        height: 7.3vw;
         background-image: url("../images/pic/page1/小白.png");
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: 50% 85%;
         position: absolute;
         top: 20.5%;
-        left: 8%;
+        left: 10%;
     }
     >h1{
         color: black;
-        font-size: 20px;
+        font-size: 1vw;
         font-weight: bold;
-        padding: 30px 16px 20px 243px;
+        padding: 1.5vw 0.8vw 1vw 12.6vw;
         >span{
-            font-size: 30px;
-            text-shadow: -1px 1px 1px #ff754b;
+            font-size: 1.5vw;
+            text-shadow: -0.05vw 0.05vw 1px #ff754b;
         }
     }
     >h2{
@@ -346,15 +347,15 @@ header {
         width: 60%;
         height: auto;
         background-color: #5376c4;
-        border: 5px #27b9fd solid;
-        border-radius: 30px;
+        border: 0.26vw #27b9fd solid;
+        border-radius: 1.56vw;
         margin: 0 0 3% 36%;
         color: black;
-        font-size: 20px;
+        font-size: 1vw;
         font-weight: bold;
-        padding: 5px 16px;
+        padding: 0.26vw 0.83vw;
         >span{
-            font-size: 26px;
+            font-size: 1.35vw;
         }
     }
     >div.d2{
@@ -363,9 +364,9 @@ header {
         overflow: scroll;
         overflow-x: hidden;
         >p{
-            padding: 10px 45px;
-            font-size: 24px;
-            line-height: 50px;
+            padding: 0.52vw 2.34vw;
+            font-size: 1.25vw;
+            line-height: 2.6vw;
             font-weight: bold;
             color: #14213D;
         }
@@ -390,18 +391,18 @@ aside {
         width: 100%;
         height: auto;
         overflow: hidden;
-        padding: 450px 0 150px 75px;
+        padding: 23.4vw 0 7.8vw 3.9vw;
         > {
             div {
-                width: 20px;
-                height: 76px;
+                width: 1vw;
+                height: 4vw;
                 background-color: #FFBA08;
                 float: left;
             }
             h2 {
-                font-size: 50px;
+                font-size: 2.6vw;
                 color: #fff;
-                padding-left: 50px;
+                padding-left: 2.6vw;
             }
         }
     }
@@ -418,40 +419,40 @@ aside {
         -webkit-user-select: none;
         user-select: none;
         -moz-user-select: none;
-        font-size: 50px;
+        font-size: 2.6vw;
         font-weight: bold;
         color: #BDAEAE;
-        padding: 400px 0 178px 0;
+        padding: 20.8vw 0 9.27vw 0;
         opacity: 0;
     }
 }
 
 #left_part{
-    width: 362px;
+    width: 18.85vw;
     height: auto;
     position: absolute;
 }
 
 #chain_box{
     width: 100%;
-    height: 335px;
+    height: 17.45vw;
     background-image: url("../images/pic/page1/拉桿箱.png");
+    background-size: cover;
 }
 
 #chain_circle{
-    width: calc(153px*0.5);
-    height: calc(249px*0.5);
+    width: calc(8vw*0.5);
+    height: calc(12.97vw*0.5);
     background-image: url("../images/pic/page1/778.png");
-    background-size: 300%;
-    background-position: -13% 150%;
+    background-size: cover;
     position: absolute;
     top:9%;
     left: 67%;
 }
 
 #chain_rod{
-    width: 145px;
-    height: 125px;
+    width: 7.55vw;
+    height: 6.51vw;
     background-image: url("../images/pic/page1/777.png");
     background-size: cover;
     position: absolute;
