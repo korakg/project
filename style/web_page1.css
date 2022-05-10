@@ -1256,3 +1256,16 @@ footer > P {
     height: 26.09vw;
   }
 }
+
+@media screen and (max-width: 1700px) {
+  #aside2 > p {
+    opacity: 1;
+    -webkit-animation: none;
+            animation: none;
+  }
+  #aside3 > p {
+    opacity: 1;
+    -webkit-animation: none;
+            animation: none;
+  }
+}

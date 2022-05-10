@@ -83,7 +83,7 @@ $(function() {
         $("#storyline_5").addClass("hide")
         $("#storyline_6").removeClass("hide")
         $("#arrowDown1").removeClass("hide")
-        $("#abandon1").animate({ height: '1150px' }, )
+        $("#abandon1").animate({ height: '59.9vw' }, )
         $("#story_end").removeClass("click1")
     })
     $(".btn7").click(function() {
@@ -146,7 +146,7 @@ $(function() {
         $("#storyline_10").addClass("hide")
         $("#storyline_11").removeClass("hide")
         $("#arrowDown2").removeClass("hide")
-        $("#abandon2").animate({ height: '1150px' }, )
+        $("#abandon2").animate({ height: '59.9vw' }, )
         $("#story_end").removeClass("click2")
     })
     $(".btn12").click(function() {
@@ -209,7 +209,7 @@ $(function() {
         $("#storyline_15").addClass("hide")
         $("#storyline_16").removeClass("hide")
         $("#arrowDown3").removeClass("hide")
-        $("#abandon3").animate({ height: '1150px' }, )
+        $("#abandon3").animate({ height: '59.9vw' }, )
         $("#story_end").removeClass("click3")
     })
 
@@ -219,8 +219,8 @@ $(function() {
         $("#story_2").animate({ left: '100%' }, 1000)
         $("#story_3").animate({ left: '200%' }, 1000)
         $("#arrowDown1").addClass("hide")
-        $("#abandon2").animate({ height: '0px' }, )
-        $("#abandon3").animate({ height: '0px' }, )
+        $("#abandon2").animate({ height: '0vw' }, )
+        $("#abandon3").animate({ height: '0vw' }, )
         $(position).animate({scrollTop:1120},1000,"swing")
     })
     $("#pick2").click(function() {
@@ -228,8 +228,8 @@ $(function() {
         $("#story_2").animate({ left: '0%' }, 1000)
         $("#story_3").animate({ left: '100%' }, 1000)
         $("#arrowDown2").addClass("hide")
-        $("#abandon1").animate({ height: '0px' }, )
-        $("#abandon3").animate({ height: '0px' }, )
+        $("#abandon1").animate({ height: '0vw' }, )
+        $("#abandon3").animate({ height: '0vw' }, )
         $(position).animate({scrollTop:1120},1000,"swing")
     })
     $("#pick3").click(function() {
@@ -237,8 +237,8 @@ $(function() {
         $("#story_2").animate({ left: '-100%' }, 1000)
         $("#story_3").animate({ left: '0%' }, 1000)
         $("#arrowDown3").addClass("hide")
-        $("#abandon2").animate({ height: '0px' }, )
-        $("#abandon1").animate({ height: '0px' }, )
+        $("#abandon2").animate({ height: '0vw' }, )
+        $("#abandon1").animate({ height: '0vw' }, )
         $(position).animate({scrollTop:1120},1000,"swing")
     })
     $("#down_bar").click(function(){

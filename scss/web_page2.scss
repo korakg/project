@@ -26,7 +26,7 @@ img {
 
 header {
     width: 100%;
-    height: 1080px;
+    height: 56.25vw;
     overflow: hidden;
     background-image: url("../images/pic/收容所.jpg");
     background-size: cover;
@@ -37,16 +37,17 @@ header {
 }
 
 #logo {
-    width: 208px;
-    height: 204px;
+    width: 10vw;
+    height: 10vw;
     background-image: url("../images/pic/logo.png");
-    background-size: 208px 204px;
-    margin: 27px 0 0 40px;
+    background-size: 10vw 10vw;
+    background-position: center;
+    margin: 2vw 0 0 3vw;
 }
 
 #pick1 {
-    width: 320px;
-    height: 350px;
+    width: 16.66vw;
+    height: 18.23vw;
     display: inline-block;
     top: 67%;
     left: 23%; 
@@ -63,8 +64,8 @@ header {
 }
 
 #pick2 {
-    width: 240px;
-    height: 320px;
+    width: 12.5vw;
+    height: 16.66vw;
     display: inline-block; 
     top:67%;
     left: 46%; 
@@ -81,8 +82,8 @@ header {
 }
 
 #pick3 {
-    width: 440px;
-    height: 350px;
+    width: 22.9vw;
+    height: 18.23vw;
     display: inline-block;
     top: 67%;
     left: 61%;
@@ -104,12 +105,12 @@ header {
 
 #main_section {
     width: 100%;
-    height: 1000px;
+    height: 49.06vw;
 }
 
 article {
     width: 100%;
-    height: 1000px;
+    height: 49.06vw;
     background-image: url("../images/pic/網頁背景修改.jpg");
     background-size: cover;
     background-position: 50% 0%;
@@ -133,37 +134,37 @@ article>div {
 }
 
 #chain {
-    width: 78px;
-    height: 1000px;
+    width: 4vw;
+    height: 49.06vw;
     background-image: url("../images/pic/page2/鍊子首端.png");
+    background-size: 103%;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom 0px right 0px;
-    margin-left: 100px;
+    background-position: bottom 0vw right 0vw;
+    margin-left: 5.21vw;
 }
 
 
 #dogPic_bg,
 #dogPic2_bg,
 #dogPic3_bg{
-    width: 1140px;
-    height: 620px;  
+    width: 59.375vw;
+    height: 32.3vw;  
     background-image: url("../images/pic/page1/故事框.png");
     background-size: 93%;
     background-repeat: no-repeat;
     background-position:center;
     position: absolute;
-    top: 18.5%;
+    top: 22%;
     left: 5.5%;
 }
 
 #dogPic,
 #dogPic2,
 #dogPic3 {
-    width: 800px;
-    height: 450px;
+    width: 41.66vw;
+    height: 23.44vw;
     position: absolute;
-    border-radius: 15px;
+    border-radius: 0.78vw;
     top:14%;
     left:20%;
     background-size: 100%;
@@ -189,8 +190,8 @@ article>div {
 #story_Fir, 
 #story_Sec, 
 #story_Thr {
-    width: 600px;
-    height: 700px;
+    width: 31.25vw;
+    height: 36.46vw;
     overflow: hidden;
     background-image: url("../images/pic/故事框右.png");
     background-repeat: no-repeat;
@@ -199,9 +200,9 @@ article>div {
     top: 15%;
     left:67%;
     >p {
-        font-size: 24px;
+        font-size: 1.25vw;
         color: rgb(241, 241, 241);
-        line-height: 48px;
+        line-height: 2.5vw;
         font-weight: bold;
         text-align: center;
         animation: word_show 0.5s ease-in forwards;
@@ -263,19 +264,19 @@ article>div {
     left: 4%;
     top: 78%;
     >a {
-        width: 50px;
-        height: 50px;
+        width: 2.6vw;
+        height: 2.6vw;
         display: block;
         border-radius: 50%;
         background-size: cover;
-        margin: 0 10px 0 10px;
+        margin: 0 0.52vw 0 0.52vw;
         &:hover {
-            width: 65px;
-            height: 65px;
+            width: 3.38vw;
+            height: 3.38vw;
         }
         &.active{
-            width: 65px;
-            height: 65px;
+            width: 3.38vw;
+            height: 3.38vw;
         }
         &.btn1{background-image: url("../images/pic/換頁鍵/1.png");}
         &.btn2{background-image: url("../images/pic/換頁鍵/2.png");}
@@ -299,12 +300,13 @@ article>div {
 #arrowDown1,
 #arrowDown2,
 #arrowDown3 {
-    width: 103px;
-    height: 59px;
+    width: 5.36vw;
+    height: 3.07vw;
     position: absolute;
     left: 49%;
     top: 90%;
     background-image: url("../images/pic/Path.png");
+    background-size: cover;
     background-repeat: no-repeat;
     animation: arrowMove 3s linear infinite;
     opacity: 0.5;
@@ -312,10 +314,10 @@ article>div {
 
 @keyframes arrowMove {
     0% {
-        transform: translateY(0px);
+        transform: translateY(0vw);
     }
     100% {
-        transform: translateY(120px);
+        transform: translateY(6.25vw);
     }
 }
 
@@ -324,35 +326,35 @@ article>div {
 #abandon2,
 #abandon3 {
     width: 100%;
-    height:0px;
+    height:0vw;
     overflow: hidden;
     background-image: url("../images/pic/網頁背景修改.jpg");
     background-size: cover;
     background-position: 50% 24%;
     display: flex;
     >img{
-        height: 100px;
-        width: 100px;
+        height: 5.2vw;
+        width: 5.2vw;
         border-radius:50%
     }
 }
 
 #chain2{
-    width: 78px;
-    height: 942px;
+    width: 4vw;
+    height: 49.02vw;
     display: inline-block;
     background-image: url("../images/pic/page2/鍊子2.png");
     background-repeat: no-repeat;
-    background-size: 86%;
-    background-position: bottom 10px right 7px;
-    margin-left: 100px;
+    background-size: 88%;
+    background-position: bottom 0.8vw right 0.36vw;
+    margin-left: 5.2vw;
 }
 
 #info1,
 #info2,
 #info3{
-    width: 1650px;
-    height: 1100px;
+    width: 85.94vw;
+    height: 57.3vw;
     background-image: url("../images/pic/page2/知識點框.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -360,8 +362,8 @@ article>div {
     margin-left: 2%;
     position: relative;
     >div{
-        width: 270px;
-        height: 270px;
+        width: 14.06vw;
+        height: 14.06vw;
         position: absolute;
         top: 10%;
         left: 1.5%;
@@ -402,9 +404,9 @@ article>div {
             float: left;
             width: 46%;
             height: 90%;
-            font-size: 24px;
+            font-size: 1.25vw;
             font-weight: bold;
-            line-height: 45px;
+            line-height: 2.34vw;
             margin-top:1%;
             overflow: scroll;
             overflow-x: hidden;
@@ -430,7 +432,7 @@ article>div {
     }
     >h1 {
         width: 100%;
-        height: 119px;
+        height: 6.2vw;
         display: block;
         margin: 18% 0 0% 4%;
         background-image: url("../images/pic/page2/小知識標題.png");
@@ -438,15 +440,15 @@ article>div {
         background-position: 50% 50%;
         text-align: center;
         color: rgb(138, 136, 136);
-        line-height: 119px;
-        font-size: 52px;
+        line-height: 6.2vw;
+        font-size: 2.71vw;
         font-weight: bolder;
     }
 }
 
 #story_end{
     width: 100%;
-    height: 1180px;
+    height: 61.46vw;
     overflow: hidden;
     background-image: url("../images/pic/網頁背景修改.jpg");
     background-position: 50% 49.6%;
@@ -457,14 +459,14 @@ article>div {
     &.click2{height: 0px;}
     &.click3{height: 0px;}
     >h1{
-        font-size: 4em;
+        font-size: 3.2vw;
         font-weight: bold;
         white-space: nowrap;
         overflow: hidden;
         position: absolute;
         top: 25%;
         color: rgb(241, 204, 151);
-        text-shadow: -1px 2px rgb(56, 56, 56);
+        text-shadow: -0.05vw 0.1vw rgb(56, 56, 56);
         width: 0;
         &.h1_type{
             width: 14em;
@@ -523,17 +525,17 @@ article>div {
 @keyframes time_delay{
     from{
         color: rgb(241, 204, 151);
-        text-shadow: -1px 2px rgb(56, 56, 56);
+        text-shadow: -0.05vw 0.1vw rgb(56, 56, 56);
     }
     to{
         color: rgb(241, 204, 151);
-        text-shadow: -1px 2px rgb(56, 56, 56);
+        text-shadow: -0.05vw 0.1vw rgb(56, 56, 56);
     }
 }
 
 #aboutUs{
-    width: 1695px*0.8;
-    height: 948px*0.8;
+    width: 88.3vw*0.8;
+    height: 49.4vw*0.8;
     background-image: url("../images/pic/page4/關於我們.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -543,14 +545,14 @@ article>div {
     z-index: 3;
     &.about_hide{display: none;}
     >a{
-        width: 55px;
-        height: 50px;
+        width: 2.86vw;
+        height: 2.6vw;
         display: block;
         position: absolute;
         top: 3.1%;
         left: 4.3%;
         &:hover{
-            border: 2px solid rgb(99, 99, 99);
+            border: 0.1vw solid rgb(99, 99, 99);
         }
     }
     >div{
@@ -563,20 +565,20 @@ article>div {
         top: 15%;
         left: 7%;
         >div{
-            width: 260px;
-            height: 260px;
+            width: 13.54vw;
+            height: 13.54vw;
             border-radius: 50%;
             background-size: cover;
         }
         >h1{
             display: block;
-            font-size: 30px;
+            font-size: 1.56vw;
             font-weight: bolder;
             text-align: center;
             color: #152850;
-            line-height: 60px;
+            line-height: 3.125vw;
             padding-top:30%;
-            text-shadow: -2px 2px #BDAEAE;
+            text-shadow: -0.1vw 0.1vw #BDAEAE;
         }
     } 
 }
@@ -609,17 +611,17 @@ footer {
     >p{
         text-align: center;
         color: #fff;
-        line-height: 40px;
+        line-height: 2.08vw;
     }
 }
 
 #left_bar {
-    width: 86px;
-    height: 86px;
+    width: 4.48vw;
+    height: 4.48vw;
     overflow: hidden;
     background-image: url("../images/pic/選單內底框.png");
     background-size: 100% 120%;
-    background-position: 100%;
+    background-position: 100% 50%;
     border-radius: 50px;
     position: fixed;
     top: 4%;
@@ -628,19 +630,20 @@ footer {
         animation: push 0.5s ease forwards;
     }
     >a {
-        width: 80px;
-        height: 80px;
-        display: block;
+        width: 4.16vw;
+        height: 4.16vw;
         background-image: url("../images/pic/選單內灰園框.png");
         background-size: cover;
         background-position: 100%;
+        display: block;
         border-radius: 50%;
-        font-size: 20px;
+        font-size: 1.04vw;
         font-weight: bolder;
+        white-space: nowrap;
         color: #fff;
-        margin: 3px auto 0 auto;
+        margin: 0.15vw auto 0 auto;
         text-align: center;
-        line-height: 80px;
+        line-height: 4.16vw;
         &:hover {
             color: #ff754b;
         }
@@ -653,8 +656,8 @@ footer {
 }
 
 #down_bar{
-    width: 80px;
-    height: 80px;
+    width: 4.17vw;
+    height: 4.17vw;
     position: fixed;
     top:85%;
     left: 94%;
@@ -666,6 +669,6 @@ footer {
 @keyframes push {
     0% {}
     100% {
-        height: 501px;
+        height: 26.09vw;
     }
 }

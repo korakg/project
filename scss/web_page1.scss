@@ -977,3 +977,14 @@ footer {
         height: 26.09vw;
     }
 }
+
+@media screen and(max-width:1700px){
+    #aside2>p{
+        opacity: 1;
+        animation:none;
+    }
+    #aside3>p{
+        opacity: 1;
+        animation:none;
+    }
+}
