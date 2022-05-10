@@ -607,6 +607,93 @@ footer {
     }
 }
 
+@media screen and(max-width:1700px) {
+    #section_1{
+        >div{
+            transform: translateX(30%);
+            &.in{animation: none;}
+            &.out{animation: none;}
+        }
+        >h1{
+            opacity: 1;
+            &.word_show{animation: none;}
+            &.word_hide{animation: none;}
+        }
+        >p{
+            opacity:1;
+            &.word_show{animation:none;}
+            &.word_hide{animation:none;}
+        }
+    }
+    #section_2{
+        >div{
+            transform: translateX(-30%);
+            &.in{animation: none;}
+            &.out{animation: none;}
+        }
+        >h1{
+            opacity: 1;
+            &.word_show{animation: none;}
+            &.word_hide{animation: none;}
+        }
+        >p{
+            opacity:1;
+            &.word_show{animation:none;}
+            &.word_hide{animation:none;}
+        }
+    }
+    #section_3{
+        >div{
+            transform: translateX(30%);
+            &.in{animation: none;}
+            &.out{animation: none;}
+        }
+        >h1{
+            opacity: 1;
+            &.word_show{animation: none;}
+            &.word_hide{animation: none;}
+        }
+        >p{
+            opacity:1;
+            &.word_show{animation:none;}
+            &.word_hide{animation:none;}
+        }
+    }
+    #section_4{
+        >div{
+            transform: translateX(-30%);
+            &.in{animation: none;}
+            &.out{animation: none;}
+        }
+        >h1{
+            opacity: 1;
+            &.word_show{animation: none;}
+            &.word_hide{animation: none;}
+        }
+        >p{
+            opacity:1;
+            &.word_show{animation:none;}
+            &.word_hide{animation:none;}
+        }
+    }
+    #section_5{
+        >div{
+            transform: translateX(30%);
+            &.in{animation: none;}
+            &.out{animation: none;}
+        }
+        >h1{
+            opacity: 1;
+            &.word_show{animation: none;}
+            &.word_hide{animation: none;}
+        }
+        >p{
+            opacity:1;
+            &.word_show{animation:none;}
+            &.word_hide{animation:none;}
+        }
+    }
+}
 @media screen and(max-width:1050px) {
     #info{
         >div{
