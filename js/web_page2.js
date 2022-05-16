@@ -297,7 +297,29 @@ $(function() {
     $("#about_btn").click(function(){
         $("#aboutUs").removeClass("about_hide")
     })
-    $("#aboutUs>a").click(function(){
+    $("#aboutUs>a.esc_btn").click(function(){
         $("#aboutUs").addClass("about_hide")
+    })
+    $("#aboutUs>a.switch_btn1").click(function(){
+        $("#member1").addClass("about_hide")
+        $("#member2").addClass("about_hide")
+        $("#member3").addClass("about_hide")
+        $("#member4").addClass("about_hide")
+        $("#aboutUs>div>h1").addClass("about_hide")
+        $("#aboutUs>div>.txt_left").removeClass("about_hide")
+        $("#aboutUs>div>.txt_right").removeClass("about_hide")
+        $("#aboutUs>a.switch_btn1").addClass("about_hide")
+        $("#aboutUs>a.switch_btn2").removeClass("about_hide")
+    })
+    $("#aboutUs>a.switch_btn2").click(function(){
+        $("#member1").removeClass("about_hide")
+        $("#member2").removeClass("about_hide")
+        $("#member3").removeClass("about_hide")
+        $("#member4").removeClass("about_hide")
+        $("#aboutUs>div>h1").removeClass("about_hide")
+        $("#aboutUs>div>.txt_left").addClass("about_hide")
+        $("#aboutUs>div>.txt_right").addClass("about_hide")
+        $("#aboutUs>a.switch_btn2").addClass("about_hide")
+        $("#aboutUs>a.switch_btn1").removeClass("about_hide")
     })
 })
