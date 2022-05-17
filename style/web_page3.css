@@ -877,7 +877,7 @@ main {
   top: 3.1%;
   left: 10%;
   border-radius: 50%;
-  background-color: #27b9fd;
+  background-color: #7cd5ff;
   font-weight: bolder;
   text-align: center;
   font-size: 1vw;
@@ -926,6 +926,7 @@ main {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1/3;
+  padding: 20% 8%;
 }
 
 #aboutUs > div > div.txt_right {
@@ -936,10 +937,21 @@ main {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1/3;
+  padding: 33% 8%;
 }
 
 #aboutUs > div > div > p {
-  padding: 5%;
+  text-align: center;
+  font-size: 1vw;
+  line-height: 2vw;
+  font-weight: bolder;
+  color: #353535;
+}
+
+#aboutUs > div > div > p > span {
+  font-size: 1.1vw;
+  color: #700909;
+  line-height: 3vw;
 }
 
 #aboutUs > div > h1 {
