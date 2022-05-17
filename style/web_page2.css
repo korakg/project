@@ -632,8 +632,56 @@ article > div {
   font-weight: bold;
   line-height: 2.34vw;
   margin-top: 1%;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#info1 > div.p2 > p::-webkit-scrollbar,
+#info1 div.p1 > p::-webkit-scrollbar,
+#info1 div.p3 > p::-webkit-scrollbar,
+#info2 > div.p2 > p::-webkit-scrollbar,
+#info2 div.p1 > p::-webkit-scrollbar,
+#info2 div.p3 > p::-webkit-scrollbar,
+#info3 > div.p2 > p::-webkit-scrollbar,
+#info3 div.p1 > p::-webkit-scrollbar,
+#info3 div.p3 > p::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+#info1 > div.p2 > p::-webkit-scrollbar-button,
+#info1 div.p1 > p::-webkit-scrollbar-button,
+#info1 div.p3 > p::-webkit-scrollbar-button,
+#info2 > div.p2 > p::-webkit-scrollbar-button,
+#info2 div.p1 > p::-webkit-scrollbar-button,
+#info2 div.p3 > p::-webkit-scrollbar-button,
+#info3 > div.p2 > p::-webkit-scrollbar-button,
+#info3 div.p1 > p::-webkit-scrollbar-button,
+#info3 div.p3 > p::-webkit-scrollbar-button {
+  background: transparent;
+}
+
+#info1 > div.p2 > p::-webkit-scrollbar-track-piece,
+#info1 div.p1 > p::-webkit-scrollbar-track-piece,
+#info1 div.p3 > p::-webkit-scrollbar-track-piece,
+#info2 > div.p2 > p::-webkit-scrollbar-track-piece,
+#info2 div.p1 > p::-webkit-scrollbar-track-piece,
+#info2 div.p3 > p::-webkit-scrollbar-track-piece,
+#info3 > div.p2 > p::-webkit-scrollbar-track-piece,
+#info3 div.p1 > p::-webkit-scrollbar-track-piece,
+#info3 div.p3 > p::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+#info1 > div.p2 > p::-webkit-scrollbar-thumb,
+#info1 div.p1 > p::-webkit-scrollbar-thumb,
+#info1 div.p3 > p::-webkit-scrollbar-thumb,
+#info2 > div.p2 > p::-webkit-scrollbar-thumb,
+#info2 div.p1 > p::-webkit-scrollbar-thumb,
+#info2 div.p3 > p::-webkit-scrollbar-thumb,
+#info3 > div.p2 > p::-webkit-scrollbar-thumb,
+#info3 div.p1 > p::-webkit-scrollbar-thumb,
+#info3 div.p3 > p::-webkit-scrollbar-thumb {
+  background-color: #c9c9c983;
+  border-radius: 0.5vw;
 }
 
 #info1 > div.p2 > p.p3,
@@ -648,7 +696,7 @@ article > div {
   text-align: center;
   padding: 0 2%;
   width: 80%;
-  margin-left: 10.5%;
+  margin-left: 10%;
   margin-top: 2%;
 }
 

@@ -241,8 +241,24 @@ header {
 #info_1 > div.d2 {
   width: 97%;
   height: 48%;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#info_1 > div.d2::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+#info_1 > div.d2::-webkit-scrollbar-button {
+  background: transparent;
+}
+
+#info_1 > div.d2::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+#info_1 > div.d2::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 0.6vw;
 }
 
 #info_1 > div.d2 > p {
@@ -327,8 +343,24 @@ header {
 #info_2 > div.d2 {
   width: 97%;
   height: 50%;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#info_2 > div.d2::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+#info_2 > div.d2::-webkit-scrollbar-button {
+  background: transparent;
+}
+
+#info_2 > div.d2::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+#info_2 > div.d2::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 0.6vw;
 }
 
 #info_2 > div.d2 > p {
@@ -413,8 +445,24 @@ header {
 #info_3 > div.d2 {
   width: 97%;
   height: 46%;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#info_3 > div.d2::-webkit-scrollbar {
+  width: 0.6vw;
+}
+
+#info_3 > div.d2::-webkit-scrollbar-button {
+  background: transparent;
+}
+
+#info_3 > div.d2::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+#info_3 > div.d2::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 0.6vw;
 }
 
 #info_3 > div.d2 > p {
